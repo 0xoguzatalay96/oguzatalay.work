@@ -13,6 +13,7 @@ export interface SelectedWork {
   category: string;
   tags: string[];
   image: string;
+  kpi?: string;
   links?: { url: string; platform: string; label?: string }[];
 }
 

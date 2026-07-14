@@ -11,18 +11,18 @@ export const EN_TRANSLATION: TranslationSet = {
   navContact: "Contact",
   
   heroTitle: "PIONEERING INFLUENCER MARKETING & WEB3 ARCHITECTURE",
-  heroSub: "One of Turkey's first Influencer Marketing Managers, evolving into a Web3 growth architect. 10 years of aggressive, high-scale experience across agencies, tech, gaming, retail, and elite Web3 ecosystems. Fast learner, exponential scaler. Managing 100+ top-tier creators, executing high-value viral campaigns, and leading global ecosystem coordination.",
+  heroSub: "One of Turkey's first Influencer Marketing Managers, evolving into a Web3 growth architect. 9 years of strategic, high-scale experience across agencies, tech, gaming, retail, and elite Web3 ecosystems. Fast learner, sustainable scaler. Managing 100+ top-tier creators, executing high-value viral campaigns, and leading global ecosystem coordination.",
   heroBtn: "VIEW WORKS",
   
-  aboutTitle: "A Decade of Relentless Growth: From Web2 Influencer Pioneer to Web3 Campaign Mastermind.",
+  aboutTitle: "9 Years of Scalable Growth: Bridging Web2 Influencer Ecosystems with Web3 Architecture.",
   aboutSub: "ABOUT",
-  aboutText: "Recognized as one of the very first Influencer Marketing Managers in Turkey, I have an extraordinary track record of pioneering digital campaigns for giants like Yuga Labs, adidas Originals, ASUS, and Red Bull. With an unmatched ability to learn new technologies rapidly, I seamlessly bridged the gap from massive Web2 influencer operations to complex Web3 community architecture. Over 10 years of turning brand briefs into precise creator selections, generating millions of organic engagements, and driving exponential community growth through data-backed strategies and flawless execution.",
-  aboutYears: "10+",
+  aboutText: "Recognized as one of the very first Influencer Marketing Managers in Turkey, I have an extraordinary track record of pioneering digital campaigns for giants like Yuga Labs, adidas Originals, ASUS, and Red Bull. With an unmatched ability to learn new technologies rapidly, I seamlessly bridged the gap from massive Web2 influencer operations to complex Web3 community architecture. Over 9 years of turning brand briefs into precise creator selections, generating millions of organic engagements, and driving sustainable community growth through data-backed strategies and flawless execution.",
+  aboutYears: "9",
   aboutYearsLabel: "Years of High-Impact Experience",
-  aboutCreators: "150+",
-  aboutCreatorsLabel: "Top-Tier Creators Managed",
-  aboutExperience: "30+",
-  aboutExperienceLabel: "Global Brands Scaled",
+  aboutCreators: "200+",
+  aboutCreatorsLabel: "Influencer Collaborations",
+  aboutExperience: "150+",
+  aboutExperienceLabel: "Brand Collaborations",
   
   experienceTitle: "PROFESSIONAL EXPERIENCE",
   worksTitle: "SELECTED CAMPAIGNS & IMPACT",
@@ -57,18 +57,18 @@ export const TR_TRANSLATION: TranslationSet = {
   navContact: "İletişim",
   
   heroTitle: "ÖNCÜ INFLUENCER PAZARLAMASI VE WEB3 MİMARİSİ",
-  heroSub: "Türkiye'nin ilk Influencer Pazarlama Yöneticilerinden biri, hızla Web3 büyüme mimarına dönüştü. Ajanslar, teknoloji, oyun ve seçkin Web3 ekosistemlerinde 10 yıllık agresif ve devasa ölçekli deneyim. Hızlı öğrenen, eksponansiyel büyüten bir stratejist. Küresel çapta 100'den fazla üst düzey içerik üreticisini yönetmekte, viral kampanyaları hayata geçirmekte ve ekosistem koordinasyonuna liderlik etmektedir.",
+  heroSub: "Türkiye'nin ilk Influencer Pazarlama Yöneticilerinden biri, hızla Web3 büyüme mimarına dönüştü. Ajanslar, teknoloji, oyun ve seçkin Web3 ekosistemlerinde 10 yıllık stratejik ve devasa ölçekli deneyim. Hızlı öğrenen, sürdürülebilir büyüme sağlayan bir stratejist. Küresel çapta 100'den fazla üst düzey içerik üreticisini yönetmekte, viral kampanyaları hayata geçirmekte ve ekosistem koordinasyonuna liderlik etmektedir.",
   heroBtn: "ÇALIŞMALARI GÖR",
   
-  aboutTitle: "Durmaksızın Büyümenin 10 Yılı: Web2 Influencer Öncülüğünden Web3 Kampanya Ustalığına.",
+  aboutTitle: "Ölçeklenebilir Büyümenin 9 Yılı: Web2 Influencer Ekosistemlerini Web3 Mimarisiyle Birleştirmek.",
   aboutSub: "HAKKIMDA",
-  aboutText: "Türkiye'deki ilk Influencer Pazarlama Yöneticilerinden biri olarak, Yuga Labs, adidas Originals, ASUS ve Red Bull gibi devler için dijital kampanyalara öncülük etmiş olağanüstü bir başarı geçmişine sahibim. Yeni teknolojileri rekor hızda öğrenme yeteneğimle, devasa Web2 operasyonlarından karmaşık Web3 topluluk mimarisine kusursuz bir geçiş yaptım. 10 yılı aşkın süredir marka brieflerini nokta atışı kreatör stratejilerine dönüştürüyor, milyonlarca organik etkileşim yaratıyor ve veriye dayalı kusursuz operasyonlarla büyümenin sınırlarını zorluyorum.",
-  aboutYears: "10+",
+  aboutText: "Türkiye'deki ilk Influencer Pazarlama Yöneticilerinden biri olarak, Yuga Labs, adidas Originals, ASUS ve Red Bull gibi devler için dijital kampanyalara öncülük etmiş olağanüstü bir başarı geçmişine sahibim. Yeni teknolojileri rekor hızda öğrenme yeteneğimle, devasa Web2 operasyonlarından karmaşık Web3 topluluk mimarisine kusursuz bir geçiş yaptım. 9 yılı aşkın süredir marka brieflerini nokta atışı kreatör stratejilerine dönüştürüyor, milyonlarca organik etkileşim yaratıyor ve veriye dayalı kusursuz operasyonlarla büyümenin sınırlarını zorluyorum.",
+  aboutYears: "9",
   aboutYearsLabel: "Yıllık Üst Düzey Deneyim",
-  aboutCreators: "150+",
-  aboutCreatorsLabel: "Yönetilen Üst Düzey Kreatör",
-  aboutExperience: "30+",
-  aboutExperienceLabel: "Büyütülen Küresel Marka",
+  aboutCreators: "200+",
+  aboutCreatorsLabel: "Influencer İş Birliği",
+  aboutExperience: "150+",
+  aboutExperienceLabel: "Marka İş Birliği",
   
   experienceTitle: "PROFESYONEL DENEYİM",
   worksTitle: "SEÇİLİ KAMPANYALAR VE ETKİ",
@@ -111,7 +111,7 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "Yuga Labs / Otherside",
     role: "Community Operations & Creator Partnerships (Project-Based Contract)",
     bullets: [
-      "Directed high-stakes creator partnerships and ecosystem intelligence for one of the most prominent Web3 metaverses, accelerating community growth and strategic alignment.",
+      "Played a key operational role during the highly anticipated Otherside Alpha launch on ApeChain (August 2024), monitoring community reaction and driving X/Discord engagement strategies.",
       "Commanded a network of 50+ elite blockchain creators and KOLs across X and Discord, ensuring zero-error content approval flows and high-impact project announcements.",
       "Market Research & Go-to-Market Strategy: Conducted comprehensive competitor analysis and market research for 'Otherside' metaverse expansions, including 'Legends of the Mara' and Koda integrations; prepared detailed target audience and market share reports to support strategic go-to-market initiatives.",
       "On-Chain Data & Ecosystem Analytics: Monitored secondary market trading volumes, active wallet metrics, and floor price volatility across new projects and NFT collections; compiled and delivered weekly market overviews to empower executive decision-making processes.",
@@ -126,9 +126,9 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "adidas Originals: Into the Metaverse",
     role: "Community Operations & Creator Partnerships (Project-Based Contract)",
     bullets: [
-      "Executed critical community operations for the adidas Originals' \"Into the Metaverse\" Web3 initiative, which officially launched on December 17, 2021. Championed a community-driven strategy that successfully capitalized on the growing mainstream interest in blockchain technologies. Supported structured token distribution through public sales, enhancing the realizable value for the brand through increased legitimacy, loyalty, and prestige.",
+      "Managed community sentiment and intelligence reporting during the ecosystem migration to the 'ALTS by adidas' dynamic NFT collection, a project that sustained a floor price of ~0.59 ETH and drove over $600K in initial secondary volume.",
       "Scaled official community moderation and maximized engagement by amplifying high-profile partnerships with the Bored Ape Yacht Club, Punks Comic, and GMoney. Drove awareness initiatives that contributed to the initial NFT drop selling out almost instantly. Educated community members on the collection's unique technical dimensions, highlighting the tokens' unrestricted transferability and immutable metadata.",
-      "Pioneered complex regional digital-to-physical (D2P) fulfillment strategies to support the project's hybrid model of blending digital exclusivity with physical rewards. Successfully bridged the gap between blockchain token redemption and the logistics of shipping physical streetwear, such as limited-edition hoodies, yellow tracksuits, and orange beanies. Enabled token holders to seamlessly claim physical items while unlocking corresponding virtual apparel for avatars in The Sandbox metaverse.",
+      "Supported D2P (Digital-to-Physical) fulfillment logistics for the MENA and Türkiye regions, resolving customs and international shipping bottlenecks for Phase 2 physical merchandise claims.",
       "Led high-impact X (Twitter) Spaces and Discord AMAs to drive secondary market adoption and empower the community in transparent decision-making processes for future releases. Articulated the project's long-term value proposition, clearly communicating realizable holder benefits including ongoing utility, exclusive rights, and physical rewards."
     ]
   },
@@ -140,7 +140,7 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     bullets: [
       "Spearheaded the explosive Turkish influencer growth strategy during the metaverse platform's critical initial launch phase.",
       "Scouted, aggressively onboarded, and coordinated a master roster of 80+ top-tier Turkish creators and crypto-KOLs across TikTok, Instagram, and X.",
-      "Architected a massive TIBIT private-sale influencer activation. Generated unprecedented FOMO resulting in a 100% sold-out round, over 305 transactions, and $50K+ raised in record time.",
+      "Directed a rapid-growth influencer strategy during the platform's critical post-IDO expansion phase (Q2/Q3 2022), securing a 100% sold-out TIBIT private-sale that generated 305 transactions and raised $50K USD.",
       "Established fully automated creator briefs, tracking dashboards, and KPI reporting tools that were later adopted as the global company standard for PR distributions."
     ]
   },
@@ -203,7 +203,7 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     company: "Yuga Labs / Otherside",
     role: "Topluluk Operasyonları ve İçerik Üretici Ortaklıkları (Proje Bazlı)",
     bullets: [
-      "Dünyanın en prestijli Web3 metaverse projelerinden birinde yüksek riskli içerik üreticisi ortaklıklarını ve ekosistem istihbaratını yöneterek topluluk büyümesine ivme kazandırma.",
+      "Ağustos 2024'teki merakla beklenen Otherside Alpha'nın ApeChain üzerindeki lansmanında kritik bir operasyonel rol üstlenerek topluluk tepkilerini izleme ve X/Discord etkileşim stratejilerini yönetme.",
       "X ve Discord'da 50'den fazla seçkin blokzincir KOL'u ve içerik üreticisinden oluşan bir ağı yöneterek, sıfır hatalı içerik onay akışları ve yüksek etkili proje duyuruları sağlama.",
       "Pazar Araştırması ve Pazara Çıkış Stratejisi: 'Otherside' metaverse genişletmeleri (Legends of the Mara ve Koda entegrasyonları dahil) için kapsamlı rakip analizi ve pazar araştırması yürütme; stratejik pazara çıkış girişimlerini desteklemek için ayrıntılı hedef kitle ve pazar payı raporları hazırlama.",
       "Zincir Üstü (On-Chain) Veri ve Ekosistem Analitiği: Yeni projeler ve NFT koleksiyonlarındaki ikincil piyasa işlem hacimlerini, aktif cüzdan metriklerini ve taban fiyat volatilitesini izleme; üst yönetimin karar alma süreçlerini güçlendirmek için haftalık piyasa özetleri derleme ve sunma.",
@@ -218,9 +218,9 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     company: "adidas Originals: Into the Metaverse",
     role: "Topluluk Operasyonları ve İçerik Üretici Ortaklıkları (Proje Bazlı)",
     bullets: [
-      "17 Aralık 2021'de resmi olarak başlatılan adidas Originals'ın 'Into the Metaverse' Web3 girişimi için kritik topluluk operasyonlarını yürüttü. Blokzincir teknolojilerine yönelik artan ana akım ilgisini başarıyla sermayeye dönüştüren topluluk odaklı bir stratejiye öncülük etti. Halka açık satışlar yoluyla yapılandırılmış token dağıtımını destekleyerek artan meşruiyet, sadakat ve prestij yoluyla marka için gerçekleşebilir değeri artırdı.",
+      "'ALTS by adidas' dinamik NFT koleksiyonuna ekosistem geçişi sırasında topluluk duyarlılığını ve istihbarat raporlamasını yönetti. Bu geçiş süreci, ~0.59 ETH taban fiyatını koruyan ve başlangıçta 600 Bin Doların üzerinde ikincil piyasa hacmi yaratan bir projedir.",
       "Bored Ape Yacht Club, Punks Comic ve GMoney ile yapılan yüksek profilli ortaklıkları güçlendirerek resmi topluluk moderasyonunu ölçeklendirdi ve etkileşimi en üst düzeye çıkardı. İlk NFT dropunun neredeyse anında tükenmesine katkıda bulunan farkındalık girişimlerini yönlendirdi. Topluluk üyelerini koleksiyonun benzersiz teknik boyutları konusunda eğiterek tokenlerin kısıtlamasız aktarılabilirliğini ve değiştirilemez meta verilerini vurguladı.",
-      "Projenin dijital seçkinliği fiziksel ödüllerle harmanlayan hibrit modelini desteklemek için karmaşık bölgesel dijitalden fiziksele (D2P) yerine getirme stratejilerine öncülük etti. Blokzincir token itfası ile sınırlı sayıdaki kapüşonlular, sarı eşofmanlar ve turuncu bereler gibi fiziksel sokak kıyafetlerinin nakliye lojistiği arasındaki uçurumu başarıyla kapattı. Token sahiplerinin fiziksel öğeleri sorunsuzca talep etmelerini sağlarken The Sandbox metaverse'ünde avatarlar için karşılık gelen sanal kıyafetlerin kilidini açtı.",
+      "MENA ve Türkiye bölgeleri için D2P (Dijitalden Fiziksele) ürün tedarik lojistiğini destekleyerek, Phase 2 fiziksel ürün taleplerinde gümrük ve uluslararası nakliye darboğazlarını çözdü.",
       "İkincil piyasa benimsenmesini yönlendirmek ve topluluğu gelecekteki sürümler için şeffaf karar alma süreçlerinde güçlendirmek amacıyla yüksek etkili X (Twitter) Spaces ve Discord AMA'lerini yönetti. Devam eden fayda, özel haklar ve fiziksel ödüller dahil olmak üzere gerçekleşebilir sahip avantajlarını açıkça ileterek projenin uzun vadeli değer önerisini ifade etti."
     ]
   },
@@ -232,7 +232,7 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     bullets: [
       "Metaverse platformunun kritik lansman aşamasında Türkiye'deki patlayıcı influencer büyüme stratejisine öncülük etme.",
       "TikTok, Instagram ve X mecralarında 80'den fazla üst düzey Türk içerik üreticisi ve kripto KOL'unu hızla keşfedip, projeye dahil etme ve koordine etme.",
-      "Devasa bir TIBIT özel satış influencer aktivasyonu tasarlama; eşi benzeri görülmemiş bir FOMO yaratarak %100 kapalı gişe bir tur, 305'ten fazla işlem ve rekor sürede 50.000$+ fon toplama başarısı.",
+      "Platformun kritik IDO sonrası genişleme evresinde (2022 2. ve 3. çeyrek) hızlı büyüme odaklı influencer stratejisini yöneterek; 305 işlemle sonuçlanan ve 50.000 ABD Doları fon toplayan %100 kapalı gişe TIBIT özel satışını sağlama.",
       "Daha sonra küresel PR dağıtımları için şirket standardı olarak benimsenen tam otomatik içerik üretici briefleri, takip gösterge panelleri (dashboard) ve KPI raporlama araçları kurma."
     ]
   },
@@ -283,14 +283,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.inbusiness.com.tr/sektorler/tarim-gida-perakende/2021/02/23/migros-tiktokta-rekor-kiran-markalardan-oldu",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "6.7M VIEWS | 3.4M COMMENTS | 74% ENGAGEMENT",
+    image: "https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2021/02/23/thumbs_b_c_cb938ae1782baa1b8db45f6905f30112.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=I8G9adrIyVM", "platform": "", "label": "" }]
   },
   {
     id: "adidas-originals",
@@ -298,14 +293,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800",
-    links: [
-      {
-            "url": "https://x.com/adidasoriginals/status/1461057188529594375/photo/1",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "6,755 HOLDERS | 72.7% BRAND LOYALTY | $93M+",
+    image: "https://i.ytimg.com/vi/EVQ6fPrwi0M/maxresdefault.jpg",
+    links: [{ "url": "https://news.adidas.com/originals/virtual-gear-for-new-realities--adidas-originals-launches-inaugural-nft-wearables-collection/s/b9c13f73-b7b4-412f-9e19-f8a4d9781621", "platform": "", "label": "" }]
   },
   {
     id: "koton",
@@ -313,14 +303,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "6.3M VIEWS | 630K LIKES | 24K COMMENTS",
+    image: "https://i.ytimg.com/vi/mqi0DQ8OnWs/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs", "platform": "", "label": "" }]
   },
   {
     id: "redbull-events",
@@ -328,14 +313,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.redbull.com/tr-tr/gist-gaming-istanbul-2020-basladi",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "2.4M IMPRESSIONS | 650K VIEWS | 1.2M REACH",
+    image: "https://img.redbull.com/images/c_crop,w_6291,h_3146,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2020/1/30/zz4ny7x92bs3gqthtgxl/gist-2020",
+    links: [{ "url": "https://www.redbull.com/tr-tr/events/gaming-istanbul", "platform": "", "label": "" }]
   },
   {
     id: "defacto-tiktok",
@@ -343,29 +323,19 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=4Q8UqIWxvmo",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "3.1M VIEWS | 320K LIKES | 17K COMMENTS",
+    image: "https://www.marketingturkiye.com.tr/wp-content/uploads/2020/09/shutterstock_image-82.jpg.webp",
+    links: [{ "url": "https://www.tiktok.com/@defacto/video/6875222921502166273", "platform": "", "label": "" }]
   },
   {
-    id: "asus-gaming",
-    title: "ASUS Radeon CS:GO Turnuvası",
+    id: "yuga-labs-dragon",
+    title: "Yuga Labs - Project Dragon Event",
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.facebook.com/watch/?v=1306497386049138",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "1.2M IMPRESSIONS | 12.5K+ LIKES | 2264 PLAYERS",
+    image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
+    links: [{ "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/", "platform": "", "label": "" }]
   },
   {
     id: "eti-challenges",
@@ -373,14 +343,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810?lang=tr-TR",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "15.4M VIEWS | 685K LIKES | 9K COMMENTS",
+    image: "https://i.ytimg.com/vi/5s7d7No7WsM/maxresdefault.jpg",
+    links: [{ "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810?lang=tr-TR", "platform": "", "label": "" }]
   },
   {
     id: "hp-omen",
@@ -388,14 +353,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=I8G9adrIyVM",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "1.8M VIEWS | 162K LIKES | 1200 PARTICIPANTS",
+    image: "https://cdn.imagevisit.com/2026/07/14/509855670_3629034160560724_3729600696970880300_n.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=R9K1xL2hX9g", "platform": "", "label": "" }]
   },
   {
     id: "metafluence-launch",
@@ -403,14 +363,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
+    kpi: "100% SOLD OUT | 305 TXS | $50K RAISED",
     image: "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=800",
-    links: [
-      {
-            "url": "https://metafluence.com/",
-            "platform": "",
-            "label": ""
-      }
-]
+    links: [{ "url": "https://metafluence.com/", "platform": "", "label": "" }]
   },
   {
     id: "yuga-labs",
@@ -418,29 +373,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
+    kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
-    links: [
-      {
-            "url": "https://otherside.xyz/",
-            "platform": "",
-            "label": ""
-      }
-]
-  },
-  {
-    id: "fmcg-creator-integrations",
-    title: "Brand Integrations (FMCG)",
-    subtitle: "",
-    category: "",
-    tags: [],
-    image: "https://images.unsplash.com/photo-1556910103-1c02745a872f?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=zkK4jmo_ql4",
-            "platform": "",
-            "label": ""
-      }
-]
+    links: [{ "url": "https://otherside.xyz/", "platform": "", "label": "" }]
   }
 ];
 
@@ -451,14 +386,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.inbusiness.com.tr/sektorler/tarim-gida-perakende/2021/02/23/migros-tiktokta-rekor-kiran-markalardan-oldu",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "6.7M İZLENME | 3.4M YORUM | %74 ETKİLEŞİM",
+    image: "https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2021/02/23/thumbs_b_c_cb938ae1782baa1b8db45f6905f30112.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=I8G9adrIyVM", "platform": "", "label": "" }]
   },
   {
     id: "adidas-originals",
@@ -466,14 +396,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800",
-    links: [
-      {
-            "url": "https://x.com/adidasoriginals/status/1461057188529594375/photo/1",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "6,755 HOLDER | %72.7 SADAKAT | $93M+",
+    image: "https://i.ytimg.com/vi/EVQ6fPrwi0M/maxresdefault.jpg",
+    links: [{ "url": "https://news.adidas.com/originals/virtual-gear-for-new-realities--adidas-originals-launches-inaugural-nft-wearables-collection/s/b9c13f73-b7b4-412f-9e19-f8a4d9781621", "platform": "", "label": "" }]
   },
   {
     id: "koton",
@@ -481,14 +406,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "6.3M İZLENME | 630K BEĞENİ | 24K YORUM",
+    image: "https://i.ytimg.com/vi/mqi0DQ8OnWs/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs", "platform": "", "label": "" }]
   },
   {
     id: "redbull-events",
@@ -496,14 +416,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.redbull.com/tr-tr/gist-gaming-istanbul-2020-basladi",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "2.4M GÖSTERİM | 650K İZLENME | 1.2M ERİŞİM",
+    image: "https://img.redbull.com/images/c_crop,w_6291,h_3146,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2020/1/30/zz4ny7x92bs3gqthtgxl/gist-2020",
+    links: [{ "url": "https://www.redbull.com/tr-tr/events/gaming-istanbul", "platform": "", "label": "" }]
   },
   {
     id: "defacto-tiktok",
@@ -511,29 +426,19 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=4Q8UqIWxvmo",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "3.1M İZLENME | 320K BEĞENİ | 17K YORUM",
+    image: "https://www.marketingturkiye.com.tr/wp-content/uploads/2020/09/shutterstock_image-82.jpg.webp",
+    links: [{ "url": "https://www.tiktok.com/@defacto/video/6875222921502166273", "platform": "", "label": "" }]
   },
   {
-    id: "asus-gaming",
-    title: "ASUS Radeon CS:GO Turnuvası",
+    id: "yuga-labs-dragon",
+    title: "Yuga Labs - Project Dragon Event",
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.facebook.com/watch/?v=1306497386049138",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "1.2M GÖSTERİM | 12.5K+ BEĞENİ | 2264 OYUNCU",
+    image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
+    links: [{ "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/", "platform": "", "label": "" }]
   },
   {
     id: "eti-challenges",
@@ -541,14 +446,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810?lang=tr-TR",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "15.4M İZLENME | 685K BEĞENİ | 9K YORUM",
+    image: "https://i.ytimg.com/vi/5s7d7No7WsM/maxresdefault.jpg",
+    links: [{ "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810?lang=tr-TR", "platform": "", "label": "" }]
   },
   {
     id: "hp-omen",
@@ -556,14 +456,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=I8G9adrIyVM",
-            "platform": "",
-            "label": ""
-      }
-]
+    kpi: "1.8M İZLENME | 162K BEĞENİ | 1200 KATILIM",
+    image: "https://cdn.imagevisit.com/2026/07/14/509855670_3629034160560724_3729600696970880300_n.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=R9K1xL2hX9g", "platform": "", "label": "" }]
   },
   {
     id: "metafluence-launch",
@@ -571,14 +466,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
+    kpi: "%100 TÜKENDİ | 305 İŞLEM | $50K FON",
     image: "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=800",
-    links: [
-      {
-            "url": "https://metafluence.com/",
-            "platform": "",
-            "label": ""
-      }
-]
+    links: [{ "url": "https://metafluence.com/", "platform": "", "label": "" }]
   },
   {
     id: "yuga-labs",
@@ -586,29 +476,9 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
+    kpi: "AĞU 2024 | OTHERSIDE ALPHA APECHAIN LANSMANI",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
-    links: [
-      {
-            "url": "https://otherside.xyz/",
-            "platform": "",
-            "label": ""
-      }
-]
-  },
-  {
-    id: "fmcg-creator-integrations",
-    title: "Marka Entegrasyonları (Hızlı Tüketim)",
-    subtitle: "",
-    category: "",
-    tags: [],
-    image: "https://images.unsplash.com/photo-1556910103-1c02745a872f?q=80&w=800",
-    links: [
-      {
-            "url": "https://www.youtube.com/watch?v=zkK4jmo_ql4",
-            "platform": "",
-            "label": ""
-      }
-]
+    links: [{ "url": "https://otherside.xyz/", "platform": "", "label": "" }]
   }
 ];
 
@@ -616,12 +486,12 @@ export const ENGLISH_SKILLS: SkillCategory[] = [
   {
     title: "Master Influencer & Creator Marketing",
     items: [
-      "PIONEER: ONE OF TURKEY'S FIRST OFFICIAL INFLUENCER MARKETING MANAGERS",
-      "TIER-1 TALENT DISCOVERY, ACQUISITION & AGGRESSIVE OUTREACH",
+      "PIONEER: ONE OF THE FIRST OFFICIAL INFLUENCER MARKETING MANAGERS IN TÜRKİYE",
+      "TOP-TIER TALENT SCOUTING & PURPOSE-DRIVEN TALENT ACQUISITION",
       "DATA-DRIVEN ROI, CAC REDUCTION & ADVANCED ATTRIBUTION MODELING",
-      "MULTI-MILLION LIRA BUDGET MANAGEMENT & HIGH-STAKES CONTRACT NEGOTIATION",
-      "VIRAL CAMPAIGN ARCHITECTURE & EXECUTION (TIKTOK, X, INSTAGRAM, YOUTUBE)",
-      "GLOBAL CREATOR SYNERGY, EXCLUSIVE ROSTER SCALING & TALENT RETENTION",
+      "MULTI-MILLION LIRA BUDGET MANAGEMENT & CRITICAL CONTRACT NEGOTIATIONS",
+      "VIRAL CAMPAIGN ARCHITECTURE & FLAWLESS EXECUTION (TIKTOK, X, IG, YOUTUBE)",
+      "GLOBAL CREATOR SYNERGY, PRIVATE NETWORK SCALING & TALENT MANAGEMENT",
       "360° CREATIVE PRODUCTION, MEDIA PLANNING & LIVE ESPORTS BROADCASTING",
       "B2C & B2B INFLUENCER STRATEGY (GAMING, FASHION, FMCG, TECH)"
     ]
@@ -635,14 +505,14 @@ export const ENGLISH_SKILLS: SkillCategory[] = [
       "ON-CHAIN METRICS, SMART MONEY TRACKING & WALLET BEHAVIOR ANALYSIS",
       "DISCORD SENTIMENT SCALING, MODERATION TRIAGE & CRISIS MANAGEMENT",
       "NFT MINT MARKETING, WHITELIST (WL) STRATEGIES & FLOOR PRICE PSYCHOLOGY",
-      "WEB3 INFLUENCER SEEDING & PRIVATE-SALE (ICO/IDO/NFT) FOMO GENERATION",
+      "WEB3 INFLUENCER SEEDING & PRIVATE-SALE (ICO/IDO/NFT) HIGH-DEMAND CAMPAIGN EXECUTION",
       "METAVERSE LAND ACTIVATIONS & DECENTRALIZED BRAND PARTNERSHIPS"
     ]
   },
   {
     title: "Rapid Learning & Performance Operations",
     items: [
-      "RECORD-SPEED ADOPTION OF EMERGING TECHNOLOGIES & AI TOOLS",
+      "AGILE TECHNOLOGY INTEGRATION OF EMERGING TECHNOLOGIES & AI TOOLS",
       "HIGH-VOLUME SATELLITE WORKFLOW OPTIMIZATION & RESOURCE ALLOCATION",
       "REAL-TIME MARKET INTELLIGENCE REPORTING & COMPETITIVE INTELLIGENCE",
       "EXPONENTIAL NEW-TECH INTEGRATION INTO LEGACY MARKETING PIPELINES",
@@ -659,7 +529,7 @@ export const TURKISH_SKILLS: SkillCategory[] = [
     title: "Master Influencer ve Kreatör Pazarlaması",
     items: [
       "ÖNCÜ: TÜRKİYE'NİN İLK RESMİ INFLUENCER PAZARLAMA YÖNETİCİLERİNDEN BİRİ",
-      "ÜST DÜZEY YETENEK KEŞFİ, KAZANIMI VE AGRESİF ERİŞİM STRATEJİLERİ",
+      "ÜST DÜZEY YETENEK KEŞFİ VE HEDEF ODAKLI YETENEK KAZANIMI",
       "VERİ ODAKLI ROI, CAC DÜŞÜRME VE İLERİ DÜZEY İLİŞKİLENDİRME MODELLERİ",
       "MİLYONLARCA LİRALIK BÜTÇE YÖNETİMİ VE KRİTİK SÖZLEŞME MÜZAKERELERİ",
       "VİRAL KAMPANYA MİMARİSİ VE KUSURSUZ İCRA (TIKTOK, X, IG, YOUTUBE)",
@@ -677,14 +547,14 @@ export const TURKISH_SKILLS: SkillCategory[] = [
       "ON-CHAIN VERİ OKURYAZARLIĞI, SMART MONEY VE CÜZDAN DAVRANIŞI ANALİZİ",
       "DISCORD KİTLE DUYARLILIĞI ÖLÇEKLENDİRME VE KRİZ YÖNETİMİ",
       "NFT MINT PAZARLAMASI, WHITELIST (WL) STRATEJİLERİ VE TABAN FİYAT PSİKOLOJİSİ",
-      "WEB3 INFLUENCER TOHUMLAMASI VE ÖZEL SATIŞ (ICO/IDO) FOMO YARATIMI",
+      "WEB3 INFLUENCER TOHUMLAMASI VE ÖZEL SATIŞ (ICO/IDO) YÜKSEK TALEPLİ KAMPANYA YÖNETİMİ",
       "METAVERSE AKTİVASYONLARI VE MERKEZİYETSİZ MARKA ORTAKLIKLARI"
     ]
   },
   {
     title: "Hızlı Öğrenme ve Performans Operasyonları",
     items: [
-      "YENİ TEKNOLOJİLERİ VE YAPAY ZEKA ARAÇLARINI REKOR HIZDA ÖĞRENME",
+      "YENİ TEKNOLOJİLERİN VE YAPAY ZEKA ARAÇLARININ ÇEVİK ENTEGRASYONU",
       "YÜKSEK HACİMLİ İŞ AKIŞI OPTİMİZASYONU VE KAYNAK YÖNETİMİ",
       "GERÇEK ZAMANLI PAZAR İSTİHBARAT RAPORLAMASI VE REKABET ANALİZİ",
       "YENİ NESİL TEKNOLOJİLERİN GELENEKSEL PAZARLAMAYA ENTEGRASYONU",

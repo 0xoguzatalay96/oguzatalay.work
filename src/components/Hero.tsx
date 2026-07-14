@@ -86,7 +86,7 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
           {words.map((word, idx) => {
             const isRed = word === "IMPACT" || word === "ETKİ";
             return (
-              <span key={idx} className="inline-block overflow-hidden mr-4 py-1">
+              <span key={idx} className="inline-block overflow-hidden mr-[0.3em] py-1">
                 <motion.span
                   variants={wordVariants}
                   className={`inline-block ${isRed ? "text-[#FF0000]" : "text-white"}`}

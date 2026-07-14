@@ -20,10 +20,7 @@ export default function About({ t, onOpenCV }: AboutProps) {
       // Animate Experience Count
       let expTimer = setInterval(() => {
         setExperienceCount((prev) => {
-          if (prev >= 10) {
-            clearInterval(expTimer);
-            return 10;
-          }
+          if (prev >= 9) { clearInterval(expTimer); return 9; }
           return prev + 1;
         });
       }, 100);
@@ -31,24 +28,14 @@ export default function About({ t, onOpenCV }: AboutProps) {
       // Animate Creators Count
       let creatorTimer = setInterval(() => {
         setCreatorsCount((prev) => {
-          if (prev >= 70) {
-            clearInterval(creatorTimer);
-            return 70;
-          }
-          return prev + 5;
-        });
-      }, 50);
+          if (prev >= 200) { clearInterval(creatorTimer); return 200; }
+          return prev + 10; }); }, 50);
 
       // Animate Brands Count
       let brandsTimer = setInterval(() => {
         setBrandsCount((prev) => {
-          if (prev >= 15) {
-            clearInterval(brandsTimer);
-            return 15;
-          }
-          return prev + 1;
-        });
-      }, 80);
+          if (prev >= 150) { clearInterval(brandsTimer); return 150; }
+          return prev + 5; }); }, 50);
 
       return () => {
         clearInterval(expTimer);
@@ -113,10 +100,7 @@ export default function About({ t, onOpenCV }: AboutProps) {
                   <span className="text-white">+</span>
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-bold text-white uppercase tracking-wider mb-1">
-                    {t.aboutYears}
-                  </h4>
-                  <p className="font-sans text-xs text-[#A0A0A0]">{t.aboutYearsLabel}</p>
+                  <p className="font-sans text-sm md:text-base font-medium text-white/90">{t.aboutYearsLabel}</p>
                 </div>
               </motion.div>
 
@@ -132,10 +116,7 @@ export default function About({ t, onOpenCV }: AboutProps) {
                   <span className="text-[#FF0000]">+</span>
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-bold text-white uppercase tracking-wider mb-1">
-                    {t.aboutCreators}
-                  </h4>
-                  <p className="font-sans text-xs text-[#A0A0A0]">{t.aboutCreatorsLabel}</p>
+                  <p className="font-sans text-sm md:text-base font-medium text-white/90">{t.aboutCreatorsLabel}</p>
                 </div>
               </motion.div>
 
@@ -151,10 +132,7 @@ export default function About({ t, onOpenCV }: AboutProps) {
                   <span className="text-[#FF0000]">+</span>
                 </div>
                 <div>
-                  <h4 className="font-mono text-xs font-bold text-white uppercase tracking-wider mb-1">
-                    {t.aboutExperience}
-                  </h4>
-                  <p className="font-sans text-xs text-[#A0A0A0]">{t.aboutExperienceLabel}</p>
+                  <p className="font-sans text-sm md:text-base font-medium text-white/90">{t.aboutExperienceLabel}</p>
                 </div>
               </motion.div>
             </div>
