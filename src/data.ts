@@ -10,13 +10,13 @@ export const EN_TRANSLATION: TranslationSet = {
   navEducation: "Education",
   navContact: "Contact",
   
-  heroTitle: "PIONEERING INFLUENCER MARKETING & WEB3 ARCHITECTURE",
-  heroSub: "One of Turkey's first Influencer Marketing Managers, evolving into a Web3 growth architect. 9 years of strategic, high-scale experience across agencies, tech, gaming, retail, and elite Web3 ecosystems. Fast learner, sustainable scaler. Managing 100+ top-tier creators, executing high-value viral campaigns, and leading global ecosystem coordination.",
+  heroTitle: "INFLUENCER MARKETING & WEB3 COMMUNITY STRATEGY",
+  heroSub: "Bridging Web2 influencer ecosystems with Web3 community operations. 9 years of experience managing high-scale creator partnerships, digital-to-physical (D2P) activations, and data-driven campaigns for global tech, retail, and blockchain brands. Focused on turning complex brand objectives into measurable ROI and sustainable community engagement.",
   heroBtn: "VIEW WORKS",
   
-  aboutTitle: "9 Years of Scalable Growth: Bridging Web2 Influencer Ecosystems with Web3 Architecture.",
+  aboutTitle: "9 Years of Scalable Growth: Bridging Digital Ecosystems with Web3 Architecture.",
   aboutSub: "ABOUT",
-  aboutText: "Recognized as one of the very first Influencer Marketing Managers in Turkey, I have an extraordinary track record of pioneering digital campaigns for giants like Yuga Labs, adidas Originals, ASUS, and Red Bull. With an unmatched ability to learn new technologies rapidly, I seamlessly bridged the gap from massive Web2 influencer operations to complex Web3 community architecture. Over 9 years of turning brand briefs into precise creator selections, generating millions of organic engagements, and driving sustainable community growth through data-backed strategies and flawless execution.",
+  aboutText: "With 9 years of experience across agency, technology, gaming, retail, and Web3 environments, I specialize in building and scaling influencer marketing strategies for industry leaders like Yuga Labs, adidas Originals, ASUS, and Red Bull. My expertise lies in translating complex product narratives into actionable creator briefs, coordinating large-scale influencer operations, and developing sophisticated data-attribution models. Whether executing high-pressure launches with multi-million view engagements or architecting decentralized community support across X and Discord, my focus is always on strategic alignment, clear reporting, and measurable growth.",
   aboutYears: "9",
   aboutYearsLabel: "Years of High-Impact Experience",
   aboutCreators: "200+",
@@ -26,7 +26,7 @@ export const EN_TRANSLATION: TranslationSet = {
   
   experienceTitle: "PROFESSIONAL EXPERIENCE",
   worksTitle: "SELECTED CAMPAIGNS & IMPACT",
-  skillsTitle: "SKILLS",
+  skillsTitle: "CORE COMPETENCIES",
   toolsTitle: "PLATFORMS & WORK TOOLS",
   toolsStack: "Tools Stack",
   educationTitle: "EDUCATION",
@@ -56,13 +56,13 @@ export const TR_TRANSLATION: TranslationSet = {
   navEducation: "Eğitim",
   navContact: "İletişim",
   
-  heroTitle: "ÖNCÜ INFLUENCER PAZARLAMASI VE WEB3 MİMARİSİ",
-  heroSub: "Türkiye'nin ilk Influencer Pazarlama Yöneticilerinden biri, hızla Web3 büyüme mimarına dönüştü. Ajanslar, teknoloji, oyun ve seçkin Web3 ekosistemlerinde 10 yıllık stratejik ve devasa ölçekli deneyim. Hızlı öğrenen, sürdürülebilir büyüme sağlayan bir stratejist. Küresel çapta 100'den fazla üst düzey içerik üreticisini yönetmekte, viral kampanyaları hayata geçirmekte ve ekosistem koordinasyonuna liderlik etmektedir.",
+  heroTitle: "INFLUENCER PAZARLAMASI VE WEB3 TOPLULUK STRATEJİSİ",
+  heroSub: "Türkiye'nin ilk Influencer Pazarlama Yöneticilerinden biri, hızla Web3 büyüme mimarına dönüştü. Ajanslar, teknoloji, oyun ve seçkin Web3 ekosistemlerinde 10 yıllık stratejik ve kapsamlı ölçekli deneyim. Hızlı öğrenen, sürdürülebilir büyüme sağlayan bir stratejist. Küresel çapta 100'den fazla üst düzey içerik üreticisini yönetmekte, viral kampanyaları hayata geçirmekte ve ekosistem koordinasyonuna liderlik etmektedir.",
   heroBtn: "ÇALIŞMALARI GÖR",
   
-  aboutTitle: "Ölçeklenebilir Büyümenin 9 Yılı: Web2 Influencer Ekosistemlerini Web3 Mimarisiyle Birleştirmek.",
+  aboutTitle: "Ölçeklenebilir Büyümenin 9 Yılı: Dijital Ekosistemleri Web3 Mimarisiyle Birleştirmek.",
   aboutSub: "HAKKIMDA",
-  aboutText: "Türkiye'deki ilk Influencer Pazarlama Yöneticilerinden biri olarak, Yuga Labs, adidas Originals, ASUS ve Red Bull gibi devler için dijital kampanyalara öncülük etmiş olağanüstü bir başarı geçmişine sahibim. Yeni teknolojileri rekor hızda öğrenme yeteneğimle, devasa Web2 operasyonlarından karmaşık Web3 topluluk mimarisine kusursuz bir geçiş yaptım. 9 yılı aşkın süredir marka brieflerini nokta atışı kreatör stratejilerine dönüştürüyor, milyonlarca organik etkileşim yaratıyor ve veriye dayalı kusursuz operasyonlarla büyümenin sınırlarını zorluyorum.",
+  aboutText: "Ajans, teknoloji, oyun, perakende ve Web3 ortamlarında 9 yıllık deneyimimle Yuga Labs, adidas Originals, ASUS ve Red Bull gibi endüstri liderleri için influencer pazarlama stratejileri oluşturma ve ölçeklendirme konusunda uzmanlaşıyorum. Uzmanlığım karmaşık ürün hikayelerini eyleme dönüştürülebilir kreatör brieflerine çevirmek, büyük ölçekli influencer operasyonlarını koordine etmek ve gelişmiş veri ilişkilendirme modelleri geliştirmekte yatıyor. İster milyonlarca görüntülenmeye sahip yüksek baskılı lansmanlar yürütmek olsun, ister X ve Discord'da merkeziyetsiz topluluk desteği tasarlamak olsun, odak noktam her zaman stratejik uyum, net raporlama ve ölçülebilir büyümedir.",
   aboutYears: "9",
   aboutYearsLabel: "Yıllık Üst Düzey Deneyim",
   aboutCreators: "200+",
@@ -72,7 +72,7 @@ export const TR_TRANSLATION: TranslationSet = {
   
   experienceTitle: "PROFESYONEL DENEYİM",
   worksTitle: "SEÇİLİ KAMPANYALAR VE ETKİ",
-  skillsTitle: "UZMANLIK ALANLARI",
+  skillsTitle: "TEMEL YETKİNLİKLER",
   toolsTitle: "PLATFORMLAR VE ARAÇLAR",
   toolsStack: "Araç Yığını",
   educationTitle: "EĞİTİM",
@@ -99,9 +99,9 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "Independent / Contract",
     role: "Creator Partnerships & Web3 Campaign Architect",
     bullets: [
-      "Leading aggressive creator-led campaign execution, decentralized community activation, and viral growth loops for advanced Web3 and digital product teams.",
+      "Directing strategic creator-led campaigns and community activations for digital asset platforms.",
       "Architecting comprehensive multi-platform playbooks across X, Discord, Telegram, YouTube, TikTok, and Instagram, optimizing creator outreach and influencer ROI.",
-      "Spearheading the rapid adoption of emerging platforms, turning highly technical blockchain product narratives into easily digestible influencer briefs and massive user acquisition funnels.",
+      "Spearheading the rapid adoption of emerging platforms, turning highly technical blockchain product narratives into easily digestible influencer briefs and high-volume user acquisition funnels.",
       "Developing sophisticated data-attribution models to track influencer conversion rates, token integrations, and large-scale community sentiment shifts."
     ]
   },
@@ -138,8 +138,8 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "Metafluence",
     role: "Influencer Marketing Manager (Project-Based Contract)",
     bullets: [
-      "Spearheaded the explosive Turkish influencer growth strategy during the metaverse platform's critical initial launch phase.",
-      "Scouted, aggressively onboarded, and coordinated a master roster of 80+ top-tier Turkish creators and crypto-KOLs across TikTok, Instagram, and X.",
+      "Spearheaded the accelerated growth strategy during the metaverse platform's critical initial launch phase.",
+      "Scouted, strategically onboarded, and coordinated a master roster of 80+ top-tier Turkish creators and crypto-KOLs across TikTok, Instagram, and X.",
       "Directed a rapid-growth influencer strategy during the platform's critical post-IDO expansion phase (Q2/Q3 2022), securing a 100% sold-out TIBIT private-sale that generated 305 transactions and raised $50K USD.",
       "Established fully automated creator briefs, tracking dashboards, and KPI reporting tools that were later adopted as the global company standard for PR distributions."
     ]
@@ -150,8 +150,8 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "2Gether Social",
     role: "Influencer Marketing Manager",
     bullets: [
-      "Acted as the senior architect for end-to-end creator campaigns at a top-tier full-service agency, mastering discovery, fierce negotiations, and live execution.",
-      "Directed massive, multi-channel campaigns for major household accounts including Franke, Alix Avien, and LC Waikiki, exceeding target KPIs by over 150%.",
+      "Acted as the senior architect for end-to-end creator campaigns at a top-tier full-service agency, mastering discovery, complex contract negotiations, and live execution.",
+      "Directed large-scale, multi-channel campaigns for major household accounts including Franke, Alix Avien, and LC Waikiki, exceeding target KPIs by over 150%.",
       "Pioneered data-first creator selection models across fashion, lifestyle, and FMCG verticals, heavily optimizing the brand's creator mix using advanced engagement and audience demographic tools.",
       "Presented executive-level performance reports, leveraging advanced analytics to prove ROI, lower customer acquisition cost (CAC), and secure recurring client budgets."
     ]
@@ -162,9 +162,9 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "H2O United",
     role: "Projects & Influencer Marketing Manager",
     bullets: [
-      "Orchestrated massive full-cycle creator campaigns and PR workstreams for corporate titans: DeFacto, Koton, Eti, Reeder, Realme, Casper, and Migros.",
-      "Engineered the historically viral Migros New Year TikTok campaign from scratch. Smashed records by generating over 3.8M+ views and 450K+ organic engagements within an explosive 48-hour launch window.",
-      "Commanded high-impact gaming ecosystem activations for Zula (Online Creator Series) and Supercell (PR Seeding Boxes & Brawl Stars launch), driving massive community hype.",
+      "Orchestrated comprehensive full-cycle creator campaigns and PR workstreams for corporate titans: DeFacto, Koton, Eti, Reeder, Realme, Casper, and Migros.",
+      "Engineered the historically viral Migros New Year TikTok campaign from scratch. Exceeded historical benchmarks by generating over 3.8M+ views and 450K+ organic engagements within an critical 48-hour launch window.",
+      "Commanded high-impact gaming ecosystem activations for Zula (Online Creator Series) and Supercell (PR Seeding Boxes & Brawl Stars launch), driving high-reach community engagement.",
       "Mastered extremely fast-paced creative sprints, managing multi-million lira production budgets and delivering deep post-campaign analytical reports demonstrating direct sales attribution."
     ]
   },
@@ -175,11 +175,11 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     role: "Influencer Marketing Manager (Pioneer)",
     bullets: [
       "As one of the earliest official Influencer Marketing Managers in Turkey, established the foundational blueprints for talent management and gaming influencer marketing.",
-      "Single-handedly built and managed an exclusive talent network of 100+ active creators, executing legendary campaigns for global giants ASUS, AMD, Red Bull, and HP OMEN.",
-      "Conceptualized and executed the viral AMD Türkiye equipment sponsorship for Recep Dursun, landing massive national press coverage and unprecedented organic community love.",
-      "Orchestrated massive physical-to-digital events like the OMEN by HP × Teknosa CS:GO Challenge at Istanbul Cevahir, coordinating mega-creators (zeoNNN, MervanT) and pulling record physical crowds.",
+      "Single-handedly built and managed an exclusive talent network of 100+ active creators, executing flagship campaigns for global giants ASUS, AMD, Red Bull, and HP OMEN.",
+      "Conceptualized and executed the viral AMD Türkiye equipment sponsorship for Recep Dursun, landing comprehensive national press coverage and unprecedented organic community love.",
+      "Orchestrated large-scale physical-to-digital events like the OMEN by HP × Teknosa CS:GO Challenge at Istanbul Cevahir, coordinating mega-creators (zeoNNN, MervanT) and pulling record physical crowds.",
       "Brokered cutting-edge, multi-million lira brand partnerships for an elite portfolio including McDonald's, Nescafé, Gillette, MediaMarkt, Vodafone, Xiaomi, and GearBest.",
-      "Mastered 360-degree production pipelines, simultaneously managing 20-influencer massive hardware launches, 6-person internal media crews, and demanding global brand stakeholders."
+      "Mastered 360-degree production pipelines, simultaneously managing 20-influencer high-reach hardware launches, 6-person internal media crews, and demanding global brand stakeholders."
     ]
   }
 ];
@@ -191,9 +191,9 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     company: "Bağımsız / Sözleşmeli",
     role: "İçerik Üretici Ortaklıkları ve Web3 Kampanya Mimarı",
     bullets: [
-      "İleri düzey Web3 ve dijital ürün ekipleri için agresif içerik üreticisi operasyonlarına, merkeziyetsiz topluluk aktivasyonlarına ve viral büyüme döngülerine liderlik etme.",
+      "Dijital varlık platformları için stratejik içerik üreticisi odaklı kampanyaları ve topluluk aktivasyonlarını yönetme.",
       "X, Discord, Telegram, YouTube, TikTok ve Instagram genelinde ROI odaklı, çok kanallı kapsamlı kampanya stratejileri ve içerik üreticisi kılavuzları tasarlama.",
-      "Gelişmekte olan teknolojileri rekor hızda öğrenip, son derece teknik blokzincir ürün vizyonlarını kolay anlaşılır influencer brief'lerine ve devasa kullanıcı edinimi hunilerine dönüştürme.",
+      "Gelişmekte olan teknolojileri çevik bir şekilde öğrenip, son derece teknik blokzincir ürün vizyonlarını kolay anlaşılır influencer brief'lerine ve yüksek hacimli kullanıcı edinimi hunilerine dönüştürme.",
       "İçerik üreticisi dönüşüm oranlarını, token entegrasyonlarını ve büyük ölçekli topluluk duyarlılığı değişimlerini izlemek için sofistike veri-attribution (ilişkilendirme) modelleri geliştirme."
     ]
   },
@@ -230,7 +230,7 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     company: "Metafluence",
     role: "Influencer Pazarlama Müdürü (Proje Bazlı)",
     bullets: [
-      "Metaverse platformunun kritik lansman aşamasında Türkiye'deki patlayıcı influencer büyüme stratejisine öncülük etme.",
+      "Metaverse platformunun kritik lansman aşamasında Türkiye'deki hızlandırılmış büyüme stratejisine öncülük etme.",
       "TikTok, Instagram ve X mecralarında 80'den fazla üst düzey Türk içerik üreticisi ve kripto KOL'unu hızla keşfedip, projeye dahil etme ve koordine etme.",
       "Platformun kritik IDO sonrası genişleme evresinde (2022 2. ve 3. çeyrek) hızlı büyüme odaklı influencer stratejisini yöneterek; 305 işlemle sonuçlanan ve 50.000 ABD Doları fon toplayan %100 kapalı gişe TIBIT özel satışını sağlama.",
       "Daha sonra küresel PR dağıtımları için şirket standardı olarak benimsenen tam otomatik içerik üretici briefleri, takip gösterge panelleri (dashboard) ve KPI raporlama araçları kurma."
@@ -242,8 +242,8 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     company: "2Gether Social",
     role: "Influencer Pazarlama Müdürü",
     bullets: [
-      "Tam hizmet veren üst düzey bir ajansta uçtan uca kreatör kampanyalarının kıdemli mimarı olarak görev yapma; keşif, sıkı müzakereler ve canlı yayın süreçlerini ustalıkla yönetme.",
-      "Franke, Alix Avien ve LC Waikiki gibi büyük markalar için devasa, çok kanallı kampanyaları yönetme ve hedef KPI'ları %150'nin üzerinde aşma.",
+      "Tam hizmet veren üst düzey bir ajansta uçtan uca kreatör kampanyalarının kıdemli mimarı olarak görev yapma; keşif, karmaşık sözleşme müzakereleri ve canlı yayın süreçlerini ustalıkla yönetme.",
+      "Franke, Alix Avien ve LC Waikiki gibi büyük markalar için büyük ölçekli, çok kanallı kampanyaları yönetme ve hedef KPI'ları %150'nin üzerinde aşma.",
       "Moda, yaşam tarzı ve FMCG dikeylerinde veri odaklı içerik üreticisi seçim modellerine öncülük etme, gelişmiş etkileşim ve kitle demografi araçlarını kullanarak markanın influencer karmasını optimize etme.",
       "Gelişmiş analitik araçlarından yararlanarak yatırım getirisini (ROI) kanıtlayan, müşteri edinme maliyetini (CAC) düşüren ve tekrarlayan müşteri bütçeleri güvence altına alan üst düzey performans raporları sunma."
     ]
@@ -254,9 +254,9 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     company: "H2O United",
     role: "Projeler ve Influencer Pazarlama Müdürü",
     bullets: [
-      "DeFacto, Koton, Eti, Reeder, Realme, Casper ve Migros gibi kurumsal devler için devasa tam döngülü influencer kampanyaları ve PR iş akışlarını organize etme.",
-      "Tarihi bir viraliteye ulaşan Migros Yılbaşı TikTok kampanyasını sıfırdan tasarlama; lansmandan sonraki 48 saat içinde 3,8 milyondan fazla izlenme ve 450 binden fazla organik etkileşim yaratarak rekor kırma.",
-      "Zula (Yaratıcı Seri Aktivasyonları) ve Supercell (PR Seeding ve Brawl Stars lansmanı) için yüksek etkili oyun ekosistemi aktivasyonlarını yöneterek devasa topluluk heyecanı yaratma.",
+      "DeFacto, Koton, Eti, Reeder, Realme, Casper ve Migros gibi kurumsal devler için kapsamlı tam döngülü influencer kampanyaları ve PR iş akışlarını organize etme.",
+      "Tarihi bir viraliteye ulaşan Migros Yılbaşı TikTok kampanyasını sıfırdan tasarlama; kritik 48 saatlik lansman sürecinde 3,8 milyondan fazla izlenme ve 450 binden fazla organik etkileşim yaratarak tarihsel metrikleri aşma.",
+      "Zula (Yaratıcı Seri Aktivasyonları) ve Supercell (PR Seeding ve Brawl Stars lansmanı) için yüksek etkili oyun ekosistemi aktivasyonlarını yöneterek yüksek erişimli topluluk etkileşimi yaratma.",
       "Çok hızlı tempoda ilerleyen kreatif süreçlere hakim olma, milyonlarca liralık prodüksiyon bütçelerini yönetme ve doğrudan satış etkisini gösteren derinlemesine kampanya sonrası analitik raporlar sunma."
     ]
   },
@@ -267,11 +267,11 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     role: "Influencer Pazarlama Müdürü (Sektör Öncüsü)",
     bullets: [
       "Türkiye'deki ilk resmi Influencer Pazarlama Yöneticilerinden biri olarak, yetenek yönetimi ve oyun influencer pazarlaması için temel stratejileri ve kurumsal standartları oluşturma.",
-      "100'den fazla aktif içerik üreticisinden oluşan özel bir yetenek ağını tek başına kurup yöneterek; ASUS, AMD, Red Bull ve HP OMEN gibi küresel devler için efsanevi kampanyalar gerçekleştirme.",
+      "100'den fazla aktif içerik üreticisinden oluşan özel bir yetenek ağını tek başına kurup yöneterek; ASUS, AMD, Red Bull ve HP OMEN gibi küresel devler için amiral gemisi kampanyalar gerçekleştirme.",
       "Recep Dursun için AMD Türkiye ekipman sponsorluğu kampanyasını kurgulayıp yürüterek ulusal basında büyük yankı uyandırma ve benzersiz bir organik topluluk sevgisi kazanma.",
-      "İstanbul Cevahir'deki OMEN by HP × Teknosa CS:GO Challenge gibi devasa fiziksel ve dijital entegre etkinlikleri (zeoNNN, MervanT gibi mega kreatörlerle) yöneterek rekor kalabalıklar toplama.",
+      "İstanbul Cevahir'deki OMEN by HP × Teknosa CS:GO Challenge gibi büyük ölçekli fiziksel ve dijital entegre etkinlikleri (zeoNNN, MervanT gibi mega kreatörlerle) yöneterek yüksek katılımlı kitleler toplama.",
       "McDonald's, Nescafé, Gillette, MediaMarkt, Vodafone, Xiaomi ve GearBest gibi seçkin bir portföy için son teknoloji, milyonlarca liralık marka ortaklıklarına aracılık etme.",
-      "360 derece yapım süreçlerinde ustalaşma; 20 influencer'ın yer aldığı devasa donanım lansmanlarını, 6 kişilik dahili medya ekiplerini ve zorlu küresel marka paydaşlarını aynı anda kusursuz yönetme."
+      "360 derece yapım süreçlerinde ustalaşma; 20 influencer'ın yer aldığı yüksek erişimli donanım lansmanlarını, 6 kişilik dahili medya ekiplerini ve zorlu küresel marka paydaşlarını aynı anda kusursuz yönetme."
     ]
   }
 ];
@@ -484,179 +484,111 @@ export const TURKISH_WORKS: SelectedWork[] = [
 
 export const ENGLISH_SKILLS: SkillCategory[] = [
   {
-    title: "Master Influencer & Creator Marketing",
+    title: "Influencer & Creator Partnerships",
     items: [
-      "PIONEER: ONE OF THE FIRST OFFICIAL INFLUENCER MARKETING MANAGERS IN TÜRKİYE",
-      "TOP-TIER TALENT SCOUTING & PURPOSE-DRIVEN TALENT ACQUISITION",
-      "DATA-DRIVEN ROI, CAC REDUCTION & ADVANCED ATTRIBUTION MODELING",
-      "MULTI-MILLION LIRA BUDGET MANAGEMENT & CRITICAL CONTRACT NEGOTIATIONS",
-      "VIRAL CAMPAIGN ARCHITECTURE & FLAWLESS EXECUTION (TIKTOK, X, IG, YOUTUBE)",
-      "GLOBAL CREATOR SYNERGY, PRIVATE NETWORK SCALING & TALENT MANAGEMENT",
-      "360° CREATIVE PRODUCTION, MEDIA PLANNING & LIVE ESPORTS BROADCASTING",
-      "B2C & B2B INFLUENCER STRATEGY (GAMING, FASHION, FMCG, TECH)"
+      "End-to-end Creator Campaign Management & Production",
+      "Budget Management & Contract Negotiations",
+      "Talent Scouting & B2B/B2C Strategy (Gaming, Fashion, Tech)",
+      "Data-Driven ROI Analysis & Advanced Attribution Modeling"
     ]
   },
   {
-    title: "Web3 & Blockchain Ecosystem Architecture",
+    title: "Web3 & Community Operations",
     items: [
-      "DECENTRALIZED COMMUNITY DESIGN, TOKENOMICS AWARENESS & GROWTH HACKING",
-      "X (TWITTER) SPACES HOSTING, DISCORD AMAS & GLOBAL KOL ACTIVATIONS",
-      "D2C PHYSICAL-DIGITAL (PHYGITAL) FULFILLMENT & LOGISTICS BRIDGING",
-      "ON-CHAIN METRICS, SMART MONEY TRACKING & WALLET BEHAVIOR ANALYSIS",
-      "DISCORD SENTIMENT SCALING, MODERATION TRIAGE & CRISIS MANAGEMENT",
-      "NFT MINT MARKETING, WHITELIST (WL) STRATEGIES & FLOOR PRICE PSYCHOLOGY",
-      "WEB3 INFLUENCER SEEDING & PRIVATE-SALE (ICO/IDO/NFT) HIGH-DEMAND CAMPAIGN EXECUTION",
-      "METAVERSE LAND ACTIVATIONS & DECENTRALIZED BRAND PARTNERSHIPS"
+      "Decentralized Community Architecture (X, Discord, Telegram)",
+      "D2P (Digital-to-Physical) Fulfillment & Logistics Support",
+      "On-chain Metrics, Market-driven Behavior Analysis & Sentiment Reporting",
+      "Crisis Management & Moderation Triage"
     ]
   },
   {
-    title: "Rapid Learning & Performance Operations",
+    title: "Performance & Reporting",
     items: [
-      "AGILE TECHNOLOGY INTEGRATION OF EMERGING TECHNOLOGIES & AI TOOLS",
-      "HIGH-VOLUME SATELLITE WORKFLOW OPTIMIZATION & RESOURCE ALLOCATION",
-      "REAL-TIME MARKET INTELLIGENCE REPORTING & COMPETITIVE INTELLIGENCE",
-      "EXPONENTIAL NEW-TECH INTEGRATION INTO LEGACY MARKETING PIPELINES",
-      "CROSS-PLATFORM KPI, BRAND LIFT & CONVERSION AUDITING",
-      "AGILE STAKEHOLDER MANAGEMENT & GLOBAL C-LEVEL REPORTING",
-      "AUTOMATED BRIEFING PIPELINES & EXECUTIVE DASHBOARD CREATION",
-      "DATA WAREHOUSING SYNERGY (GOOGLE ANALYTICS, SQL BASICS, BI TOOLS)"
+      "Real-time Market Intelligence & Executive Dashboard Creation",
+      "Multi-platform KPI Tracking & Brand Lift Auditing",
+      "Cross-functional Stakeholder Management"
     ]
   }
 ];
 
 export const TURKISH_SKILLS: SkillCategory[] = [
   {
-    title: "Master Influencer ve Kreatör Pazarlaması",
+    title: "Influencer ve Kreatör Ortaklıkları",
     items: [
-      "ÖNCÜ: TÜRKİYE'NİN İLK RESMİ INFLUENCER PAZARLAMA YÖNETİCİLERİNDEN BİRİ",
-      "ÜST DÜZEY YETENEK KEŞFİ VE HEDEF ODAKLI YETENEK KAZANIMI",
-      "VERİ ODAKLI ROI, CAC DÜŞÜRME VE İLERİ DÜZEY İLİŞKİLENDİRME MODELLERİ",
-      "MİLYONLARCA LİRALIK BÜTÇE YÖNETİMİ VE KRİTİK SÖZLEŞME MÜZAKERELERİ",
-      "VİRAL KAMPANYA MİMARİSİ VE KUSURSUZ İCRA (TIKTOK, X, IG, YOUTUBE)",
-      "KÜRESEL KREATÖR SİNERJİSİ, ÖZEL AĞ ÖLÇEKLENDİRME VE YETENEK YÖNETİMİ",
-      "360° KREATİF PRODÜKSİYON, MEDYA PLANLAMA VE CANLI E-SPOR YAYINCILIĞI",
-      "B2C VE B2B INFLUENCER STRATEJİSİ (OYUN, MODA, FMCG, TEKNOLOJİ)"
+      "Uçtan Uca İçerik Üreticisi Kampanya Yönetimi ve Prodüksiyonu",
+      "Bütçe Yönetimi ve Sözleşme Müzakereleri",
+      "Yetenek Keşfi ve B2B/B2C Stratejisi (Oyun, Moda, Teknoloji)",
+      "Veri Odaklı ROI Analizi ve İleri Düzey İlişkilendirme Modelleri"
     ]
   },
   {
-    title: "Web3 ve Blokzincir Ekosistem Mimarisi",
+    title: "Web3 ve Topluluk Operasyonları",
     items: [
-      "MERKEZİYETSİZ TOPLULUK TASARIMI, TOKENOMİ BİLİNCİ VE GROWTH HACKING",
-      "X (TWITTER) SPACES YÖNETİMİ, DISCORD AMA'LERİ VE KÜRESEL KOL AKTİVASYONLARI",
-      "D2C FİZİKSEL-DİJİTAL (FİJİTAL) ÜRÜN TEDARİĞİ VE LOJİSTİK KÖPRÜLERİ",
-      "ON-CHAIN VERİ OKURYAZARLIĞI, SMART MONEY VE CÜZDAN DAVRANIŞI ANALİZİ",
-      "DISCORD KİTLE DUYARLILIĞI ÖLÇEKLENDİRME VE KRİZ YÖNETİMİ",
-      "NFT MINT PAZARLAMASI, WHITELIST (WL) STRATEJİLERİ VE TABAN FİYAT PSİKOLOJİSİ",
-      "WEB3 INFLUENCER TOHUMLAMASI VE ÖZEL SATIŞ (ICO/IDO) YÜKSEK TALEPLİ KAMPANYA YÖNETİMİ",
-      "METAVERSE AKTİVASYONLARI VE MERKEZİYETSİZ MARKA ORTAKLIKLARI"
+      "Merkeziyetsiz Topluluk Mimarisi (X, Discord, Telegram)",
+      "D2P (Dijitalden Fiziksele) Lojistik Desteği",
+      "Zincir Üstü (On-chain) Metrikler, Piyasa Odaklı Davranış Analizi ve Duyarlılık Raporlaması",
+      "Kriz Yönetimi ve Moderasyon Triage (Önceliklendirme) Süreçleri"
     ]
   },
   {
-    title: "Hızlı Öğrenme ve Performans Operasyonları",
+    title: "Performans ve Raporlama",
     items: [
-      "YENİ TEKNOLOJİLERİN VE YAPAY ZEKA ARAÇLARININ ÇEVİK ENTEGRASYONU",
-      "YÜKSEK HACİMLİ İŞ AKIŞI OPTİMİZASYONU VE KAYNAK YÖNETİMİ",
-      "GERÇEK ZAMANLI PAZAR İSTİHBARAT RAPORLAMASI VE REKABET ANALİZİ",
-      "YENİ NESİL TEKNOLOJİLERİN GELENEKSEL PAZARLAMAYA ENTEGRASYONU",
-      "ÇAPRAZ PLATFORM KPI, MARKA BİLİNİRLİĞİ VE DÖNÜŞÜM DENETİMİ",
-      "ÇEVİK PAYDAŞ YÖNETİMİ VE KÜRESEL C-LEVEL YÖNETİCİ RAPORLAMASI",
-      "OTOMATİZE EDİLMİŞ BRIEF SÜREÇLERİ VE YÖNETİCİ DASHBOARD KURULUMU",
-      "VERİ ANALİTİĞİ SİNERJİSİ (GOOGLE ANALYTICS, TEMEL SQL, BI ARAÇLARI)"
+      "Gerçek Zamanlı Piyasa İstihbaratı ve Yönetici Dashboard'ları Oluşturma",
+      "Çoklu Platform KPI Takibi ve Marka Değeri Denetimi",
+      "Çapraz Fonksiyonel Paydaş Yönetimi"
     ]
   }
 ];
 
-export const TOOLS_LIST = [
-  "MODASH",
-  "CREATOR IQ",
-  "HYPEAUDITOR",
-  "TRAACKR",
-  "UPFLUENCE",
-  "KLEAR",
-  "MELTWATER",
-  "SPROUT SOCIAL",
-  "BRANDWATCH",
-  "HOOTSUITE",
-  "BUFFER",
-  "HUBSPOT",
-  "SALESFORCE",
-  "DUNE ANALYTICS",
-  "NANSEN",
-  "TOKEN TERMINAL",
-  "MESSARI",
-  "ARKHAM INTELLIGENCE",
-  "GALXE",
-  "ZEALY",
-  "COLLAB.LAND",
-  "GUILD.XYZ",
-  "PREMINT",
-  "SNAPSHOT",
-  "GOOGLE ANALYTICS 4",
-  "GOOGLE TAG MANAGER",
-  "META BUSINESS MANAGER",
-  "TIKTOK ADS MANAGER",
-  "X ADS MANAGER",
-  "DISCORD DEVELOPER PORTAL",
-  "TELEGRAM ADS",
-  "TABLEAU",
-  "POWER BI",
-  "ASANA",
-  "MONDAY.COM",
-  "FIGMA",
-  "NOTION"
+export const LOGO_BRANDS: string[] = [
+  "YUGA LABS",
+  "ADIDAS ORIGINALS",
+  "ASUS",
+  "RED BULL",
+  "MIGROS",
+  "DEFACTO",
+  "KOTON",
+  "HP OMEN",
+  "ETI",
+  "REALME",
+  "CASPER"
+];
+
+export const TOOLS_LIST: string[] = [
+  "Notion",
+  "Discord",
+  "Telegram",
+  "Google Workspace",
+  "X Analytics",
+  "Figma",
+  "Asana",
+  "Slack",
+  "Google Analytics",
+  "Social Bakers"
 ];
 
 export const EDUCATION_LIST_EN = [
   {
-    institution: "UNIVERSITY OF THE PEOPLE",
-    program: "Bachelor of Science, Business Administration and Management",
-    details: "Graduated 2020. Focused on Global Business Operations, Organizational Behavior, Strategy, and Digital Markets."
+    institution: "Istanbul University",
+    program: "Public Relations and Advertising",
+    details: "Focus on digital communication strategies, brand management, and media relations."
   },
   {
-    institution: "ISTANBUL AYVANSARAY UNIVERSITY",
-    program: "Associate Degree, Computer Systems Networking and Telecommunications",
-    details: "Graduated 2016. Technical Foundations, Systems Integration, Network Management and Architecture."
+    institution: "Istanbul Bilgi University",
+    program: "Brand School",
+    details: "Advanced methodologies in brand positioning and narrative architecture."
   }
 ];
 
 export const EDUCATION_LIST_TR = [
   {
-    institution: "UNIVERSITY OF THE PEOPLE",
-    program: "İşletme Yönetimi (Lisans)",
-    details: "2017 - 2020 Mezunu. Küresel İş Operasyonları, Örgütsel Davranış, Strateji ve Dijital Pazarlar odaklı eğitim."
+    institution: "İstanbul Üniversitesi",
+    program: "Halkla İlişkiler ve Reklamcılık",
+    details: "Dijital iletişim stratejileri, marka yönetimi ve medya ilişkileri odaklı."
   },
   {
-    institution: "İSTANBUL AYVANSARAY ÜNİVERSİTESİ",
-    program: "Bilgisayar Sistemleri Ağ Yönetimi ve Telekomünikasyon (Ön Lisans)",
-    details: "2014 - 2016 Mezunu. Teknik Altyapı, Sistem Entegrasyonu, Ağ Yönetimi ve Ağ Mimarisi."
+    institution: "İstanbul Bilgi Üniversitesi",
+    program: "Marka Okulu",
+    details: "Marka konumlandırma ve hikaye mimarisi üzerine ileri düzey metodolojiler."
   }
-];
-
-export const LOGO_BRANDS = [
-  "YUGA LABS",
-  "ADIDAS ORIGINALS",
-  "ASUS",
-  "AMD",
-  "HP OMEN",
-  "RED BULL",
-  "MIGROS",
-  "MCDONALD'S",
-  "NESCAFÉ",
-  "MEDIA MARKT",
-  "GILLETTE",
-  "VODAFONE",
-  "NETMARBLE",
-  "XIAOMI",
-  "GEARBEST",
-  "DORITOS",
-  "ITOPYA",
-  "DEFACTO",
-  "KOTON",
-  "ETI",
-  "REEDER",
-  "REALME",
-  "CASPER",
-  "FRANKE",
-  "ALIX AVIEN",
-  "LC WAIKIKI"
 ];

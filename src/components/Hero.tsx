@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown, Sparkles, FileText } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { TranslationSet } from "../types";
 import { LOGO_BRANDS } from "../data";
 
@@ -81,7 +81,7 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="font-archivo text-5xl md:text-7xl lg:text-[88px] font-bold tracking-tight leading-[0.95] text-white max-w-5xl mb-8"
+          className="font-archivo text-5xl md:text-7xl lg:text-[72px] xl:text-[84px] font-bold tracking-tight leading-[0.95] text-white max-w-full mb-8"
         >
           {words.map((word, idx) => {
             const isRed = word === "IMPACT" || word === "ETKİ";
@@ -133,18 +133,7 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
               </motion.div>
             </motion.button>
 
-            {/* Print/Export CV Button */}
-            <motion.button
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={onOpenCV}
-              className="cursor-pointer bg-transparent border border-white/20 hover:border-[#FF0000] hover:bg-[#FF0000]/10 text-white hover:text-white transition-all duration-300 font-archivo font-bold text-sm tracking-widest px-8 py-5 flex items-center justify-center gap-3 active:scale-95 whitespace-nowrap"
-              style={{ borderRadius: "0px" }}
-              id="hero-export-cv-btn"
-            >
-              <FileText className="w-4 h-4 text-[#FF0000]" />
-              <span>EXPORT CV</span>
-            </motion.button>
+
           </motion.div>
         </div>
       </div>

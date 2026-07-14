@@ -1,8 +1,7 @@
 import { X, Printer, FileText, Check, Copy } from "lucide-react";
 import { useState, useRef } from "react";
-import html2pdf from "html2pdf.js";
 import { JobExperience, SkillCategory, TranslationSet } from "../types";
-import { EDUCATION_LIST_EN, EDUCATION_LIST_TR, TOOLS_LIST } from "../data";
+import { EDUCATION_LIST_EN, EDUCATION_LIST_TR, TOOLS_LIST, ENGLISH_WORKS, TURKISH_WORKS } from "../data";
 
 interface HarvardCVModalProps {
   isOpen: boolean;
@@ -27,27 +26,68 @@ export default function HarvardCVModal({
 
   if (!isOpen) return null;
 
-  const handlePrint = async () => {
-    if (!cvRef.current) return;
-    
+    const handleExportMD = () => {
     setIsGenerating(true);
-    
-    const element = cvRef.current;
-    const opt = {
-      margin:       10,
-      filename:     `Oguz_Atalay_CV_${lang}.pdf`,
-      image:        { type: 'jpeg' as const, quality: 0.98 },
-      html2canvas:  { scale: 2, useCORS: true },
-      jsPDF:        { unit: 'mm' as const, format: 'a4', orientation: 'portrait' as const }
-    };
+    const works = lang === "EN" ? ENGLISH_WORKS : TURKISH_WORKS;
+    const educations = lang === "EN" ? EDUCATION_LIST_EN : EDUCATION_LIST_TR;
 
-    try {
-      await html2pdf().set(opt).from(element).save();
-    } catch (error) {
-      console.error("PDF generation failed:", error);
-    } finally {
-      setIsGenerating(false);
-    }
+    let md = `# OGUZ ATALAY\n\n`;
+    md += `## ${t.heroTitle}\n\n`;
+    md += `${t.heroSub}\n\n---\n\n`;
+
+    md += `## ${t.aboutTitle}\n\n`;
+    md += `${t.aboutText}\n\n`;
+    md += `- **${t.aboutYearsLabel}**: ${t.aboutYears}\n`;
+    md += `- **${t.aboutCreatorsLabel}**: ${t.aboutCreators}\n`;
+    md += `- **${t.aboutExperienceLabel}**: ${t.aboutExperience}\n\n---\n\n`;
+
+    md += `## ${t.experienceTitle}\n\n`;
+    experiences.forEach(exp => {
+      md += `### ${exp.role} @ ${exp.company}\n`;
+      md += `**${exp.period}** | *${exp.tag}*\n\n`;
+      exp.bullets.forEach(bullet => {
+        md += `- ${bullet}\n`;
+      });
+      md += `\n`;
+    });
+    md += `---\n\n`;
+
+    md += `## ${t.worksTitle}\n\n`;
+    works.forEach(work => {
+      md += `### ${work.title}\n`;
+      md += `**KPI**: ${work.kpi}\n\n`;
+    });
+    md += `---\n\n`;
+
+    md += `## ${t.skillsTitle}\n\n`;
+    skills.forEach(skillCat => {
+      md += `### ${skillCat.title}\n`;
+      skillCat.items.forEach(item => {
+        md += `- ${item}\n`;
+      });
+      md += `\n`;
+    });
+    md += `---\n\n`;
+
+    md += `## ${t.toolsTitle}\n\n`;
+    md += TOOLS_LIST.map(tool => `- ${tool}`).join('\n') + `\n\n---\n\n`;
+
+    md += `## ${t.educationTitle}\n\n`;
+    educations.forEach(edu => {
+      md += `### ${edu.institution}\n`;
+      md += `**${edu.program}**\n`;
+      md += `${edu.details}\n\n`;
+    });
+
+    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', `Oguz_Atalay_Profile_${lang}.md`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setIsGenerating(false);
   };
 
   const copyEmail = () => {
@@ -63,14 +103,14 @@ export default function HarvardCVModal({
       {/* Non-printable Control Overlay bar */}
       <div className="absolute top-4 right-4 flex items-center gap-3 z-50">
         <button
-          onClick={handlePrint}
+          onClick={handleExportMD}
           disabled={isGenerating}
           className="flex items-center gap-2 bg-[#FF0000] hover:bg-[#d60000] disabled:bg-[#525252] text-[#fff] font-archivo font-bold text-xs tracking-wider px-4 py-2.5 transition-all cursor-pointer shadow-lg"
           style={{ borderRadius: "0px" }}
           id="print-cv-btn"
         >
           <FileText className="w-4 h-4" />
-          <span>{isGenerating ? (lang === "EN" ? "GENERATING..." : "HAZIRLANIYOR...") : (lang === "EN" ? "DOWNLOAD PDF" : "PDF İNDİR")}</span>
+          <span>{isGenerating ? (lang === "EN" ? "GENERATING..." : "HAZIRLANIYOR...") : (lang === "EN" ? "DOWNLOAD MD" : "MD İNDİR")}</span>
         </button>
 
         <button

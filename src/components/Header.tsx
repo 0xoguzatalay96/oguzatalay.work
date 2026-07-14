@@ -211,7 +211,7 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCV }: He
                 id="mobile-cv-export-btn"
               >
                 <FileText className="w-4 h-4" />
-                <span>{lang === "EN" ? "PRINT / EXPORT HARVARD CV" : "CV YAZDIR / PDF KAYDET"}</span>
+                <span>{lang === "EN" ? "VIEW CV / EXPORT MD" : "CV GÖRÜNTÜLE / MD İNDİR"}</span>
               </button>
             </div>
           </motion.div>

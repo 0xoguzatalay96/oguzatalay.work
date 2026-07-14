@@ -126,7 +126,7 @@ export default function App() {
           >
             <div className="flex flex-col items-start pr-2">
               <span className="font-archivo font-bold text-xs tracking-widest leading-none">
-                {lang === "EN" ? "DOWNLOAD PDF" : "PDF İNDİR"}
+                {lang === "EN" ? "DOWNLOAD MD" : "MD İNDİR"}
               </span>
               <span className="text-[9px] font-medium tracking-widest text-white/70 mt-1 uppercase">
                 {lang === "EN" ? "Harvard Format CV" : "Harvard Formatlı CV"}
