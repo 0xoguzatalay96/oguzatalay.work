@@ -9,7 +9,10 @@ interface HeroProps {
 }
 
 export default function Hero({ t, onOpenCV }: HeroProps) {
-  const words = t.heroTitle.split(" ");
+  const isTR = t.heroTitle.includes("VE") || t.heroTitle.includes("TOPLULUK");
+  const lines = isTR
+    ? ["INFLUENCER PAZARLAMASI", "WEB3 TOPLULUK STRATEJİSİ"]
+    : ["INFLUENCER MARKETING", "WEB3 COMMUNITY STRATEGY"];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -83,19 +86,23 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
           animate="visible"
           className="font-archivo text-5xl md:text-7xl lg:text-[72px] xl:text-[84px] font-bold tracking-tight leading-[0.95] text-white max-w-full mb-8"
         >
-          {words.map((word, idx) => {
-            const isRed = word === "IMPACT" || word === "ETKİ";
-            return (
-              <span key={idx} className="inline-block overflow-hidden mr-[0.3em] py-1">
-                <motion.span
-                  variants={wordVariants}
-                  className={`inline-block ${isRed ? "text-[#FF0000]" : "text-white"}`}
-                >
-                  {word}
-                </motion.span>
-              </span>
-            );
-          })}
+          {lines.map((line, lineIdx) => (
+            <div key={lineIdx} className="block last:mb-0 mb-1 md:whitespace-nowrap">
+              {line.split(" ").map((word, wordIdx) => {
+                const isRed = word === "IMPACT" || word === "ETKİ";
+                return (
+                  <span key={wordIdx} className="inline-block overflow-hidden mr-[0.3em] py-1">
+                    <motion.span
+                      variants={wordVariants}
+                      className={`inline-block ${isRed ? "text-[#FF0000]" : "text-white"}`}
+                    >
+                      {word}
+                    </motion.span>
+                  </span>
+                );
+              })}
+            </div>
+          ))}
         </motion.h1>
 
         {/* Description & Button Section */}
