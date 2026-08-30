@@ -1,0 +1,16 @@
+[Unit]
+Description=Oguz Atalay Portfolio Website (oguzatalay.work)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/Projeler/oguzatalay.work
+ExecStart=/usr/bin/node /root/Projeler/oguzatalay.work/server.js
+Restart=always
+RestartSec=5
+Environment=PORT=8096
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

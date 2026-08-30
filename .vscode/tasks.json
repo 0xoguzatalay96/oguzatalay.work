@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "label": "npm: dev",
+      "detail": "vite --port=3000 --host=0.0.0.0",
+      "isBackground": true,
+      "problemMatcher": ["$vite"]
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "label": "npm: build",
+      "detail": "vite build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "lint",
+      "label": "npm: lint",
+      "detail": "tsc --noEmit",
+      "group": "test"
+    },
+    {
+      "type": "shell",
+      "command": "npx tsx tools/export_site_markdown.ts > SITE_CONTENT.md && cp SITE_CONTENT.md public/site-content.md",
+      "label": "tools: export markdown",
+      "detail": "Sync data.ts to SITE_CONTENT.md and public/site-content.md"
+    },
+    {
+      "type": "shell",
+      "command": "./deploy.sh",
+      "label": "deploy: production",
+      "detail": "Deploy full build and restart services"
+    }
+  ]
+}

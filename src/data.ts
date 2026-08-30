@@ -1,4 +1,4 @@
-import { JobExperience, SelectedWork, SkillCategory, TranslationSet } from "./types";
+import { CertificateItem, JobExperience, ProfileFitItem, SelectedWork, SkillCategory, TranslationSet, WorkStackGroup } from "./types";
 
 export const EN_TRANSLATION: TranslationSet = {
   navHome: "Home",
@@ -8,42 +8,38 @@ export const EN_TRANSLATION: TranslationSet = {
   navSkills: "Skills & Tools",
   navTools: "Tools",
   navEducation: "Education",
+  navCertificates: "Certificates",
   navContact: "Contact",
   
-  heroTitle: "INFLUENCER MARKETING & WEB3 COMMUNITY STRATEGY",
-  heroSub: "Bridging Web2 influencer ecosystems with Web3 community operations. 9 years of experience managing high-scale creator partnerships, digital-to-physical (D2P) activations, and data-driven campaigns for global tech, retail, and blockchain brands. Focused on turning complex brand objectives into measurable ROI and sustainable community engagement.",
-  heroBtn: "VIEW WORKS",
+  heroTitle: "Influencer Marketing Manager | Digital Assets Marketing Operations",
+  heroSub: "Driving community growth, KOL operations, and viral campaigns for global tech ecosystems and top-tier retail brands.",
+  heroBtn: "VIEW PROJECTS",
+  heroBtnContact: "GET IN TOUCH",
   
-  aboutTitle: "9 Years of Scalable Growth: Bridging Digital Ecosystems with Web3 Architecture.",
+  aboutTitle: "I build bridges between brands and digital communities.",
   aboutSub: "ABOUT",
-  aboutText: "With 9 years of experience across agency, technology, gaming, retail, and Web3 environments, I specialize in building and scaling influencer marketing strategies for industry leaders like Yuga Labs, adidas Originals, ASUS, and Red Bull. My expertise lies in translating complex product narratives into actionable creator briefs, coordinating large-scale influencer operations, and developing sophisticated data-attribution models. Whether executing high-pressure launches with multi-million view engagements or architecting decentralized community support across X and Discord, my focus is always on strategic alignment, clear reporting, and measurable growth.",
-  aboutYears: "9",
-  aboutYearsLabel: "Years of High-Impact Experience",
+  aboutText: "Whether directing viral TikTok strategies for retail giants or orchestrating global creator events for digital asset & blockchain pioneers, I design end-to-end marketing operations that turn audiences into active, loyal communities.",
+  aboutYears: "10+",
+  aboutYearsLabel: "Years in Influencer Marketing & Partnerships",
   aboutCreators: "200+",
-  aboutCreatorsLabel: "Influencer Collaborations",
+  aboutCreatorsLabel: "Partners, Top-Tier Creators & Global KOL Network",
   aboutExperience: "150+",
-  aboutExperienceLabel: "Brand Collaborations",
+  aboutExperienceLabel: "High-Impact Campaigns, Launches & Brand Collaborations",
   
   experienceTitle: "PROFESSIONAL EXPERIENCE",
   worksTitle: "SELECTED CAMPAIGNS & IMPACT",
   skillsTitle: "CORE COMPETENCIES",
-  toolsTitle: "PLATFORMS & WORK TOOLS",
-  toolsStack: "Tools Stack",
+  toolsTitle: "WORK TOOLS",
+  toolsStack: "Tools",
   educationTitle: "EDUCATION",
+  certificatesTitle: "PROFESSIONAL CERTIFICATES & SPECIALIZATIONS",
+  certificatesSub: "Industry-standard credentials in Growth, Data Analytics, Project Management, and Digital Assets / Blockchain architectures.",
+  certificatesVerify: "Verify Credential",
+  certificatesPdf: "View PDF",
+  certificatesCourses: "Courses",
+  certificatesFilterAll: "ALL",
   
-  ctaTitle: "DISCOVER THE FOUNDATION",
-  ctaBtn: "CONNECT NOW",
-  
-  contactFormTitle: "Get in touch for collaborative projects, creator campaigns, and strategic brand / community partnerships.",
-  contactNamePlaceholder: "Your Name",
-  contactEmailPlaceholder: "Your Email Address",
-  contactMessagePlaceholder: "How can I help you?",
-  contactSubmitBtn: "SEND MESSAGE",
-  contactSuccessMsg: "Message transmitted successfully. Let's build.",
-  contactQuickTemplateLabel: "Quick Templates",
-  contactQuickTemplate1: "Advisory / Consulting",
-  contactQuickTemplate2: "Creator Campaign Strategy",
-  contactQuickTemplate3: "Web3 Ecosystem Operations"
+  ctaBtn: "GET IN TOUCH"
 };
 
 export const TR_TRANSLATION: TranslationSet = {
@@ -54,224 +50,258 @@ export const TR_TRANSLATION: TranslationSet = {
   navSkills: "Yetenekler ve Araçlar",
   navTools: "Araçlar",
   navEducation: "Eğitim",
+  navCertificates: "Sertifikalar",
   navContact: "İletişim",
   
-  heroTitle: "INFLUENCER PAZARLAMASI VE WEB3 TOPLULUK STRATEJİSİ",
-  heroSub: "Türkiye'nin ilk Influencer Pazarlama Yöneticilerinden biri, hızla Web3 büyüme mimarına dönüştü. Ajanslar, teknoloji, oyun ve seçkin Web3 ekosistemlerinde 10 yıllık stratejik ve kapsamlı ölçekli deneyim. Hızlı öğrenen, sürdürülebilir büyüme sağlayan bir stratejist. Küresel çapta 100'den fazla üst düzey içerik üreticisini yönetmekte, viral kampanyaları hayata geçirmekte ve ekosistem koordinasyonuna liderlik etmektedir.",
-  heroBtn: "ÇALIŞMALARI GÖR",
+  heroTitle: "Influencer Marketing Manager | Digital Assets Marketing Operations",
+  heroSub: "Global teknoloji ekosistemleri ve lider perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.",
+  heroBtn: "PROJELERİ GÖR",
+  heroBtnContact: "İLETİŞİME GEÇ",
   
-  aboutTitle: "Ölçeklenebilir Büyümenin 9 Yılı: Dijital Ekosistemleri Web3 Mimarisiyle Birleştirmek.",
+  aboutTitle: "Markalar ile dijital topluluklar arasında köprüler kuruyorum.",
   aboutSub: "HAKKIMDA",
-  aboutText: "Ajans, teknoloji, oyun, perakende ve Web3 ortamlarında 9 yıllık deneyimimle Yuga Labs, adidas Originals, ASUS ve Red Bull gibi endüstri liderleri için influencer pazarlama stratejileri oluşturma ve ölçeklendirme konusunda uzmanlaşıyorum. Uzmanlığım karmaşık ürün hikayelerini eyleme dönüştürülebilir kreatör brieflerine çevirmek, büyük ölçekli influencer operasyonlarını koordine etmek ve gelişmiş veri ilişkilendirme modelleri geliştirmekte yatıyor. İster milyonlarca görüntülenmeye sahip yüksek baskılı lansmanlar yürütmek olsun, ister X ve Discord'da merkeziyetsiz topluluk desteği tasarlamak olsun, odak noktam her zaman stratejik uyum, net raporlama ve ölçülebilir büyümedir.",
-  aboutYears: "9",
-  aboutYearsLabel: "Yıllık Üst Düzey Deneyim",
+  aboutText: "İster perakende devleri için viral TikTok stratejileri yönetmek, ister dijital varlık ve blokzincir öncüleri için global kreatör etkinlikleri organize etmek olsun; kitleleri aktif ve sadık topluluklara dönüştüren uçtan uca pazarlama operasyonları tasarlıyorum.",
+  aboutYears: "10+",
+  aboutYearsLabel: "Yıl Influencer Pazarlaması ve Partnerlik Deneyimi",
   aboutCreators: "200+",
-  aboutCreatorsLabel: "Influencer İş Birliği",
+  aboutCreatorsLabel: "Partner, Üst Düzey Kreatör ve Global KOL Ağı",
   aboutExperience: "150+",
-  aboutExperienceLabel: "Marka İş Birliği",
+  aboutExperienceLabel: "Yüksek Etkili Kampanya, Lansman ve Marka İş Birliği",
   
   experienceTitle: "PROFESYONEL DENEYİM",
   worksTitle: "SEÇİLİ KAMPANYALAR VE ETKİ",
   skillsTitle: "TEMEL YETKİNLİKLER",
-  toolsTitle: "PLATFORMLAR VE ARAÇLAR",
-  toolsStack: "Araç Yığını",
+  toolsTitle: "İŞ ARAÇLARI",
+  toolsStack: "Araçlar",
   educationTitle: "EĞİTİM",
+  certificatesTitle: "PROFESYONEL SERTİFİKALAR VE UZMANLIKLAR",
+  certificatesSub: "Büyüme, Veri Analitiği, Proje Yönetimi ve Dijital Varlık / Blockchain mimarilerinde endüstri standardı uzmanlık sertifikaları.",
+  certificatesVerify: "Doğrula",
+  certificatesPdf: "PDF Görüntüle",
+  certificatesCourses: "Kurs",
+  certificatesFilterAll: "TÜMÜ",
   
-  ctaTitle: "TEMELİ KEŞFEDİN",
-  ctaBtn: "ŞİMDİ BAĞLANIN",
-  
-  contactFormTitle: "Ortak projeler, Web3 kampanyaları ve stratejik influencer ortaklıkları için iletişime geçin.",
-  contactNamePlaceholder: "Adınız Soyadınız",
-  contactEmailPlaceholder: "E-Posta Adresiniz",
-  contactMessagePlaceholder: "Nasıl yardımcı olabilirim?",
-  contactSubmitBtn: "MESAJI GÖNDER",
-  contactSuccessMsg: "Mesaj başarıyla iletildi. Birlikte inşa edelim.",
-  contactQuickTemplateLabel: "Hızlı Şablonlar",
-  contactQuickTemplate1: "Danışmanlık / Ortaklık",
-  contactQuickTemplate2: "Kreatör Kampanya Stratejisi",
-  contactQuickTemplate3: "Web3 Ekosistem Operasyonları"
+  ctaBtn: "İLETİŞİME GEÇ"
 };
+
+export const ENGLISH_PROFILE_FIT: ProfileFitItem[] = [
+  {
+    label: "CREATOR & KOL OPERATIONS",
+    title: "Creator & KOL Operations",
+    text: "End-to-end management of macro/micro influencers across local and global markets."
+  },
+  {
+    label: "DIGITAL ASSETS & BLOCKCHAIN",
+    title: "Digital Assets & Blockchain",
+    text: "Seamlessly translating complex digital assets into consumer-friendly brand experiences."
+  },
+  {
+    label: "GROWTH & CAMPAIGN EXECUTION",
+    title: "Growth & Campaign Execution",
+    text: "Directing creative narratives and production teams to deliver measurable, high-impact ROI."
+  }
+];
+
+export const TURKISH_PROFILE_FIT: ProfileFitItem[] = [
+  {
+    label: "KREATÖR & KOL OPERASYONLARI",
+    title: "Kreatör & KOL Operasyonları",
+    text: "Yerel ve küresel pazarlarda makro/mikro influencer'ların uçtan uca yönetimi."
+  },
+  {
+    label: "DİJİTAL VARLIKLAR & BLOCKCHAIN",
+    title: "Dijital Varlıklar & Blockchain",
+    text: "Karmaşık dijital varlıkları tüketici dostu marka deneyimlerine dönüştürme."
+  },
+  {
+    label: "BÜYÜME & KAMPANYA YÖNETİMİ",
+    title: "Büyüme & Kampanya Yönetimi",
+    text: "Ölçülebilir, yüksek etkili ROI sağlamak için yaratıcı anlatıları ve prodüksiyon ekiplerini yönetme."
+  }
+];
 
 export const ENGLISH_EXPERIENCE: JobExperience[] = [
   {
     period: "MAY 2025 - PRESENT",
-    tag: "CONSULTING",
-    company: "Independent / Contract",
-    role: "Creator Partnerships & Web3 Campaign Architect",
+    tag: "INDEPENDENT / CONTRACT",
+    company: "Independent Consultant",
+    role: "Community Operations & Creator Partnerships",
     bullets: [
-      "Directing strategic creator-led campaigns and community activations for digital asset platforms.",
-      "Architecting comprehensive multi-platform playbooks across X, Discord, Telegram, YouTube, TikTok, and Instagram, optimizing creator outreach and influencer ROI.",
-      "Spearheading the rapid adoption of emerging platforms, turning highly technical blockchain product narratives into easily digestible influencer briefs and high-volume user acquisition funnels.",
-      "Developing sophisticated data-attribution models to track influencer conversion rates, token integrations, and large-scale community sentiment shifts."
+      "Advise founders and marketing executives on bridging traditional brand strategies with community-led growth, influencer pipelines, and digital-asset ecosystems.",
+      "Build full-scale campaign playbooks, creator outreach frameworks, briefing structures, and KPI trackers across X, Discord, Telegram, YouTube, TikTok, and Instagram.",
+      "Coordinate top-tier creators, community management teams, and external agency partners to drive product education, user onboarding, and measurable acquisition.",
+      "Translate commercial brand objectives into executable creator shortlists, production workflows, and C-level executive performance reporting for both established consumer brands and digital asset / blockchain clients."
     ]
   },
   {
     period: "MAY 2024 - APR 2025",
-    tag: "GLOBAL OPS",
-    company: "Yuga Labs / Otherside",
-    role: "Community Operations & Creator Partnerships (Project-Based Contract)",
+    tag: "CONTRACT-BASED",
+    company: "Yuga Labs",
+    role: "Marketing Operations & Partnerships Consultant",
     bullets: [
-      "Played a key operational role during the highly anticipated Otherside Alpha launch on ApeChain (August 2024), monitoring community reaction and driving X/Discord engagement strategies.",
-      "Commanded a network of 50+ elite blockchain creators and KOLs across X and Discord, ensuring zero-error content approval flows and high-impact project announcements.",
-      "Market Research & Go-to-Market Strategy: Conducted comprehensive competitor analysis and market research for 'Otherside' metaverse expansions, including 'Legends of the Mara' and Koda integrations; prepared detailed target audience and market share reports to support strategic go-to-market initiatives.",
-      "On-Chain Data & Ecosystem Analytics: Monitored secondary market trading volumes, active wallet metrics, and floor price volatility across new projects and NFT collections; compiled and delivered weekly market overviews to empower executive decision-making processes.",
-      "Tokenomics & Marketing Alignment: Analyzed voting trends and user engagement metrics within the ApeCoin (APE) DAO ecosystem; developed analytical dashboards to measure and report the return on investment (ROI) of community-driven marketing campaigns.",
-      "Corporate Brand Partnerships & IP Research: Researched the integration potential of traditional Web2 brands into the Yuga Labs intellectual property (IP) ecosystem; evaluated the market impact of past major corporate collaborations to design opportunity mapping reports for prospective partnerships.",
-      "Community Sentiment & Trend Analysis: Delivered data-driven sentiment analysis reports tracking how macroeconomic fluctuations in the broader crypto and Web3 gaming markets impacted community engagement and brand perception across channels like Discord and Twitter."
+      "Executed digital asset and blockchain launch marketing workstreams for Yuga Labs initiatives, bringing together creator output, community signals, and market movement into executive-ready reporting.",
+      "Coordinated 50+ top-tier blockchain creators and KOLs, standardizing content approval workflows and creator activation processes across ApeChain Alpha launch operations and Project Dragon.",
+      "Drove Project Dragon / Otherside launch communications, aligning creator output and market context across product, marketing, and executive stakeholders; launch activity reached 1.2M+ impressions, 12.5K+ likes, and 2,264 active players.",
+      "Delivered weekly market intelligence reports analyzing on-chain indicators, audience/community metrics, and competitor activity, including consumer brand partnership opportunity research.",
+      "Developed go-to-market research, competitor analyses, and opportunity-mapping files for Yuga Labs' digital asset and metaverse ecosystems."
     ]
   },
   {
     period: "OCT 2022 - NOV 2023",
-    tag: "PARTNERSHIPS",
+    tag: "CONTRACT-BASED",
     company: "adidas Originals: Into the Metaverse",
-    role: "Community Operations & Creator Partnerships (Project-Based Contract)",
+    role: "Marketing Operations & Partnerships Consultant",
     bullets: [
-      "Managed community sentiment and intelligence reporting during the ecosystem migration to the 'ALTS by adidas' dynamic NFT collection, a project that sustained a floor price of ~0.59 ETH and drove over $600K in initial secondary volume.",
-      "Scaled official community moderation and maximized engagement by amplifying high-profile partnerships with the Bored Ape Yacht Club, Punks Comic, and GMoney. Drove awareness initiatives that contributed to the initial NFT drop selling out almost instantly. Educated community members on the collection's unique technical dimensions, highlighting the tokens' unrestricted transferability and immutable metadata.",
-      "Supported D2P (Digital-to-Physical) fulfillment logistics for the MENA and Türkiye regions, resolving customs and international shipping bottlenecks for Phase 2 physical merchandise claims.",
-      "Led high-impact X (Twitter) Spaces and Discord AMAs to drive secondary market adoption and empower the community in transparent decision-making processes for future releases. Articulated the project's long-term value proposition, clearly communicating realizable holder benefits including ongoing utility, exclusive rights, and physical rewards."
+      "Led digital product and audience launch communication during the migration to the ALTS by adidas dynamic NFT collection, translating complex mechanics (utility, transferability, metadata) into clear audience-facing messaging.",
+      "Managed Türkiye and MENA Phase 2 digital-to-physical claim workflows, resolving shipping, customs, and user-support bottlenecks across global merchandise fulfillment.",
+      "Moderated high-visibility live audience sessions and AMA formats covering secondary-market context, future drops, and ecosystem partners including Bored Ape Yacht Club and GMoney.",
+      "Operated across a premium digital product ecosystem with 6,755 holders, 72.7% brand loyalty, and $93M+ secondary-market volume, decoding holder context for clearer brand communication.",
+      "Aligned critical communication and escalation paths between brand, audience, and digital asset stakeholders during sensitive rollout periods."
     ]
   },
   {
     period: "MAR 2022 - SEP 2022",
-    tag: "WEB3 MARKETING",
+    tag: "PROJECT-BASED",
     company: "Metafluence",
-    role: "Influencer Marketing Manager (Project-Based Contract)",
+    role: "Influencer Marketing Manager",
     bullets: [
-      "Spearheaded the accelerated growth strategy during the metaverse platform's critical initial launch phase.",
-      "Scouted, strategically onboarded, and coordinated a master roster of 80+ top-tier Turkish creators and crypto-KOLs across TikTok, Instagram, and X.",
-      "Directed a rapid-growth influencer strategy during the platform's critical post-IDO expansion phase (Q2/Q3 2022), securing a 100% sold-out TIBIT private-sale that generated 305 transactions and raised $50K USD.",
-      "Established fully automated creator briefs, tracking dashboards, and KPI reporting tools that were later adopted as the global company standard for PR distributions."
+      "Scouted, negotiated with, and onboarded 80+ top Turkish creators and crypto KOLs during the platform's launch and post-IDO expansion phase.",
+      "Standardized PR and influencer marketing operations by building automated creator briefs, KPI dashboards, and streamlined campaign reporting workflows.",
+      "Executed the 15-influencer TIBIT private-sale activation end to end, connecting creator output with launch-stage acquisition goals; campaign supported 305 transactions and $50K in seed funding.",
+      "Designed a repeatable Türkiye creator acquisition and activation system linking scouting, negotiation, briefing, KPI tracking, and reporting.",
+      "Mapped crypto-native audience segments, KOL categories, and trust-building content angles to strengthen acquisition and launch communication."
     ]
   },
   {
     period: "SEP 2021 - FEB 2022",
-    tag: "AGENCY",
-    company: "2Gether Social",
-    role: "Influencer Marketing Manager",
+    tag: "FULL-TIME",
+    company: "2Gether",
+    role: "Social Influencer Marketing Manager",
     bullets: [
-      "Acted as the senior architect for end-to-end creator campaigns at a top-tier full-service agency, mastering discovery, complex contract negotiations, and live execution.",
-      "Directed large-scale, multi-channel campaigns for major household accounts including Franke, Alix Avien, and LC Waikiki, exceeding target KPIs by over 150%.",
-      "Pioneered data-first creator selection models across fashion, lifestyle, and FMCG verticals, heavily optimizing the brand's creator mix using advanced engagement and audience demographic tools.",
-      "Presented executive-level performance reports, leveraging advanced analytics to prove ROI, lower customer acquisition cost (CAC), and secure recurring client budgets."
+      "Owned end-to-end creator campaign operations for Franke, Alix Avien, and LC Waikiki, covering creator discovery, budget negotiation, briefing, QA approvals, and publishing.",
+      "Expanded the agency's creator roster across fashion, lifestyle, and FMCG sectors, using engagement and audience-fit analytics to improve portfolio quality.",
+      "Produced C-level performance reports for brand teams, connecting campaign ROI, CAC impact, and recurring budget rationale.",
+      "Standardized briefing, content review, and reporting expectations across creators and brand stakeholders, improving campaign handoff quality."
     ]
   },
   {
     period: "JUL 2020 - AUG 2021",
-    tag: "MARKETING",
+    tag: "FULL-TIME",
     company: "H2O United",
     role: "Projects & Influencer Marketing Manager",
     bullets: [
-      "Orchestrated comprehensive full-cycle creator campaigns and PR workstreams for corporate titans: DeFacto, Koton, Eti, Reeder, Realme, Casper, and Migros.",
-      "Engineered the historically viral Migros New Year TikTok campaign from scratch. Exceeded historical benchmarks by generating over 3.8M+ views and 450K+ organic engagements within an critical 48-hour launch window.",
-      "Commanded high-impact gaming ecosystem activations for Zula (Online Creator Series) and Supercell (PR Seeding Boxes & Brawl Stars launch), driving high-reach community engagement.",
-      "Mastered extremely fast-paced creative sprints, managing multi-million lira production budgets and delivering deep post-campaign analytical reports demonstrating direct sales attribution."
+      "Orchestrated concurrent high-pressure influencer campaigns, PR distributions, and production workflows for DeFacto, Koton, ETI, Migros, Reeder, Realme, and Casper.",
+      "Delivered the Migros #ReyonSavaşları TikTok campaign, coordinating 12 top-tier creators and driving 6.7M views, 3.4M comments, and 74% engagement, launching the brand's TikTok presence with widespread industry PR coverage.",
+      "Executed major creator-led activations: DeFacto #HavalıveRahat (3.1M views), Koton #EtiketleriÇıkar (6.3M views, 630K likes), and ETI #eticinlegülümse (15.4M views, 685K likes).",
+      "Directed cross-functional production teams, vendor coordination, client approvals, and large campaign budgets across parallel FMCG, fashion, and retail operations.",
+      "Planned creative sprints, budgets, and timelines for fast-moving retail and FMCG campaigns, generating 450K+ organic engagements within 48-hour windows."
     ]
   },
   {
-    period: "MAY 2016 - FEB 2020",
-    tag: "AGENCY",
+    period: "MAY 2015 - FEB 2020",
+    tag: "FULL-TIME",
     company: "TEM Agency",
-    role: "Influencer Marketing Manager (Pioneer)",
+    role: "Influencer Marketing Manager",
     bullets: [
-      "As one of the earliest official Influencer Marketing Managers in Turkey, established the foundational blueprints for talent management and gaming influencer marketing.",
-      "Single-handedly built and managed an exclusive talent network of 100+ active creators, executing flagship campaigns for global giants ASUS, AMD, Red Bull, and HP OMEN.",
-      "Conceptualized and executed the viral AMD Türkiye equipment sponsorship for Recep Dursun, landing comprehensive national press coverage and unprecedented organic community love.",
-      "Orchestrated large-scale physical-to-digital events like the OMEN by HP × Teknosa CS:GO Challenge at Istanbul Cevahir, coordinating mega-creators (zeoNNN, MervanT) and pulling record physical crowds.",
-      "Brokered cutting-edge, multi-million lira brand partnerships for an elite portfolio including McDonald's, Nescafé, Gillette, MediaMarkt, Vodafone, Xiaomi, and GearBest.",
-      "Mastered 360-degree production pipelines, simultaneously managing 20-influencer high-reach hardware launches, 6-person internal media crews, and demanding global brand stakeholders."
+      "Joined as a founding member (within the agency's first 4 employees) and built the influencer marketing function from the ground up, scaling the creator network to 100+ active profiles across gaming, technology, and lifestyle.",
+      "Directed 360-degree event and production programs for global technology brands including ASUS, AMD, HP OMEN, and Red Bull, coordinating creator teams, production crews, and global stakeholders.",
+      "Orchestrated the ASUS ROG Party 2019 activation achieving 15M impressions and 3.5M views, aligning sponsor goals, creator participation, and event production.",
+      "Managed HP OMEN gaming creator activations including the LoL Challenge (1.8M views, 162K likes, 1,200 participants) and oversaw creator mechanics, live audience participation, and campaign reporting.",
+      "Produced Red Bull gaming and esports activations including GIST 2020, MEO Season 2 (15K+ registrants, 30 countries), Flick @ GIST, and CS:GO special broadcasts.",
+      "Controlled large-scale campaign and event budgets, balancing sponsor priorities, creator deliverables, venue execution, and post-event reporting."
     ]
   }
 ];
 
 export const TURKISH_EXPERIENCE: JobExperience[] = [
   {
-    period: "MAYIS 2025 - GÜNCEL",
-    tag: "DANIŞMANLIK",
-    company: "Bağımsız / Sözleşmeli",
-    role: "İçerik Üretici Ortaklıkları ve Web3 Kampanya Mimarı",
+    period: "MAYIS 2025 - GÜNÜMÜZ",
+    tag: "BAĞIMSIZ / SÖZLEŞMELİ",
+    company: "Bağımsız Danışmanlık",
+    role: "Topluluk Operasyonları & Kreatör Ortaklıkları Danışmanı",
     bullets: [
-      "Dijital varlık platformları için stratejik içerik üreticisi odaklı kampanyaları ve topluluk aktivasyonlarını yönetme.",
-      "X, Discord, Telegram, YouTube, TikTok ve Instagram genelinde ROI odaklı, çok kanallı kapsamlı kampanya stratejileri ve içerik üreticisi kılavuzları tasarlama.",
-      "Gelişmekte olan teknolojileri çevik bir şekilde öğrenip, son derece teknik blokzincir ürün vizyonlarını kolay anlaşılır influencer brief'lerine ve yüksek hacimli kullanıcı edinimi hunilerine dönüştürme.",
-      "İçerik üreticisi dönüşüm oranlarını, token entegrasyonlarını ve büyük ölçekli topluluk duyarlılığı değişimlerini izlemek için sofistike veri-attribution (ilişkilendirme) modelleri geliştirme."
+      "Şirket kurucularına ve pazarlama yöneticilerine geleneksel marka stratejilerini topluluk odaklı büyüme, kreatör iş birlikleri ve dijital varlık ekosistemleriyle entegre etme konusunda stratejik danışmanlık sunmaktadır.",
+      "X, Discord, Telegram, YouTube, TikTok ve Instagram kanallarında uçtan uca kampanya playbook'ları, kreatör erişim sistemleri, briefleme ve KPI takip altyapıları kurmaktadır.",
+      "Ürün lansmanı, kullanıcı edinimi ve kitle sadakati sağlamak için üst düzey kreatörleri, topluluk ekiplerini ve harici ajans paydaşlarını senkronize şekilde yönetmektedir.",
+      "Kurumsal hedefleri; uygulanabilir kreatör listelerine, içerik iş akışlarına, bütçe optimizasyonuna ve C-seviye yönetici raporlamasına dönüştürmektedir."
     ]
   },
   {
     period: "MAYIS 2024 - NİSAN 2025",
-    tag: "KÜRESEL OPS",
-    company: "Yuga Labs / Otherside",
-    role: "Topluluk Operasyonları ve İçerik Üretici Ortaklıkları (Proje Bazlı)",
+    tag: "KONTRAT BAZLI",
+    company: "Yuga Labs",
+    role: "Pazarlama Operasyonları ve Ortaklıklar Danışmanı",
     bullets: [
-      "Ağustos 2024'teki merakla beklenen Otherside Alpha'nın ApeChain üzerindeki lansmanında kritik bir operasyonel rol üstlenerek topluluk tepkilerini izleme ve X/Discord etkileşim stratejilerini yönetme.",
-      "X ve Discord'da 50'den fazla seçkin blokzincir KOL'u ve içerik üreticisinden oluşan bir ağı yöneterek, sıfır hatalı içerik onay akışları ve yüksek etkili proje duyuruları sağlama.",
-      "Pazar Araştırması ve Pazara Çıkış Stratejisi: 'Otherside' metaverse genişletmeleri (Legends of the Mara ve Koda entegrasyonları dahil) için kapsamlı rakip analizi ve pazar araştırması yürütme; stratejik pazara çıkış girişimlerini desteklemek için ayrıntılı hedef kitle ve pazar payı raporları hazırlama.",
-      "Zincir Üstü (On-Chain) Veri ve Ekosistem Analitiği: Yeni projeler ve NFT koleksiyonlarındaki ikincil piyasa işlem hacimlerini, aktif cüzdan metriklerini ve taban fiyat volatilitesini izleme; üst yönetimin karar alma süreçlerini güçlendirmek için haftalık piyasa özetleri derleme ve sunma.",
-      "Tokenomics ve Pazarlama Uyumu: ApeCoin (APE) DAO ekosistemindeki oylama eğilimlerini ve kullanıcı etkileşim metriklerini analiz etme; topluluk odaklı pazarlama kampanyalarının yatırım getirisini (ROI) ölçmek ve raporlamak için analitik paneller (dashboards) geliştirme.",
-      "Kurumsal Marka Ortaklıkları ve IP Araştırması: Geleneksel Web2 markalarının Yuga Labs fikri mülkiyet (IP) ekosistemine entegrasyon potansiyelini araştırma; potansiyel ortaklıklar için fırsat haritalandırma raporları tasarlamak üzere geçmişteki büyük kurumsal işbirliklerinin pazar etkisini değerlendirme.",
-      "Topluluk Duyarlılığı ve Trend Analizi: Geniş kripto ve Web3 oyun pazarlarındaki makroekonomik dalgalanmaların, Discord ve Twitter gibi kanallarda topluluk etkileşimini ve marka algısını nasıl etkilediğini izleyen, veriye dayalı duyarlılık analizi raporları sunma."
+      "Yuga Labs girişimleri için dijital varlık ve blockchain lansman pazarlaması iş akışlarını yürüttü; kreatör çıktılarını, topluluk sinyallerini ve pazar hareketlerini yönetici seviyesinde raporlamaya dönüştürdü.",
+      "ApeChain Alpha lansman operasyonları ve Project Dragon genelinde 50'den fazla üst düzey blockchain kreatörünü ve KOL'u koordine ederek içerik onay iş akışlarını ve aktivasyon süreçlerini standartlaştırdı.",
+      "Project Dragon / Otherside lansman iletişimlerini yönetti; ürün, pazarlama ve üst yönetim paydaşları arasında kreatör çıktılarını ve pazar bağlamını hizaladı. Lansman aktivitesi 1.2M+ gösterim, 12.5K+ beğeni ve 2.264 aktif oyuncuya ulaştı.",
+      "On-chain göstergeleri, kitle/topluluk metriklerini ve rakip aktivitelerini analiz eden haftalık pazar istihbarat raporları hazırladı ve tüketici markası ortaklığı fırsat araştırmalarını sundu.",
+      "Yuga Labs'ın dijital varlık ve metaverse ekosistemleri için go-to-market araştırmaları, rakip analizleri ve fırsat haritalama dosyaları geliştirdi."
     ]
   },
   {
     period: "EKİM 2022 - KASIM 2023",
-    tag: "PARTNERLİK",
+    tag: "KONTRAT BAZLI",
     company: "adidas Originals: Into the Metaverse",
-    role: "Topluluk Operasyonları ve İçerik Üretici Ortaklıkları (Proje Bazlı)",
+    role: "Pazarlama Operasyonları ve Ortaklıklar Danışmanı",
     bullets: [
-      "'ALTS by adidas' dinamik NFT koleksiyonuna ekosistem geçişi sırasında topluluk duyarlılığını ve istihbarat raporlamasını yönetti. Bu geçiş süreci, ~0.59 ETH taban fiyatını koruyan ve başlangıçta 600 Bin Doların üzerinde ikincil piyasa hacmi yaratan bir projedir.",
-      "Bored Ape Yacht Club, Punks Comic ve GMoney ile yapılan yüksek profilli ortaklıkları güçlendirerek resmi topluluk moderasyonunu ölçeklendirdi ve etkileşimi en üst düzeye çıkardı. İlk NFT dropunun neredeyse anında tükenmesine katkıda bulunan farkındalık girişimlerini yönlendirdi. Topluluk üyelerini koleksiyonun benzersiz teknik boyutları konusunda eğiterek tokenlerin kısıtlamasız aktarılabilirliğini ve değiştirilemez meta verilerini vurguladı.",
-      "MENA ve Türkiye bölgeleri için D2P (Dijitalden Fiziksele) ürün tedarik lojistiğini destekleyerek, Phase 2 fiziksel ürün taleplerinde gümrük ve uluslararası nakliye darboğazlarını çözdü.",
-      "İkincil piyasa benimsenmesini yönlendirmek ve topluluğu gelecekteki sürümler için şeffaf karar alma süreçlerinde güçlendirmek amacıyla yüksek etkili X (Twitter) Spaces ve Discord AMA'lerini yönetti. Devam eden fayda, özel haklar ve fiziksel ödüller dahil olmak üzere gerçekleşebilir sahip avantajlarını açıkça ileterek projenin uzun vadeli değer önerisini ifade etti."
+      "ALTS by adidas dinamik NFT koleksiyonuna geçiş sürecinde dijital ürün ve kitle lansman iletişimini yönetti; karmaşık mekanikleri (fayda, transfer edilebilirlik, metadata) kitleye yönelik net mesajlara dönüştürdü.",
+      "Global ürün teslimatında kargo, gümrük ve kullanıcı desteği darboğazlarını çözerek Türkiye ve MENA Faz 2 dijitalden fiziksele talep iş akışlarını yönetti.",
+      "İkincil piyasa bağlamını, gelecek drop'ları ve Bored Ape Yacht Club ile GMoney dahil ekosistem ortaklarını kapsayan yüksek görünürlüklü canlı oturumları ve AMA formatlarını modere etti.",
+      "6.755 holder, %72,7 marka sadakati ve 93M$+ ikincil piyasa hacmine sahip premium bir dijital ürün ekosisteminde çalışarak holder bağlamını marka iletişimi için çözümledi.",
+      "Hassas lansman dönemlerinde marka, kitle ve dijital varlık paydaşları arasındaki kritik iletişim ve eskalasyon yollarını hizaladı."
     ]
   },
   {
     period: "MART 2022 - EYLÜL 2022",
-    tag: "WEB3 PAZARLAMA",
+    tag: "PROJE BAZLI",
     company: "Metafluence",
-    role: "Influencer Pazarlama Müdürü (Proje Bazlı)",
+    role: "Influencer Marketing Manager",
     bullets: [
-      "Metaverse platformunun kritik lansman aşamasında Türkiye'deki hızlandırılmış büyüme stratejisine öncülük etme.",
-      "TikTok, Instagram ve X mecralarında 80'den fazla üst düzey Türk içerik üreticisi ve kripto KOL'unu hızla keşfedip, projeye dahil etme ve koordine etme.",
-      "Platformun kritik IDO sonrası genişleme evresinde (2022 2. ve 3. çeyrek) hızlı büyüme odaklı influencer stratejisini yöneterek; 305 işlemle sonuçlanan ve 50.000 ABD Doları fon toplayan %100 kapalı gişe TIBIT özel satışını sağlama.",
-      "Daha sonra küresel PR dağıtımları için şirket standardı olarak benimsenen tam otomatik içerik üretici briefleri, takip gösterge panelleri (dashboard) ve KPI raporlama araçları kurma."
+      "Platformun lansmanı ve IDO sonrası genişleme aşamasında 80'den fazla üst düzey Türk kreatörü ve kripto KOL'u keşfetti, müzakereleri yürüttü ve bünyeye kattı.",
+      "Otomatik kreatör briefleri, KPI panelleri ve akıcı kampanya raporlama iş akışları oluşturarak PR ve influencer marketing operasyonlarını standartlaştırdı.",
+      "15 influencer'lı TIBIT özel satış aktivasyonunu uçtan uca yürüterek kreatör çıktılarını lansman aşaması edinim hedefleriyle bağladı; kampanya 305 işlemi ve 50 bin dolarlık tohum fonlamasını destekledi.",
+      "Keşif, müzakere, briefleme, KPI takibi ve raporlamayı birbirine bağlayan tekrarlanabilir bir Türkiye kreatör edinimi ve aktivasyon sistemi tasarladı.",
+      "Edinimi ve lansman iletişimini güçlendirmek için kriptoya özgü kitle segmentlerini, KOL kategorilerini ve güven oluşturan içerik açılarını haritalandırdı."
     ]
   },
   {
     period: "EYLÜL 2021 - ŞUBAT 2022",
-    tag: "AJANS",
-    company: "2Gether Social",
-    role: "Influencer Pazarlama Müdürü",
+    tag: "TAM ZAMANLI",
+    company: "2Gether",
+    role: "Sosyal Influencer Marketing Manager",
     bullets: [
-      "Tam hizmet veren üst düzey bir ajansta uçtan uca kreatör kampanyalarının kıdemli mimarı olarak görev yapma; keşif, karmaşık sözleşme müzakereleri ve canlı yayın süreçlerini ustalıkla yönetme.",
-      "Franke, Alix Avien ve LC Waikiki gibi büyük markalar için büyük ölçekli, çok kanallı kampanyaları yönetme ve hedef KPI'ları %150'nin üzerinde aşma.",
-      "Moda, yaşam tarzı ve FMCG dikeylerinde veri odaklı içerik üreticisi seçim modellerine öncülük etme, gelişmiş etkileşim ve kitle demografi araçlarını kullanarak markanın influencer karmasını optimize etme.",
-      "Gelişmiş analitik araçlarından yararlanarak yatırım getirisini (ROI) kanıtlayan, müşteri edinme maliyetini (CAC) düşüren ve tekrarlayan müşteri bütçeleri güvence altına alan üst düzey performans raporları sunma."
+      "Franke, Alix Avien ve LC Waikiki için kreatör keşfi, bütçe müzakeresi, briefleme, QA onayları ve yayınlamayı kapsayan uçtan uca kreatör kampanya operasyonlarını yönetti.",
+      "Portföy kalitesini artırmak için etkileşim ve kitle uyum analitiğini kullanarak ajansın moda, yaşam tarzı ve FMCG sektörlerindeki kreatör kadrosunu genişletti.",
+      "Marka ekipleri için kampanya ROI'si, CAC etkisi ve yinelenen bütçe gerekçesini birbirine bağlayan C-seviye performans raporları hazırladı.",
+      "Kreatörler ve marka paydaşları arasında briefleme, içerik incelemesi ve raporlama beklentilerini standartlaştırarak kampanya devir kalitesini artırdı."
     ]
   },
   {
     period: "TEMMUZ 2020 - AĞUSTOS 2021",
-    tag: "PAZARLAMA",
+    tag: "TAM ZAMANLI",
     company: "H2O United",
-    role: "Projeler ve Influencer Pazarlama Müdürü",
+    role: "Projeler ve Influencer Marketing Manager",
     bullets: [
-      "DeFacto, Koton, Eti, Reeder, Realme, Casper ve Migros gibi kurumsal devler için kapsamlı tam döngülü influencer kampanyaları ve PR iş akışlarını organize etme.",
-      "Tarihi bir viraliteye ulaşan Migros Yılbaşı TikTok kampanyasını sıfırdan tasarlama; kritik 48 saatlik lansman sürecinde 3,8 milyondan fazla izlenme ve 450 binden fazla organik etkileşim yaratarak tarihsel metrikleri aşma.",
-      "Zula (Yaratıcı Seri Aktivasyonları) ve Supercell (PR Seeding ve Brawl Stars lansmanı) için yüksek etkili oyun ekosistemi aktivasyonlarını yöneterek yüksek erişimli topluluk etkileşimi yaratma.",
-      "Çok hızlı tempoda ilerleyen kreatif süreçlere hakim olma, milyonlarca liralık prodüksiyon bütçelerini yönetme ve doğrudan satış etkisini gösteren derinlemesine kampanya sonrası analitik raporlar sunma."
+      "DeFacto, Koton, ETI, Migros, Reeder, Realme ve Casper için eşzamanlı yüksek tempolu influencer kampanyalarını, PR dağıtımlarını ve prodüksiyon iş akışlarını orkestre etti.",
+      "12 üst düzey kreatörü koordine ederek 6.7M görüntülenme, 3.4M yorum ve %74 etkileşim sağlayan Migros #ReyonSavaşları TikTok kampanyasını yönetti; markanın TikTok varlığını sektörde geniş PR yankısıyla başlattı.",
+      "Büyük kreatör odaklı aktivasyonları yürüttü: DeFacto #HavalıveRahat (3.1M izlenme), Koton #EtiketleriÇıkar (6.3M izlenme, 630K beğeni) ve ETI #eticinlegülümse (15.4M izlenme, 685K beğeni).",
+      "Paralel FMCG, moda ve perakende operasyonlarında çapraz fonksiyonlu prodüksiyon ekiplerini, tedarikçi koordinasyonunu, müşteri onaylarını ve büyük kampanya bütçelerini yönetti.",
+      "Hızlı tüketim ve perakende kampanyaları için 48 saatlik pencerelerde 450 binden fazla organik etkileşim üreten kreatif sprintler, bütçeler ve zaman çizelgeleri planladı."
     ]
   },
   {
-    period: "MAYIS 2016 - ŞUBAT 2020",
-    tag: "AJANS",
+    period: "MAYIS 2015 - ŞUBAT 2020",
+    tag: "TAM ZAMANLI",
     company: "TEM Agency",
-    role: "Influencer Pazarlama Müdürü (Sektör Öncüsü)",
+    role: "Influencer Marketing Manager",
     bullets: [
-      "Türkiye'deki ilk resmi Influencer Pazarlama Yöneticilerinden biri olarak, yetenek yönetimi ve oyun influencer pazarlaması için temel stratejileri ve kurumsal standartları oluşturma.",
-      "100'den fazla aktif içerik üreticisinden oluşan özel bir yetenek ağını tek başına kurup yöneterek; ASUS, AMD, Red Bull ve HP OMEN gibi küresel devler için amiral gemisi kampanyalar gerçekleştirme.",
-      "Recep Dursun için AMD Türkiye ekipman sponsorluğu kampanyasını kurgulayıp yürüterek ulusal basında büyük yankı uyandırma ve benzersiz bir organik topluluk sevgisi kazanma.",
-      "İstanbul Cevahir'deki OMEN by HP × Teknosa CS:GO Challenge gibi büyük ölçekli fiziksel ve dijital entegre etkinlikleri (zeoNNN, MervanT gibi mega kreatörlerle) yöneterek yüksek katılımlı kitleler toplama.",
-      "McDonald's, Nescafé, Gillette, MediaMarkt, Vodafone, Xiaomi ve GearBest gibi seçkin bir portföy için son teknoloji, milyonlarca liralık marka ortaklıklarına aracılık etme.",
-      "360 derece yapım süreçlerinde ustalaşma; 20 influencer'ın yer aldığı yüksek erişimli donanım lansmanlarını, 6 kişilik dahili medya ekiplerini ve zorlu küresel marka paydaşlarını aynı anda kusursuz yönetme."
+      "Ajansın ilk 4 çalışanından biri (kurucu üye) olarak katıldı ve influencer marketing departmanını sıfırdan kurarak kreatör ağını oyun, teknoloji ve yaşam tarzında 100'den fazla aktif profile ölçeklendirdi.",
+      "ASUS, AMD, HP OMEN ve Red Bull dahil olmak üzere küresel teknoloji markaları için kreatör ekiplerini, prodüksiyon kadrolarını ve küresel paydaşları koordine ederek 360 derece etkinlik ve prodüksiyon programlarını yönetti.",
+      "Sponsor hedeflerini, kreatör katılımını ve etkinlik prodüksiyonunu hizalayarak 15M gösterim ve 3.5M izlenme elde eden ASUS ROG Party 2019 aktivasyonunu orkestre etti.",
+      "LoL Challenge (1.8M izlenme, 162K beğeni, 1.200 katılımcı) dahil HP OMEN oyun kreatör aktivasyonlarını yönetti; mekanikleri, canlı izleyici katılımını ve kampanya raporlamasını koordine etti.",
+      "GIST 2020, MEO Sezon 2 (15 bin+ kayıt, 30 ülke), Flick @ GIST ve CS:GO özel yayınları dahil Red Bull oyun ve espor aktivasyonlarının prodüksiyonunu gerçekleştirdi.",
+      "Sponsor önceliklerini, kreatör teslimatlarını, mekan uygulamasını ve etkinlik sonrası raporlamayı dengeleyerek büyük ölçekli kampanya ve etkinlik bütçelerini kontrol etti."
     ]
   }
 ];
@@ -284,8 +314,16 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "6.7M VIEWS | 3.4M COMMENTS | 74% ENGAGEMENT",
+    role: "Engineered end-to-end influencer campaigns and TikTok strategies, driving massive Gen Z engagement and viral brand visibility.",
+    challenge: "Migros needed to launch its organic presence on TikTok and engage Gen-Z shoppers without traditional retail ad fatigue.",
+    action: "Orchestrated 12 top-tier creators for the #ReyonSavaşları challenge, pairing interactive grocery store mechanics with PR distribution.",
     image: "https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2021/02/23/thumbs_b_c_cb938ae1782baa1b8db45f6905f30112.jpg",
-    links: [{ "url": "https://www.youtube.com/watch?v=I8G9adrIyVM", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6923115888245869826", "platform": "TikTok", "label": "Main Campaign Video" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6922742736273657090", "platform": "TikTok", "label": "Teaser" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6923115583168990466", "platform": "TikTok", "label": "Creator Video" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6923116215221128449", "platform": "TikTok", "label": "Creator Video" }
+    ]
   },
   {
     id: "adidas-originals",
@@ -294,6 +332,9 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "6,755 HOLDERS | 72.7% BRAND LOYALTY | $93M+",
+    role: "Orchestrated high-stakes global KOL invitations and managed community communications for pioneering digital asset ecosystems.",
+    challenge: "adidas Originals required seamless community communication and physical merch claim execution during the high-stakes ALTS collection rollout.",
+    action: "Led holder messaging, moderated executive AMAs with BAYC/GMoney partners, and resolved Türkiye & MENA physical merchandise fulfillment bottlenecks.",
     image: "https://i.ytimg.com/vi/EVQ6fPrwi0M/maxresdefault.jpg",
     links: [{ "url": "https://news.adidas.com/originals/virtual-gear-for-new-realities--adidas-originals-launches-inaugural-nft-wearables-collection/s/b9c13f73-b7b4-412f-9e19-f8a4d9781621", "platform": "", "label": "" }]
   },
@@ -304,8 +345,15 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "6.3M VIEWS | 630K LIKES | 24K COMMENTS",
+    role: "Engineered end-to-end influencer campaigns and TikTok strategies, driving massive Gen Z engagement and viral brand visibility.",
+    challenge: "Koton aimed to drive massive youth participation around back-to-school fashion trends across social feeds.",
+    action: "Engineered the #EtiketleriÇıkar challenge, aligning leading TikTok & YouTube creators around self-expression and viral styling themes.",
     image: "https://i.ytimg.com/vi/mqi0DQ8OnWs/maxresdefault.jpg",
-    links: [{ "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs", "platform": "YouTube", "label": "Campaign Film" },
+      { "url": "https://www.tiktok.com/@kotoncom/video/6892675548670184705", "platform": "TikTok", "label": "Brand TikTok" },
+      { "url": "https://www.tiktok.com/@cellat36/video/6894306658910997761", "platform": "TikTok", "label": "Creator TikTok" }
+    ]
   },
   {
     id: "redbull-events",
@@ -313,9 +361,16 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    kpi: "2.4M IMPRESSIONS | 650K VIEWS | 1.2M REACH",
-    image: "https://img.redbull.com/images/c_crop,w_6291,h_3146,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2020/1/30/zz4ny7x92bs3gqthtgxl/gist-2020",
-    links: [{ "url": "https://www.redbull.com/tr-tr/events/gaming-istanbul", "platform": "", "label": "" }]
+    kpi: "4-DAY ACTIVATION | 5 CREATORS | 10H CREATOR PROGRAM",
+    role: "Led VIP talent management and on-site operations for major hardware and esports events.",
+    challenge: "Red Bull wanted to maximize its offline-to-online gaming presence at Gaming Istanbul (GIST 2020) through live competitive creator stages.",
+    action: "Directed 360° event production, managing creator rosters, live tournament broadcasts, and audience engagement schedules.",
+    image: "/images/references/redbull-meo-season-2.jpg",
+    links: [
+      { "url": "https://www.redbull.com/tr-tr/gist-gaming-istanbul-2020-basladi", "platform": "Web", "label": "GIST 2020 Article" },
+      { "url": "https://www.redbull.com/tr-tr/events/red-bull-oyun-meydani-gist-2020", "platform": "Web", "label": "Oyun Meydanı" },
+      { "url": "https://www.youtube.com/watch?v=EBqgPNVCshw", "platform": "YouTube", "label": "Creator Event Content" }
+    ]
   },
   {
     id: "defacto-tiktok",
@@ -324,28 +379,61 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "3.1M VIEWS | 320K LIKES | 17K COMMENTS",
+    role: "Engineered end-to-end influencer campaigns and TikTok strategies, driving massive Gen Z engagement and viral brand visibility.",
+    challenge: "DeFacto needed to establish viral momentum for its new comfort-wear apparel line and dominate TikTok feed trends.",
+    action: "Produced a multi-creator video activation series (#HavalıveRahat) with rapid 48-hour turnarounds and performance optimization.",
     image: "https://www.marketingturkiye.com.tr/wp-content/uploads/2020/09/shutterstock_image-82.jpg.webp",
-    links: [{ "url": "https://www.tiktok.com/@defacto/video/6875222921502166273", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.tiktok.com/@defacto/video/6889065973509360897", "platform": "TikTok", "label": "Creator TikTok Series" },
+      { "url": "https://www.tiktok.com/@defacto/video/6893871760693873922", "platform": "TikTok", "label": "Creator TikTok Series" },
+      { "url": "https://www.tiktok.com/@defacto/video/6894255405959023873", "platform": "TikTok", "label": "Creator TikTok Series" },
+      { "url": "https://www.tiktok.com/@defacto/video/6906890715075267842", "platform": "TikTok", "label": "Yılbaşı/Homewear" }
+    ]
   },
   {
     id: "yuga-labs-dragon",
-    title: "Yuga Labs - Project Dragon Event",
-    subtitle: "",
+    title: "Yuga Labs - Project Dragon",
+    subtitle: "Otherside",
     category: "",
     tags: [],
     kpi: "1.2M IMPRESSIONS | 12.5K+ LIKES | 2264 PLAYERS",
-    image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
-    links: [{ "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/", "platform": "", "label": "" }]
+    role: "Orchestrated high-stakes global KOL invitations and managed community communications for pioneering digital asset ecosystems.",
+    challenge: "Yuga Labs required synchronized creator alignment and real-time sentiment tracking for the Otherside Project Dragon global playtest.",
+    action: "Coordinated 50+ digital asset & gaming KOLs, standardized content approval pipelines, and delivered executive market intelligence to executive teams.",
+    image: "/images/yuga-labs-project-dragon.png",
+    links: [
+      { "url": "https://x.com/OthersideMeta/status/1819071193603101132", "platform": "X", "label": "Project Dragon" },
+      { "url": "https://playtoearn.com/news/otherside-unveils-project-dragon-first-battle-to-kick-off-on-july-27th", "platform": "Web", "label": "Otherside Article" }
+    ]
   },
   {
     id: "eti-challenges",
-    title: "Eti - #eticinlegülümse",
+    title: "ETİ - #eticinlegülümse",
     subtitle: "",
     category: "",
     tags: [],
     kpi: "15.4M VIEWS | 685K LIKES | 9K COMMENTS",
+    role: "Engineered end-to-end influencer campaigns and TikTok strategies, driving massive Gen Z engagement and viral brand visibility.",
+    challenge: "ETİ needed a high-energy consumer participation campaign to reignite emotional engagement around the iconic Eti Cin snack brand.",
+    action: "Launched the #eticinlegülümse TikTok smile challenge, partnering with leading creators to spark nationwide organic user-generated content.",
     image: "https://i.ytimg.com/vi/5s7d7No7WsM/maxresdefault.jpg",
-    links: [{ "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810?lang=tr-TR", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810", "platform": "TikTok", "label": "Campaign Video" },
+      { "url": "https://www.tiktok.com/tag/eticinleg%C3%BCl%C3%BCmse", "platform": "TikTok", "label": "#eticinlegülümse" }
+    ]
+  },
+  {
+    id: "asus-rog-party",
+    title: "ASUS - ROG Party 2019",
+    subtitle: "Gaming event activation",
+    category: "",
+    tags: [],
+    kpi: "15M IMPRESSIONS | 3.5M VIEWS | 150+ PARTICIPANTS",
+    role: "Led VIP talent management and on-site operations for major hardware and esports events.",
+    challenge: "ASUS ROG sought to host an unforgettable experiential party in Istanbul connecting top tech influencers, pro gamers, and sponsors.",
+    action: "Directed 360° event production, managing creator rosters, live tournament broadcasts, and partner brand integrations.",
+    image: "https://img.youtube.com/vi/I8cnf5bYTTQ/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=I8cnf5bYTTQ", "platform": "YouTube", "label": "ASUS ROG Partisi 2019" }]
   },
   {
     id: "hp-omen",
@@ -354,28 +442,262 @@ export const ENGLISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "1.8M VIEWS | 162K LIKES | 1200 PARTICIPANTS",
-    image: "https://cdn.imagevisit.com/2026/07/14/509855670_3629034160560724_3729600696970880300_n.jpg",
-    links: [{ "url": "https://www.youtube.com/watch?v=R9K1xL2hX9g", "platform": "", "label": "" }]
+    role: "Led VIP talent management and on-site operations for major hardware and esports events.",
+    challenge: "HP OMEN sought to strengthen its hardware authority in Turkey through an authentic esports tournament format.",
+    action: "Engineered the HP OMEN LoL Challenge, coordinating streamer captains, live tournament broadcasts, and interactive spectator mechanics.",
+    image: "https://i.ytimg.com/vi/I8G9adrIyVM/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=I8G9adrIyVM", "platform": "YouTube", "label": "League of Legends Challenge" }]
+  },
+  {
+    id: "redbull-meo-season-2",
+    title: "Red Bull - MEO 2. Sezon",
+    subtitle: "2019 live gaming broadcast",
+    category: "",
+    tags: [],
+    kpi: "15K+ REGISTRANTS | 30 COUNTRIES",
+    image: "/images/references/redbull-meo-season-2.jpg",
+    links: [{ "url": "https://www.twitch.tv/videos/527409779?filter=archives&sort=time", "platform": "Twitch", "label": "Live Broadcast" }]
+  },
+  {
+    id: "redbull-flick-gist",
+    title: "Red Bull - Flick @ GIST",
+    subtitle: "Tournament coverage",
+    category: "",
+    tags: [],
+    kpi: "32 PLAYOFF TEAMS | 8 FINALISTS",
+    image: "/images/references/redbull-csgo-special.jpg",
+    links: [{ "url": "https://www.hurriyet.com.tr/sporarena/red-bull-flick-gistin-ilgi-odagi-oldu-41437553", "platform": "Web", "label": "Hürriyet Coverage" }]
+  },
+  {
+    id: "redbull-csgo-special",
+    title: "Red Bull - CS:GO Special Broadcasts",
+    subtitle: "GIST 2020 live content",
+    category: "",
+    tags: [],
+    image: "/images/references/redbull-csgo-special.jpg",
+    links: [
+      { "url": "https://www.twitch.tv/videos/544076837?filter=archives&sort=time", "platform": "Twitch", "label": "AlpTV CS:GO Broadcast" },
+      { "url": "https://www.twitch.tv/videos/545694430?filter=archives&sort=time", "platform": "Twitch", "label": "ZeoNNN 2v2 Broadcast" }
+    ]
+  },
+  {
+    id: "nvidia-minecraft-rtx",
+    title: "NVIDIA - Minecraft RTX Edition",
+    subtitle: "Türkiye & MENA launch",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/t54CwjRDwxo/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.instagram.com/p/B8eDINiniNX/?img_index=8", "platform": "Instagram", "label": "Launch Carousel" },
+      { "url": "https://www.youtube.com/watch?v=t54CwjRDwxo", "platform": "YouTube", "label": "Creator Preview" }
+    ]
+  },
+  {
+    id: "hyperx-gist-creators",
+    title: "HyperX - GIST Creator Integrations",
+    subtitle: "Gaming creator content",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/5uZxqmt1KQQ/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=5uZxqmt1KQQ", "platform": "YouTube", "label": "Creator Integration" },
+      { "url": "https://www.youtube.com/watch?v=ETNhFdSdy94", "platform": "YouTube", "label": "GIST Event Content" }
+    ]
+  },
+  {
+    id: "asus-radeon-csgo",
+    title: "ASUS - Radeon CS:GO Tournament",
+    subtitle: "Gaming tournament activation",
+    category: "",
+    tags: [],
+    kpi: "2 ONLINE QUALIFIERS | 1 LAN FINAL | 15 PRIZE UNITS",
+    image: "/images/references/asus-radeon-csgo.jpg",
+    links: [{ "url": "https://www.facebook.com/watch/?v=1306497386049138", "platform": "Facebook", "label": "Tournament Video" }]
+  },
+  {
+    id: "asus-rog-maximus",
+    title: "ASUS ROG - Maximus Formula 10th Year",
+    subtitle: "Product event content",
+    category: "",
+    tags: [],
+    kpi: "9 GENERATIONS | 6 CUSTOM SYSTEMS",
+    image: "https://i.ytimg.com/vi/hE__Eh5aPYc/hqdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=hE__Eh5aPYc", "platform": "YouTube", "label": "Event Video" }]
+  },
+  {
+    id: "asus-creator-integrations",
+    title: "ASUS - Creator/Product Integrations",
+    subtitle: "YouTube creator campaigns",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/w_AbJRRyzrA/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=w_AbJRRyzrA", "platform": "YouTube", "label": "Creator Integration" },
+      { "url": "https://www.youtube.com/watch?v=3uzfOzHWcXo", "platform": "YouTube", "label": "Creator Integration" }
+    ]
+  },
+  {
+    id: "hp-omen-gist-2019",
+    title: "HP OMEN - GIST 2019",
+    subtitle: "Gaming Istanbul event",
+    category: "",
+    tags: [],
+    kpi: "160 M2 AREA | 4-DAY PUBG PROGRAM | 2 LAPTOP PRIZES",
+    image: "https://i.ytimg.com/vi/XWTU0JOG1_w/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=XWTU0JOG1_w", "platform": "YouTube", "label": "GIST 2019" }]
+  },
+  {
+    id: "hp-omen-creator-integrations",
+    title: "HP OMEN - Creator Integrations",
+    subtitle: "Gaming creator content",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/ntHH_he1iRA/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=ntHH_he1iRA", "platform": "YouTube", "label": "OMEN X by HP" },
+      { "url": "https://www.youtube.com/watch?v=pkVRyExtafc", "platform": "YouTube", "label": "GTA 5 Roleplay" },
+      { "url": "https://www.youtube.com/watch?v=-Cx8kxmWCmg", "platform": "YouTube", "label": "OMEN by HP Creator Integration" },
+      { "url": "https://www.youtube.com/watch?v=JgEEKhsTeeY", "platform": "YouTube", "label": "Creator Room Vlog" }
+    ]
+  },
+  {
+    id: "migros-pizza-migo",
+    title: "Migros - PizzaMi-Go",
+    subtitle: "Danilo Şef campaign",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/G7yRuhrMNyA/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=G7yRuhrMNyA", "platform": "YouTube", "label": "PizzaMi-Go Film" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6945872170736258305", "platform": "TikTok", "label": "Danilo Şef TikTok" },
+      { "url": "https://www.instagram.com/p/CNHp5MunVs0/", "platform": "Instagram", "label": "Danilo Zanna Instagram" },
+      { "url": "https://www.instagram.com/p/CSo0K3Fim_A/", "platform": "Instagram", "label": "Instagram Reference" }
+    ]
+  },
+  {
+    id: "migros-money",
+    title: "Migros - Money",
+    subtitle: "Loyalty / retail activation",
+    category: "",
+    tags: [],
+    kpi: "28.9M VIEWS | 93.8K LIKES | 737 REPOSTS",
+    image: "/images/references/migros-money.jpg",
+    links: [
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6925437420628380930", "platform": "TikTok", "label": "Money Campaign Video" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6933637935581400321", "platform": "TikTok", "label": "Money Follow-up Video" }
+    ]
+  },
+  {
+    id: "defacto-kendini-sev",
+    title: "DeFacto - #KendiniSev",
+    subtitle: "TikTok creator activation",
+    category: "",
+    tags: [],
+    kpi: "5.6M VIEWS | 177.6K LIKES | 2.5K COMMENTS",
+    image: "/images/references/defacto-kendini-sev.jpg",
+    links: [{ "url": "https://www.tiktok.com/@defacto/video/6925087314825841921", "platform": "TikTok", "label": "#KendiniSev Campaign Video" }]
+  },
+  {
+    id: "eti-puf-muzik-akademisi",
+    title: "ETİ Puf - Müzik Akademisi",
+    subtitle: "TikTok challenge",
+    category: "",
+    tags: [],
+    kpi: "490K DOWNLOADS | 7-10K DAU | 1M+ INFLUENCER VIEWS",
+    image: "/images/references/eti-puf-muzik-akademisi.jpg",
+    links: [{ "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6911335832951606529", "platform": "TikTok", "label": "Campaign Video" }]
+  },
+  {
+    id: "eti-benimo-dostum",
+    title: "ETİ Benim'O - #BenimDostumO",
+    subtitle: "Social good TikTok activation",
+    category: "",
+    tags: [],
+    kpi: "3 NGO PARTNERS | 500 M2 IMPACT AREA",
+    image: "/images/references/eti-benimo-dostum.jpg",
+    links: [
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6912807511548513537", "platform": "TikTok", "label": "Campaign Video" },
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6912818584947379457", "platform": "TikTok", "label": "Creator Video" }
+    ]
+  },
+  {
+    id: "canga-duet",
+    title: "Canga - #CangaDuet",
+    subtitle: "TikTok challenge",
+    category: "",
+    tags: [],
+    image: "/images/references/canga-duet.jpg",
+    links: [
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6912023390186458370", "platform": "TikTok", "label": "Brand Video" },
+      { "url": "https://www.tiktok.com/tag/cangaduet", "platform": "TikTok", "label": "#CangaDuet" },
+      { "url": "https://www.tiktok.com/@berkejuan/video/6912033546358033666", "platform": "TikTok", "label": "Creator Video" }
+    ]
+  },
+  {
+    id: "msi-creator-integration",
+    title: "MSI - Creator Integration",
+    subtitle: "YouTube creator campaign",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/3RR9kIwoUKQ/sddefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=3RR9kIwoUKQ", "platform": "YouTube", "label": "Creator Video" }]
+  },
+  {
+    id: "pubg-mobile-real-life",
+    title: "PUBG Mobile - Real Life PUBG",
+    subtitle: "Gaming creator integration",
+    category: "",
+    tags: [],
+    kpi: "4.2M VIEWS | 146K LIKES | 4.6K COMMENTS",
+    image: "/images/references/pubg-mobile-real-life.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=9b5TjuVsnU8", "platform": "YouTube", "label": "Creator Video" }]
+  },
+  {
+    id: "turkcell-pubg-tournament",
+    title: "Turkcell - PUBG Turnuvası",
+    subtitle: "Gaming tournament broadcast",
+    category: "",
+    tags: [],
+    image: "/images/references/turkcell-pubg-turnuvasi.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=e3-XrQHs4p4&t=4890s", "platform": "YouTube", "label": "Tournament Broadcast" }]
+  },
+  {
+    id: "lenovo-game-on",
+    title: "Lenovo - Game On",
+    subtitle: "Gaming center reference",
+    category: "",
+    tags: [],
+    kpi: "23K+ VISITORS | 85 EVENTS | 367 TOURNAMENTS",
+    image: "https://i.ytimg.com/vi/E17ui7kJisY/sddefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=E17ui7kJisY", "platform": "YouTube", "label": "Lenovo Game On" }]
+  },
+  {
+    id: "realme-5i-tiktok",
+    title: "Realme - 5i TikTok Integration",
+    subtitle: "Product creator activation",
+    category: "",
+    tags: [],
+    image: "/images/references/realme-5i-tiktok.jpg",
+    links: [{ "url": "https://www.tiktok.com/@realmeturkey/video/6800995380419988741", "platform": "TikTok", "label": "Product Video" }]
   },
   {
     id: "metafluence-launch",
-    title: "Metafluence Ecosystem",
-    subtitle: "",
+    title: "Metafluence - Project Announcement",
+    subtitle: "Digital asset creator / resident network",
     category: "",
     tags: [],
-    kpi: "100% SOLD OUT | 305 TXS | $50K RAISED",
-    image: "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=800",
-    links: [{ "url": "https://metafluence.com/", "platform": "", "label": "" }]
+    kpi: "80+ EARLY RESIDENTS | 45M+ AUDIENCE",
+    image: "/images/references/metafluence-final-report.jpg",
+    links: [{ "url": "https://x.com/metafluence/status/1496170254153756675", "platform": "X", "label": "Project Announcement" }]
   },
   {
-    id: "yuga-labs",
-    title: "Yuga Labs / Otherside",
-    subtitle: "",
+    id: "pasha-fencer",
+    title: "Pasha Fencer - Content Reference",
+    subtitle: "Facebook video reference",
     category: "",
     tags: [],
-    kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
-    links: [{ "url": "https://otherside.xyz/", "platform": "", "label": "" }]
+    image: "/images/references/pasha-fencer.jpg",
+    links: [{ "url": "https://www.facebook.com/watch/?v=754543195419227", "platform": "Facebook", "label": "Reference Video" }]
   }
 ];
 
@@ -387,8 +709,16 @@ export const TURKISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "6.7M İZLENME | 3.4M YORUM | %74 ETKİLEŞİM",
+    role: "Z kuşağı etkileşimini ve viral marka görünürlüğünü artıran uçtan uca influencer kampanyaları ve TikTok stratejileri yürüttü.",
+    challenge: "Migros'un TikTok platformuna sıfırdan organik giriş yapması ve Z kuşağı tüketicilerle geniş ölçekte bağ kurması gerekiyordu.",
+    action: "12 üst düzey kreatörü koordine ederek #ReyonSavaşları yarışma mekaniği tasarlandı ve güçlü PR dağıtımıyla desteklendi.",
     image: "https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2021/02/23/thumbs_b_c_cb938ae1782baa1b8db45f6905f30112.jpg",
-    links: [{ "url": "https://www.youtube.com/watch?v=I8G9adrIyVM", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6923115888245869826", "platform": "TikTok", "label": "Ana Kampanya Videosu" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6922742736273657090", "platform": "TikTok", "label": "Teaser" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6923115583168990466", "platform": "TikTok", "label": "Kreatör Videosu" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6923116215221128449", "platform": "TikTok", "label": "Kreatör Videosu" }
+    ]
   },
   {
     id: "adidas-originals",
@@ -396,7 +726,10 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    kpi: "6,755 HOLDER | %72.7 SADAKAT | $93M+",
+    kpi: "6.755 HOLDER | %72,7 MARKA SADAKATİ | $93M+",
+    role: "Öncü dijital varlık ekosistemleri için küresel KOL davetlerini organize etti ve topluluk iletişimini yönetti.",
+    challenge: "adidas Originals, yüksek beklentili ALTS koleksiyonuna geçişte kitle iletişimini yönetmeye ve bölgesel fiziksel ürün teslimatlarını çözmeye ihtiyaç duyuyordu.",
+    action: "Holder iletişimini yönetti, BAYC/GMoney ortaklarıyla AMA oturumlarını modere etti ve Türkiye/MENA dijitalden fiziksele ürün talep iş akışlarını çözdü.",
     image: "https://i.ytimg.com/vi/EVQ6fPrwi0M/maxresdefault.jpg",
     links: [{ "url": "https://news.adidas.com/originals/virtual-gear-for-new-realities--adidas-originals-launches-inaugural-nft-wearables-collection/s/b9c13f73-b7b4-412f-9e19-f8a4d9781621", "platform": "", "label": "" }]
   },
@@ -407,8 +740,15 @@ export const TURKISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "6.3M İZLENME | 630K BEĞENİ | 24K YORUM",
+    role: "Z kuşağı etkileşimini ve viral marka görünürlüğünü artıran uçtan uca influencer kampanyaları ve TikTok stratejileri yürüttü.",
+    challenge: "Koton, geleneksel reklam baskısı olmadan okula dönüş döneminde genç kitle katılımını ve marka algısını yükseltmek istedi.",
+    action: "#EtiketleriÇıkar kreatör meydan okumasını kurguladı, viral müzik ve stil mekanikleriyle TikTok/YouTube fenomenlerini hizaladı.",
     image: "https://i.ytimg.com/vi/mqi0DQ8OnWs/maxresdefault.jpg",
-    links: [{ "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.youtube.com/watch?v=mqi0DQ8OnWs", "platform": "YouTube", "label": "Kampanya Filmi" },
+      { "url": "https://www.tiktok.com/@kotoncom/video/6892675548670184705", "platform": "TikTok", "label": "Marka TikTok" },
+      { "url": "https://www.tiktok.com/@cellat36/video/6894306658910997761", "platform": "TikTok", "label": "Creator TikTok" }
+    ]
   },
   {
     id: "redbull-events",
@@ -416,9 +756,16 @@ export const TURKISH_WORKS: SelectedWork[] = [
     subtitle: "",
     category: "",
     tags: [],
-    kpi: "2.4M GÖSTERİM | 650K İZLENME | 1.2M ERİŞİM",
-    image: "https://img.redbull.com/images/c_crop,w_6291,h_3146,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2020/1/30/zz4ny7x92bs3gqthtgxl/gist-2020",
-    links: [{ "url": "https://www.redbull.com/tr-tr/events/gaming-istanbul", "platform": "", "label": "" }]
+    kpi: "4 GÜN AKTİVASYON | 5 KREATÖR | 10 SAAT PROGRAM",
+    role: "Büyük donanım ve espor etkinlikleri için VIP yetenek yönetimini ve saha operasyonlarını koordine etti.",
+    challenge: "Red Bull, Gaming Istanbul (GIST 2020) etkinliğindeki canlı yayın ve espor sahneleri üzerinden online-offline etkileşimi maksimize etmek istedi.",
+    action: "Kreatör kadrolarını, canlı turnuva yayınlarını ve izleyici etkinlik takvimini yöneterek 360° etkinlik prodüksiyonunu gerçekleştirdi.",
+    image: "/images/references/redbull-meo-season-2.jpg",
+    links: [
+      { "url": "https://www.redbull.com/tr-tr/gist-gaming-istanbul-2020-basladi", "platform": "Web", "label": "GIST 2020 Haberi" },
+      { "url": "https://www.redbull.com/tr-tr/events/red-bull-oyun-meydani-gist-2020", "platform": "Web", "label": "Oyun Meydanı" },
+      { "url": "https://www.youtube.com/watch?v=EBqgPNVCshw", "platform": "YouTube", "label": "Creator Event İçeriği" }
+    ]
   },
   {
     id: "defacto-tiktok",
@@ -427,28 +774,61 @@ export const TURKISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "3.1M İZLENME | 320K BEĞENİ | 17K YORUM",
+    role: "Z kuşağı etkileşimini ve viral marka görünürlüğünü artıran uçtan uca influencer kampanyaları ve TikTok stratejileri yürüttü.",
+    challenge: "DeFacto, yeni rahat giyim koleksiyonu için viral etkileşim yakalamayı ve TikTok akış trendlerini domine etmeyi hedefledi.",
+    action: "Hızlı 48 saatlik üretim döngüleriyle çoklu kreatör video serisini (#HavalıveRahat) koordine etti ve içerik performansını optimize etti.",
     image: "https://www.marketingturkiye.com.tr/wp-content/uploads/2020/09/shutterstock_image-82.jpg.webp",
-    links: [{ "url": "https://www.tiktok.com/@defacto/video/6875222921502166273", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.tiktok.com/@defacto/video/6889065973509360897", "platform": "TikTok", "label": "Creator TikTok Serisi" },
+      { "url": "https://www.tiktok.com/@defacto/video/6893871760693873922", "platform": "TikTok", "label": "Creator TikTok Serisi" },
+      { "url": "https://www.tiktok.com/@defacto/video/6894255405959023873", "platform": "TikTok", "label": "Creator TikTok Serisi" },
+      { "url": "https://www.tiktok.com/@defacto/video/6906890715075267842", "platform": "TikTok", "label": "Yılbaşı/Homewear" }
+    ]
   },
   {
     id: "yuga-labs-dragon",
-    title: "Yuga Labs - Project Dragon Event",
-    subtitle: "",
+    title: "Yuga Labs - Project Dragon",
+    subtitle: "Otherside",
     category: "",
     tags: [],
     kpi: "1.2M GÖSTERİM | 12.5K+ BEĞENİ | 2264 OYUNCU",
-    image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
-    links: [{ "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/", "platform": "", "label": "" }]
+    role: "Öncü dijital varlık ekosistemleri için küresel KOL davetlerini organize etti ve topluluk iletişimini yönetti.",
+    challenge: "Yuga Labs, Project Dragon / Otherside oyun testi için eş zamanlı kreatör hizalamasına ve gerçek zamanlı pazar istihbaratına ihtiyaç duyuyordu.",
+    action: "50+ dijital varlık ve blokzincir KOL'unu koordine etti, içerik onay süreçlerini standartlaştırdı ve üst yönetime haftalık pazar analitiği sundu.",
+    image: "/images/yuga-labs-project-dragon.png",
+    links: [
+      { "url": "https://x.com/OthersideMeta/status/1819071193603101132", "platform": "X", "label": "Project Dragon" },
+      { "url": "https://playtoearn.com/news/otherside-unveils-project-dragon-first-battle-to-kick-off-on-july-27th", "platform": "Web", "label": "Otherside Article" }
+    ]
   },
   {
     id: "eti-challenges",
-    title: "Eti - #eticinlegülümse",
+    title: "ETİ - #eticinlegülümse",
     subtitle: "",
     category: "",
     tags: [],
     kpi: "15.4M İZLENME | 685K BEĞENİ | 9K YORUM",
+    role: "Z kuşağı etkileşimini ve viral marka görünürlüğünü artıran uçtan uca influencer kampanyaları ve TikTok stratejileri yürüttü.",
+    challenge: "ETİ, Eti Cin markasıyla tüketici arasındaki duygusal bağı yeniden canlandıracak yüksek enerjili bir kullanıcı katılımı (UGC) kampanyası hedefledi.",
+    action: "#eticinlegülümse TikTok gülümseme meydan okumasını başlattı, önde gelen yaşam tarzı fenomenleriyle kitleleri organik katılıma teşvik etti.",
     image: "https://i.ytimg.com/vi/5s7d7No7WsM/maxresdefault.jpg",
-    links: [{ "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810?lang=tr-TR", "platform": "", "label": "" }]
+    links: [
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6895369042413079810", "platform": "TikTok", "label": "Kampanya Videosu" },
+      { "url": "https://www.tiktok.com/tag/eticinleg%C3%BCl%C3%BCmse", "platform": "TikTok", "label": "#eticinlegülümse" }
+    ]
+  },
+  {
+    id: "asus-rog-party",
+    title: "ASUS - ROG Partisi 2019",
+    subtitle: "Gaming event aktivasyonu",
+    category: "",
+    tags: [],
+    kpi: "15M GÖSTERİM | 3.5M İZLENME | 150+ KATILIMCI",
+    role: "Büyük donanım ve espor etkinlikleri için VIP yetenek yönetimini ve saha operasyonlarını koordine etti.",
+    challenge: "ASUS ROG, donanım yayıncılarını, oyuncuları ve sponsor markaları tek çatı altında toplayan dev bir espor/deneyim partisi gerçekleştirmek istedi.",
+    action: "Kreatör kadrolarını, canlı turnuva yayınlarını ve sponsor entegrasyonlarını yöneterek 360° etkinlik prodüksiyonunu yönetti.",
+    image: "https://img.youtube.com/vi/I8cnf5bYTTQ/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=I8cnf5bYTTQ", "platform": "YouTube", "label": "ASUS ROG Partisi 2019" }]
   },
   {
     id: "hp-omen",
@@ -457,85 +837,363 @@ export const TURKISH_WORKS: SelectedWork[] = [
     category: "",
     tags: [],
     kpi: "1.8M İZLENME | 162K BEĞENİ | 1200 KATILIM",
-    image: "https://cdn.imagevisit.com/2026/07/14/509855670_3629034160560724_3729600696970880300_n.jpg",
-    links: [{ "url": "https://www.youtube.com/watch?v=R9K1xL2hX9g", "platform": "", "label": "" }]
+    role: "Büyük donanım ve espor etkinlikleri için VIP yetenek yönetimini ve saha operasyonlarını koordine etti.",
+    challenge: "HP OMEN, rekabetçi kreatör turnuvalarıyla Türkiye'deki oyuncu kitlesi nezdinde donanım güvenilirliğini güçlendirmek istedi.",
+    action: "HP OMEN LoL Challenge'ı tasarladı, yayıncı kaptanları, canlı turnuva yayınlarını ve izleyici katılım mekaniklerini koordine etti.",
+    image: "https://i.ytimg.com/vi/I8G9adrIyVM/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=I8G9adrIyVM", "platform": "YouTube", "label": "League of Legends Challenge" }]
+  },
+  {
+    id: "redbull-meo-season-2",
+    title: "Red Bull - MEO 2. Sezon",
+    subtitle: "2019 canlı gaming yayını",
+    category: "",
+    tags: [],
+    kpi: "15K+ KAYIT | 30 ÜLKE",
+    image: "/images/references/redbull-meo-season-2.jpg",
+    links: [{ "url": "https://www.twitch.tv/videos/527409779?filter=archives&sort=time", "platform": "Twitch", "label": "Canlı Yayın" }]
+  },
+  {
+    id: "redbull-flick-gist",
+    title: "Red Bull - Flick @ GIST",
+    subtitle: "Turnuva haber referansı",
+    category: "",
+    tags: [],
+    kpi: "32 PLAYOFF TAKIMI | 8 FİNALİST",
+    image: "/images/references/redbull-csgo-special.jpg",
+    links: [{ "url": "https://www.hurriyet.com.tr/sporarena/red-bull-flick-gistin-ilgi-odagi-oldu-41437553", "platform": "Web", "label": "Hürriyet Haberi" }]
+  },
+  {
+    id: "redbull-csgo-special",
+    title: "Red Bull - CS:GO Özel Yayınları",
+    subtitle: "GIST 2020 canlı yayın içerikleri",
+    category: "",
+    tags: [],
+    image: "/images/references/redbull-csgo-special.jpg",
+    links: [
+      { "url": "https://www.twitch.tv/videos/544076837?filter=archives&sort=time", "platform": "Twitch", "label": "AlpTV CS:GO Yayını" },
+      { "url": "https://www.twitch.tv/videos/545694430?filter=archives&sort=time", "platform": "Twitch", "label": "ZeoNNN 2v2 Yayını" }
+    ]
+  },
+  {
+    id: "nvidia-minecraft-rtx",
+    title: "NVIDIA - Minecraft RTX Edition",
+    subtitle: "Türkiye ve MENA lansmanı",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/t54CwjRDwxo/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.instagram.com/p/B8eDINiniNX/?img_index=8", "platform": "Instagram", "label": "Lansman Carousel" },
+      { "url": "https://www.youtube.com/watch?v=t54CwjRDwxo", "platform": "YouTube", "label": "Creator Preview" }
+    ]
+  },
+  {
+    id: "hyperx-gist-creators",
+    title: "HyperX - GIST Creator Integrations",
+    subtitle: "Gaming creator içerikleri",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/5uZxqmt1KQQ/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=5uZxqmt1KQQ", "platform": "YouTube", "label": "Creator Integration" },
+      { "url": "https://www.youtube.com/watch?v=ETNhFdSdy94", "platform": "YouTube", "label": "GIST Event Content" }
+    ]
+  },
+  {
+    id: "asus-radeon-csgo",
+    title: "ASUS - Radeon CS:GO Turnuvası",
+    subtitle: "Gaming turnuva aktivasyonu",
+    category: "",
+    tags: [],
+    kpi: "2 ONLINE ELEME | 1 LAN FİNAL | 15 ÖDÜL BİRİMİ",
+    image: "/images/references/asus-radeon-csgo.jpg",
+    links: [{ "url": "https://www.facebook.com/watch/?v=1306497386049138", "platform": "Facebook", "label": "Turnuva Videosu" }]
+  },
+  {
+    id: "asus-rog-maximus",
+    title: "ASUS ROG - Maximus Formula 10. Yıl",
+    subtitle: "Ürün event içeriği",
+    category: "",
+    tags: [],
+    kpi: "9 NESİL | 6 ÖZEL SİSTEM",
+    image: "https://i.ytimg.com/vi/hE__Eh5aPYc/hqdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=hE__Eh5aPYc", "platform": "YouTube", "label": "Event Videosu" }]
+  },
+  {
+    id: "asus-creator-integrations",
+    title: "ASUS - Creator/Product Integrations",
+    subtitle: "YouTube creator kampanyaları",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/w_AbJRRyzrA/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=w_AbJRRyzrA", "platform": "YouTube", "label": "Creator Integration" },
+      { "url": "https://www.youtube.com/watch?v=3uzfOzHWcXo", "platform": "YouTube", "label": "Creator Integration" }
+    ]
+  },
+  {
+    id: "hp-omen-gist-2019",
+    title: "HP OMEN - GIST 2019",
+    subtitle: "Gaming Istanbul event",
+    category: "",
+    tags: [],
+    kpi: "160 M2 ALAN | 4 GÜN PUBG PROGRAMI | 2 LAPTOP ÖDÜLÜ",
+    image: "https://i.ytimg.com/vi/XWTU0JOG1_w/maxresdefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=XWTU0JOG1_w", "platform": "YouTube", "label": "GIST 2019" }]
+  },
+  {
+    id: "hp-omen-creator-integrations",
+    title: "HP OMEN - Creator Integrations",
+    subtitle: "Gaming creator içerikleri",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/ntHH_he1iRA/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=ntHH_he1iRA", "platform": "YouTube", "label": "OMEN X by HP" },
+      { "url": "https://www.youtube.com/watch?v=pkVRyExtafc", "platform": "YouTube", "label": "GTA 5 Roleplay" },
+      { "url": "https://www.youtube.com/watch?v=-Cx8kxmWCmg", "platform": "YouTube", "label": "OMEN by HP Creator İçeriği" },
+      { "url": "https://www.youtube.com/watch?v=JgEEKhsTeeY", "platform": "YouTube", "label": "Creator Room Vlog" }
+    ]
+  },
+  {
+    id: "migros-pizza-migo",
+    title: "Migros - PizzaMi-Go",
+    subtitle: "Danilo Şef kampanyası",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/G7yRuhrMNyA/maxresdefault.jpg",
+    links: [
+      { "url": "https://www.youtube.com/watch?v=G7yRuhrMNyA", "platform": "YouTube", "label": "PizzaMi-Go Filmi" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6945872170736258305", "platform": "TikTok", "label": "Danilo Şef TikTok" },
+      { "url": "https://www.instagram.com/p/CNHp5MunVs0/", "platform": "Instagram", "label": "Danilo Zanna Instagram" },
+      { "url": "https://www.instagram.com/p/CSo0K3Fim_A/", "platform": "Instagram", "label": "Instagram Referansı" }
+    ]
+  },
+  {
+    id: "migros-money",
+    title: "Migros - Money",
+    subtitle: "Sadakat programı aktivasyonu",
+    category: "",
+    tags: [],
+    kpi: "28.9M İZLENME | 93.8K BEĞENİ | 737 REPOST",
+    image: "/images/references/migros-money.jpg",
+    links: [
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6925437420628380930", "platform": "TikTok", "label": "Money Kampanya Videosu" },
+      { "url": "https://www.tiktok.com/@migros_turkiye/video/6933637935581400321", "platform": "TikTok", "label": "Money Devam Videosu" }
+    ]
+  },
+  {
+    id: "defacto-kendini-sev",
+    title: "DeFacto - #KendiniSev",
+    subtitle: "TikTok kreatör aktivasyonu",
+    category: "",
+    tags: [],
+    kpi: "5.6M İZLENME | 177.6K BEĞENİ | 2.5K YORUM",
+    image: "/images/references/defacto-kendini-sev.jpg",
+    links: [{ "url": "https://www.tiktok.com/@defacto/video/6925087314825841921", "platform": "TikTok", "label": "#KendiniSev Kampanya Videosu" }]
+  },
+  {
+    id: "eti-puf-muzik-akademisi",
+    title: "ETİ Puf - Müzik Akademisi",
+    subtitle: "TikTok challenge",
+    category: "",
+    tags: [],
+    kpi: "490K İNDİRME | 7-10K GAU | 1M+ INFLUENCER İZLENME",
+    image: "/images/references/eti-puf-muzik-akademisi.jpg",
+    links: [{ "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6911335832951606529", "platform": "TikTok", "label": "Kampanya Videosu" }]
+  },
+  {
+    id: "eti-benimo-dostum",
+    title: "ETİ Benim'O - #BenimDostumO",
+    subtitle: "Sosyal fayda TikTok aktivasyonu",
+    category: "",
+    tags: [],
+    kpi: "3 STK PARTNERİ | 500 M2 ETKİ ALANI",
+    image: "/images/references/eti-benimo-dostum.jpg",
+    links: [
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6912807511548513537", "platform": "TikTok", "label": "Kampanya Videosu" },
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6912818584947379457", "platform": "TikTok", "label": "Creator Videosu" }
+    ]
+  },
+  {
+    id: "canga-duet",
+    title: "Canga - #CangaDuet",
+    subtitle: "TikTok challenge",
+    category: "",
+    tags: [],
+    image: "/images/references/canga-duet.jpg",
+    links: [
+      { "url": "https://www.tiktok.com/@mutlulukdeninceakla/video/6912023390186458370", "platform": "TikTok", "label": "Marka Videosu" },
+      { "url": "https://www.tiktok.com/tag/cangaduet", "platform": "TikTok", "label": "#CangaDuet" },
+      { "url": "https://www.tiktok.com/@berkejuan/video/6912033546358033666", "platform": "TikTok", "label": "Creator Videosu" }
+    ]
+  },
+  {
+    id: "msi-creator-integration",
+    title: "MSI - Creator Integration",
+    subtitle: "YouTube creator kampanyası",
+    category: "",
+    tags: [],
+    image: "https://i.ytimg.com/vi/3RR9kIwoUKQ/sddefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=3RR9kIwoUKQ", "platform": "YouTube", "label": "Creator Videosu" }]
+  },
+  {
+    id: "pubg-mobile-real-life",
+    title: "PUBG Mobile - Real Life PUBG",
+    subtitle: "Gaming kreatör entegrasyonu",
+    category: "",
+    tags: [],
+    kpi: "4.2M İZLENME | 146K BEĞENİ | 4.6K YORUM",
+    image: "/images/references/pubg-mobile-real-life.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=9b5TjuVsnU8", "platform": "YouTube", "label": "Creator Videosu" }]
+  },
+  {
+    id: "turkcell-pubg-tournament",
+    title: "Turkcell - PUBG Turnuvası",
+    subtitle: "Gaming turnuva yayını",
+    category: "",
+    tags: [],
+    image: "/images/references/turkcell-pubg-turnuvasi.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=e3-XrQHs4p4&t=4890s", "platform": "YouTube", "label": "Turnuva Yayını" }]
+  },
+  {
+    id: "lenovo-game-on",
+    title: "Lenovo - Game On",
+    subtitle: "Gaming center referansı",
+    category: "",
+    tags: [],
+    kpi: "23K+ ZİYARETÇİ | 85 ETKİNLİK | 367 TURNUVA",
+    image: "https://i.ytimg.com/vi/E17ui7kJisY/sddefault.jpg",
+    links: [{ "url": "https://www.youtube.com/watch?v=E17ui7kJisY", "platform": "YouTube", "label": "Lenovo Game On" }]
+  },
+  {
+    id: "realme-5i-tiktok",
+    title: "Realme - 5i TikTok Integration",
+    subtitle: "Ürün creator aktivasyonu",
+    category: "",
+    tags: [],
+    image: "/images/references/realme-5i-tiktok.jpg",
+    links: [{ "url": "https://www.tiktok.com/@realmeturkey/video/6800995380419988741", "platform": "TikTok", "label": "Ürün Videosu" }]
   },
   {
     id: "metafluence-launch",
-    title: "Metafluence Ekosistemi",
-    subtitle: "",
+    title: "Metafluence - Proje Duyurusu",
+    subtitle: "Dijital varlık kreatör / resident ağı",
     category: "",
     tags: [],
-    kpi: "%100 TÜKENDİ | 305 İŞLEM | $50K FON",
-    image: "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=800",
-    links: [{ "url": "https://metafluence.com/", "platform": "", "label": "" }]
+    kpi: "80+ EARLY RESIDENT | 45M+ KİTLE",
+    image: "/images/references/metafluence-final-report.jpg",
+    links: [{ "url": "https://x.com/metafluence/status/1496170254153756675", "platform": "X", "label": "Proje Duyurusu" }]
   },
   {
-    id: "yuga-labs",
-    title: "Yuga Labs / Otherside",
-    subtitle: "",
+    id: "pasha-fencer",
+    title: "Pasha Fencer - Content Reference",
+    subtitle: "Facebook video referansı",
     category: "",
     tags: [],
-    kpi: "AĞU 2024 | OTHERSIDE ALPHA APECHAIN LANSMANI",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
-    links: [{ "url": "https://otherside.xyz/", "platform": "", "label": "" }]
+    image: "/images/references/pasha-fencer.jpg",
+    links: [{ "url": "https://www.facebook.com/watch/?v=754543195419227", "platform": "Facebook", "label": "Referans Videosu" }]
   }
 ];
 
 export const ENGLISH_SKILLS: SkillCategory[] = [
   {
+    title: "360° Campaign Operations",
+    items: [
+      "End-to-End Planning: Comprehensive campaign architecture and execution across digital, social, PR, creator, gaming, and experiential channels.",
+      "Go-to-Market Strategy: Multi-channel campaign delivery, launch sequencing, and audience alignment for consumer and tech brands.",
+      "Workflow Governance: Timeline, milestone, and production management across cross-functional workstreams."
+    ]
+  },
+  {
     title: "Influencer & Creator Partnerships",
     items: [
-      "End-to-end Creator Campaign Management & Production",
-      "Budget Management & Contract Negotiations",
-      "Talent Scouting & B2B/B2C Strategy (Gaming, Fashion, Tech)",
-      "Data-Driven ROI Analysis & Advanced Attribution Modeling"
+      "Full-Lifecycle Management: Creator discovery, vetting, contract negotiation, briefing, and activation coordination.",
+      "Quality & Brand Safety: Content QA, approval governance, disclosure compliance, and publishing readiness.",
+      "Ambassador Strategy: Scalable partnership pipelines and long-term creator network development."
     ]
   },
   {
-    title: "Web3 & Community Operations",
+    title: "Digital Asset & Blockchain Marketing Operations",
     items: [
-      "Decentralized Community Architecture (X, Discord, Telegram)",
-      "D2P (Digital-to-Physical) Fulfillment & Logistics Support",
-      "On-chain Metrics, Market-driven Behavior Analysis & Sentiment Reporting",
-      "Crisis Management & Moderation Triage"
+      "Launch Operations: Blockchain launch communication, crypto KOL coordination, and community management.",
+      "Market Intelligence: On-chain analysis, holder dynamics, and real-time market sentiment tracking.",
+      "Holder Engagement: Digital-to-physical claim workflows, holder education, and utility communication."
     ]
   },
   {
-    title: "Performance & Reporting",
+    title: "Budget & Stakeholder Management",
     items: [
-      "Real-time Market Intelligence & Executive Dashboard Creation",
-      "Multi-platform KPI Tracking & Brand Lift Auditing",
-      "Cross-functional Stakeholder Management"
+      "Budget Governance: Large-scale campaign budget planning, resource allocation, and expenditure control.",
+      "Approval Processes: Multi-stakeholder review workflows and cross-functional collaboration.",
+      "Vendor & Agency Relations: Production crew, agency, and vendor coordination with executive communication."
+    ]
+  },
+  {
+    title: "Marketing Reporting & Analysis",
+    items: [
+      "Performance Dashboards: Real-time KPI dashboards, ROI measurement, and CAC analysis.",
+      "Executive Briefings: Campaign retrospectives, post-mortem insights, and C-level reporting.",
+      "Actionable Insights: Data-driven recommendations for strategic next steps and future campaign iterations."
+    ]
+  },
+  {
+    title: "Growth & Acquisition",
+    items: [
+      "Growth Strategies: Creator-led growth loops and performance optimization.",
+      "Funnel Design: Audience segmentation and full-funnel acquisition architecture.",
+      "Lifecycle Marketing: Referral, activation, retention, and educational content inputs."
     ]
   }
 ];
 
 export const TURKISH_SKILLS: SkillCategory[] = [
   {
+    title: "360° Kampanya Operasyonları",
+    items: [
+      "Uçtan Uca Planlama: Dijital, sosyal, PR, kreatör, oyun ve deneyimsel kanallarda kapsamlı kampanya mimarisi ve yürütme.",
+      "Go-to-Market Stratejisi: Tüketici ve teknoloji markaları için çok kanallı kampanya teslimatı ve lansman sıralaması.",
+      "İş Akışı Yönetişimi: Çapraz fonksiyonlu çalışma alanlarında takvim, kilometre taşı ve prodüksiyon yönetimi."
+    ]
+  },
+  {
     title: "Influencer ve Kreatör Ortaklıkları",
     items: [
-      "Uçtan Uca İçerik Üreticisi Kampanya Yönetimi ve Prodüksiyonu",
-      "Bütçe Yönetimi ve Sözleşme Müzakereleri",
-      "Yetenek Keşfi ve B2B/B2C Stratejisi (Oyun, Moda, Teknoloji)",
-      "Veri Odaklı ROI Analizi ve İleri Düzey İlişkilendirme Modelleri"
+      "Uçtan Uca Yönetim: Kreatör keşfi, analizi, sözleşme müzakereleri, briefleme ve aktivasyon koordinasyonu.",
+      "Kalite ve Marka Güvenliği: İçerik kalite kontrolü, onay yönetişimi, regülasyon uyumu ve yayın hazırlığı.",
+      "Elçi Stratejisi: Ölçeklenebilir partnerlik kanalları ve uzun vadeli kreatör ağı geliştirme."
     ]
   },
   {
-    title: "Web3 ve Topluluk Operasyonları",
+    title: "Dijital Varlık ve Blockchain Pazarlama Operasyonları",
     items: [
-      "Merkeziyetsiz Topluluk Mimarisi (X, Discord, Telegram)",
-      "D2P (Dijitalden Fiziksele) Lojistik Desteği",
-      "Zincir Üstü (On-chain) Metrikler, Piyasa Odaklı Davranış Analizi ve Duyarlılık Raporlaması",
-      "Kriz Yönetimi ve Moderasyon Triage (Önceliklendirme) Süreçleri"
+      "Lansman Operasyonları: Blockchain lansman iletişimi, kripto KOL koordinasyonu ve topluluk yönetimi.",
+      "Pazar İstihbaratı: On-chain analitiği, holder dinamikleri ve anlık pazar duyarlılığı takibi.",
+      "Holder Etkileşimi: Dijitalden fiziksele talep iş akışları, holder eğitimi ve fayda iletişimi."
     ]
   },
   {
-    title: "Performans ve Raporlama",
+    title: "Bütçe ve Paydaş Yönetimi",
     items: [
-      "Gerçek Zamanlı Piyasa İstihbaratı ve Yönetici Dashboard'ları Oluşturma",
-      "Çoklu Platform KPI Takibi ve Marka Değeri Denetimi",
-      "Çapraz Fonksiyonel Paydaş Yönetimi"
+      "Bütçe Yönetişimi: Büyük ölçekli kampanya bütçe planlaması, kaynak tahsisi ve harcama kontrolü.",
+      "Onay Süreçleri: Çok paydaşlı inceleme iş akışları ve çapraz fonksiyonlu iş birliği.",
+      "Tedarikçi ve Ajans İlişkileri: Prodüksiyon ekibi, ajans ve tedarikçi koordinasyonu ile yönetici iletişimi."
+    ]
+  },
+  {
+    title: "Pazarlama Raporlaması ve Analiz",
+    items: [
+      "Performans Panelleri: Gerçek zamanlı KPI gösterge panelleri, ROI ölçümü ve CAC analizi.",
+      "Yönetici Brifingleri: Kampanya retrospektifleri, analizler ve C-seviye yönetici raporlaması.",
+      "Stratejik İçgörüler: Gelecek kampanya döngüleri ve stratejik sonraki adımlar için veriye dayalı öneriler."
+    ]
+  },
+  {
+    title: "Büyüme ve Müşteri Edinimi (Growth & Acquisition)",
+    items: [
+      "Büyüme Stratejileri: Kreatör odaklı büyüme döngüleri ve performans optimizasyonu.",
+      "Huni Tasarımı: Kitle segmentasyonu ve tam huni edinim mimarisi.",
+      "Yaşam Döngüsü Pazarlaması: Yönlendirme, aktivasyon, elde tutma ve eğitici içerik girdileri."
     ]
   }
 ];
@@ -544,51 +1202,466 @@ export const LOGO_BRANDS: string[] = [
   "YUGA LABS",
   "ADIDAS ORIGINALS",
   "ASUS",
+  "AMD",
   "RED BULL",
   "MIGROS",
   "DEFACTO",
   "KOTON",
   "HP OMEN",
   "ETI",
+  "REEDER",
   "REALME",
   "CASPER"
 ];
 
-export const TOOLS_LIST: string[] = [
-  "Notion",
-  "Discord",
-  "Telegram",
-  "Google Workspace",
-  "X Analytics",
-  "Figma",
-  "Asana",
-  "Slack",
-  "Google Analytics",
-  "Social Bakers"
+export const ENGLISH_TOOL_GROUPS: WorkStackGroup[] = [
+  {
+    title: "Data Analytics, Market Intelligence & Social Listening",
+    items: ["Power BI", "Looker Studio", "Google Analytics (GA4)", "Dune Analytics", "Nansen", "Token Terminal", "Chainalysis", "AppsFlyer", "Meta Business Suite", "X Analytics", "Social Bakers (Emplifi)", "Brandwatch", "Meltwater"]
+  },
+  {
+    title: "Creator, KOL & Marketing Tech",
+    items: ["CreatorIQ", "Modash", "Upfluence", "HypeAuditor", "HubSpot"]
+  },
+  {
+    title: "Operations, Budget & Production Management",
+    items: ["Notion", "Google Workspace", "Slack", "Asana", "Jira", "Figma", "Adobe Creative Suite"]
+  }
+];
+
+export const TURKISH_TOOL_GROUPS: WorkStackGroup[] = [
+  {
+    title: "Veri Analitiği, Pazar İstihbaratı ve Sosyal Dinleme",
+    items: ["Power BI", "Looker Studio", "Google Analytics (GA4)", "Dune Analytics", "Nansen", "Token Terminal", "Chainalysis", "AppsFlyer", "Meta Business Suite", "X Analytics", "Social Bakers (Emplifi)", "Brandwatch", "Meltwater"]
+  },
+  {
+    title: "Kreatör, KOL ve Pazarlama Teknolojileri",
+    items: ["CreatorIQ", "Modash", "Upfluence", "HypeAuditor", "HubSpot"]
+  },
+  {
+    title: "Operasyon, Bütçe ve Prodüksiyon Yönetimi",
+    items: ["Notion", "Google Workspace", "Slack", "Asana", "Jira", "Figma", "Adobe Creative Suite"]
+  }
 ];
 
 export const EDUCATION_LIST_EN = [
   {
-    institution: "Istanbul University",
-    program: "Public Relations and Advertising",
-    details: "Focus on digital communication strategies, brand management, and media relations."
+    institution: "University of the People",
+    program: "Bachelor of Science, Business Administration and Management",
+    details: "2017 - 2020"
   },
   {
-    institution: "Istanbul Bilgi University",
-    program: "Brand School",
-    details: "Advanced methodologies in brand positioning and narrative architecture."
+    institution: "Istanbul Ayvansaray University",
+    program: "Associate Degree, Computer Systems Networking and Telecommunications",
+    details: "2014 - 2016"
   }
 ];
 
 export const EDUCATION_LIST_TR = [
   {
-    institution: "İstanbul Üniversitesi",
-    program: "Halkla İlişkiler ve Reklamcılık",
-    details: "Dijital iletişim stratejileri, marka yönetimi ve medya ilişkileri odaklı."
+    institution: "University of the People",
+    program: "Bachelor of Science, Business Administration and Management",
+    details: "2017 - 2020"
   },
   {
-    institution: "İstanbul Bilgi Üniversitesi",
-    program: "Marka Okulu",
-    details: "Marka konumlandırma ve hikaye mimarisi üzerine ileri düzey metodolojiler."
+    institution: "İstanbul Ayvansaray Üniversitesi",
+    program: "Bilgisayar Sistemleri Ağları ve Telekomünikasyon, Ön Lisans",
+    details: "2014 - 2016"
+  }
+];
+
+export const CERTIFICATES_EN: CertificateItem[] = [
+  {
+    id: "google-digital-marketing",
+    title: "Google Digital Marketing & E-commerce",
+    issuer: "Google",
+    issuerCategory: "Google",
+    category: "Marketing",
+    date: "Aug 2026",
+    coursesCount: 8,
+    courses: [
+      "Foundations of Digital Marketing and E-commerce",
+      "Attract and Engage Customers with Digital Marketing",
+      "From Likes to Leads: Interact with Customers Online",
+      "Think Outside the Inbox: Email Marketing",
+      "Assess for Success: Marketing Analytics and Measurement",
+      "Make the Sale: Build, Launch, and Manage E-commerce Stores",
+      "Satisfaction Guaranteed: Develop Customer Loyalty Online",
+      "Accelerate Your Job Search with AI"
+    ],
+    image: "/images/certificates/google-digital-marketing.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/JCI5IQREKN9U",
+    pdfUrl: "/certificates/google-digital-marketing.pdf",
+    description: "Comprehensive professional credential covering cross-channel customer acquisition, funnel conversion, email marketing pipelines, and measurement analytics.",
+    skills: ["Digital Marketing", "E-commerce Strategy", "Marketing Analytics", "Email Marketing", "Customer Retention", "CAC & ROAS Optimization"]
+  },
+  {
+    id: "google-data-analytics",
+    title: "Google Data Analytics",
+    issuer: "Google",
+    issuerCategory: "Google",
+    category: "Analytics",
+    date: "Aug 2026",
+    coursesCount: 9,
+    courses: [
+      "Foundations: Data, Data, Everywhere",
+      "Ask Questions to Make Data-Driven Decisions",
+      "Prepare Data for Exploration",
+      "Process Data from Dirty to Clean",
+      "Analyze Data to Answer Questions",
+      "Share Data Through the Art of Visualization",
+      "Introduction to Data Analysis Using Python",
+      "Google Data Analytics Capstone: Complete a Case Study",
+      "Accelerate Your Job Search with AI"
+    ],
+    image: "/images/certificates/google-data-analytics.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/AB1B11RD6UJC",
+    pdfUrl: "/certificates/google-data-analytics.pdf",
+    description: "Hands-on data analysis program covering end-to-end data pipelines, statistical querying in SQL, Python data manipulation, Tableau dashboards, and executive visualization.",
+    skills: ["SQL", "Tableau", "Python", "Data Cleaning", "Data Visualization", "Executive Dashboards", "Statistical Analysis"]
+  },
+  {
+    id: "google-project-management",
+    title: "Google Project Management",
+    issuer: "Google",
+    issuerCategory: "Google",
+    category: "Management",
+    date: "Aug 2026",
+    coursesCount: 7,
+    courses: [
+      "Foundations of Project Management",
+      "Project Initiation: Starting a Successful Project",
+      "Project Planning: Putting It All Together",
+      "Project Execution: Running the Project",
+      "Agile Project Management",
+      "Capstone: Applying Project Management in the Real World",
+      "Accelerate Your Job Search with AI"
+    ],
+    image: "/images/certificates/google-project-management.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/FE537D0MTOW9",
+    pdfUrl: "/certificates/google-project-management.pdf",
+    description: "End-to-end project management credential encompassing Agile and traditional methodologies, sprint planning, cross-functional stakeholder coordination, and risk management.",
+    skills: ["Agile & Scrum", "Cross-Functional Collaboration", "Risk Management", "Stakeholder Management", "Sprint Planning", "Budget Control"]
+  },
+  {
+    id: "meta-community-management",
+    title: "Meta Community Management",
+    issuer: "Meta",
+    issuerCategory: "Meta",
+    category: "Marketing",
+    date: "Aug 2026",
+    coursesCount: 4,
+    courses: [
+      "Building Community Engagement Foundations",
+      "Community Moderation and Conflict Resolution",
+      "Data-Driven Community Management",
+      "Growing and Sustaining Online Communities"
+    ],
+    image: "/images/certificates/meta-community-management.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/7WCO644AFI39",
+    pdfUrl: "/certificates/meta-community-management.pdf",
+    description: "Industry-standard credential from Meta covering community engagement architecture, moderation protocols, sentiment analytics, and sustainable audience scaling strategies.",
+    skills: ["Community Architecture", "Audience Engagement", "Crisis Moderation", "Social Intelligence", "Content Operations"]
+  },
+  {
+    id: "microsoft-power-bi",
+    title: "Microsoft Power BI Data Analyst",
+    issuer: "Microsoft",
+    issuerCategory: "Microsoft",
+    category: "Analytics",
+    date: "Aug 2026",
+    coursesCount: 8,
+    courses: [
+      "Preparing Data for Analysis with Microsoft Excel",
+      "Harnessing the Power of Data with Power BI",
+      "Extract, Transform and Load Data in Power BI",
+      "Data Modeling in Power BI",
+      "Data Analysis and Visualization with Power BI",
+      "Creative Designing in Power BI",
+      "Deploy and Maintain Power BI Assets and Capstone",
+      "Microsoft PL-300 Exam Preparation and Practice"
+    ],
+    image: "/images/certificates/microsoft-power-bi.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/DDVM5HUR9FU8",
+    pdfUrl: "/certificates/microsoft-power-bi.pdf",
+    description: "Comprehensive Power BI data analyst curriculum focusing on ETL pipelines, Star schema data modeling, advanced DAX calculations, and interactive business intelligence reporting.",
+    skills: ["Power BI", "DAX", "Data Modeling (Star Schema)", "ETL Pipelines", "Microsoft Excel", "KPI Dashboards", "PL-300 Aligned"]
+  },
+  {
+    id: "duke-defi",
+    title: "Decentralized Finance (DeFi)",
+    issuer: "Duke University",
+    issuerCategory: "Duke University",
+    category: "Blockchain & Digital Assets",
+    date: "Aug 2026",
+    coursesCount: 4,
+    courses: [
+      "Decentralized Finance (DeFi) Infrastructure",
+      "Decentralized Finance (DeFi) Primitives",
+      "Decentralized Finance (DeFi) Deep Dive",
+      "Decentralized Finance (DeFi) Opportunities and Risks"
+    ],
+    image: "/images/certificates/duke-decentralized-finance-defi.png",
+    credentialUrl: "https://coursera.org/verify/specialization/Q1IZ4HC23G9T",
+    pdfUrl: "/certificates/duke-decentralized-finance-defi.pdf",
+    description: "Advanced specialization by Prof. Cam Harvey on DeFi architecture, liquidity primitives, protocol mechanics (Uniswap, Aave, MakerDAO, Compound, dYdX), and regulatory/governance risk.",
+    skills: ["DeFi Protocols", "Tokenomics", "Smart Contract Risk", "Yield & Liquidity Mechanics", "On-Chain Governance", "Financial Modeling"]
+  },
+  {
+    id: "buffalo-blockchain",
+    title: "Blockchain Specialization",
+    issuer: "University at Buffalo & The State University of New York",
+    issuerCategory: "University at Buffalo",
+    category: "Blockchain & Digital Assets",
+    date: "Aug 2026",
+    coursesCount: 4,
+    courses: [
+      "Blockchain Basics",
+      "Smart Contracts",
+      "Decentralized Applications (Dapps)",
+      "Blockchain Platforms"
+    ],
+    image: "/images/certificates/buffalo-blockchain-specialization.png",
+    credentialUrl: "https://coursera.org/verify/specialization/8DCDWHTT1EVN",
+    pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
+    description: "Technical foundations in blockchain protocols, cryptographic hashing, smart contract engineering, private Ethereum testing, and decentralized application (DApp) architecture.",
+    skills: ["Ethereum Architecture", "Smart Contracts", "DApp Systems", "Consensus Mechanisms", "Cryptography", "Layer-2 Scalability"]
+  },
+  {
+    id: "insead-web3-commerce",
+    title: "Web3 and Blockchain in Global Commerce",
+    issuer: "INSEAD & Blockchain Research Institute",
+    issuerCategory: "INSEAD",
+    category: "Blockchain & Digital Assets",
+    date: "Aug 2026",
+    coursesCount: 4,
+    courses: [
+      "Introduction to Blockchain for Global Commerce",
+      "Web3 and Blockchain Transformations in Global Supply Chains",
+      "Web3 and Blockchain Leadership for Transformation",
+      "Blockchain Opportunity Analysis for Global Commerce"
+    ],
+    image: "/images/certificates/insead-web3-blockchain-global-commerce.png",
+    credentialUrl: "https://coursera.org/verify/specialization/C62DZKIA1G1B",
+    pdfUrl: "/certificates/insead-web3-blockchain-global-commerce.pdf",
+    description: "Executive specialization led by Don Tapscott and Alex Tapscott analyzing global commerce transformations, digital supply chain disruption, and enterprise digital asset strategy.",
+    skills: ["Digital Product Architecture", "Supply Chain Innovation", "Enterprise Digital Asset Strategy", "Digital Asset Management", "Global Commerce"]
+  },
+  {
+    id: "aicpa-blockchain",
+    title: "Introduction to Blockchain Specialization",
+    issuer: "AICPA & CIMA",
+    issuerCategory: "AICPA",
+    category: "Blockchain & Digital Assets",
+    date: "Aug 2026",
+    coursesCount: 3,
+    courses: [
+      "Blockchain Evolution and Technology Concepts",
+      "Blockchain Opportunities Beyond Crypto Assets",
+      "Understanding, Using, and Securing Crypto and Digital Assets"
+    ],
+    image: "/images/certificates/aicpa-introduction-to-blockchain.png",
+    credentialUrl: "https://coursera.org/verify/specialization/U3ER85G8HG60",
+    pdfUrl: "/certificates/aicpa-introduction-to-blockchain.pdf",
+    description: "Institutional credential on enterprise blockchain opportunities, crypto asset custody, risk management, and organizational governance frameworks.",
+    skills: ["Digital Asset Security", "Enterprise Risk & Compliance", "Crypto Asset Custody", "Governance Frameworks"]
+  }
+];
+
+export const CERTIFICATES_TR: CertificateItem[] = [
+  {
+    id: "google-digital-marketing",
+    title: "Google Digital Marketing & E-commerce",
+    issuer: "Google",
+    issuerCategory: "Google",
+    category: "Marketing",
+    date: "Ağu 2026",
+    coursesCount: 8,
+    courses: [
+      "Dijital Pazarlama ve E-ticaretin Temelleri",
+      "Dijital Pazarlama ile Müşteri Çekme ve Etkileşim",
+      "Beğenilerden Müşteriye: Online Etkileşim Yönetimi",
+      "Kutunun Dışında Düşünün: E-posta Pazarlaması",
+      "Başarıyı Ölçme: Pazarlama Analitiği ve Metrikler",
+      "Satışı Gerçekleştirme: E-ticaret Mağazaları Kurma ve Yönetme",
+      "Müşteri Sadakati Oluşturma ve Elde Tutma",
+      "Yapay Zeka ile İş Arama Süreçlerini Hızlandırma"
+    ],
+    image: "/images/certificates/google-digital-marketing.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/JCI5IQREKN9U",
+    pdfUrl: "/certificates/google-digital-marketing.pdf",
+    description: "Müşteri edinimi, e-posta pazarlama hatları ve pazarlama analitiği süreçlerini kapsayan resmi Google profesyonel sertifikası.",
+    skills: ["Dijital Pazarlama", "E-ticaret Stratejisi", "Pazarlama Analitiği", "E-posta Pazarlaması", "Müşteri Sadakati", "CAC & ROAS Optimizasyonu"]
+  },
+  {
+    id: "google-data-analytics",
+    title: "Google Data Analytics",
+    issuer: "Google",
+    issuerCategory: "Google",
+    category: "Analytics",
+    date: "Ağu 2026",
+    coursesCount: 9,
+    courses: [
+      "Temeller: Her Yerde Veri",
+      "Veriye Dayalı Kararlar İçin Doğru Soruları Sorma",
+      "Veriyi Keşif İçin Hazırlama",
+      "Veri Temizleme ve İşleme Süreçleri",
+      "Soruları Cevaplamak İçin Veri Analizi",
+      "Görselleştirme Sanatı ile Veri Paylaşımı",
+      "Python ile Veri Analizine Giriş",
+      "Google Data Analytics Bitirme Vaka Çalışması",
+      "Yapay Zeka ile Analitik Yetkinlikleri Geliştirme"
+    ],
+    image: "/images/certificates/google-data-analytics.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/AB1B11RD6UJC",
+    pdfUrl: "/certificates/google-data-analytics.pdf",
+    description: "SQL sorgulama, Python veri analizi, Tableau gösterge panelleri ve C-seviye yönetici raporlamasını kapsayan uçtan uca Google profesyonel veri analitiği sertifikası.",
+    skills: ["SQL", "Tableau", "Python", "Veri Temizleme", "Veri Görselleştirme", "Yönetici Panelleri", "İstatistiksel Analiz"]
+  },
+  {
+    id: "google-project-management",
+    title: "Google Project Management",
+    issuer: "Google",
+    issuerCategory: "Google",
+    category: "Management",
+    date: "Ağu 2026",
+    coursesCount: 7,
+    courses: [
+      "Proje Yönetiminin Temelleri",
+      "Proje Başlatma: Başarılı Bir Projeye Adım Atma",
+      "Proje Planlama: Tüm Parçaları Bir Araya Getirme",
+      "Proje Yürütme: Operasyonu Yönetme",
+      "Agile (Çevik) Proje Yönetimi",
+      "Gerçek Dünya Proje Yönetimi Bitirme Projesi",
+      "Yapay Zeka ile Proje Yönetimini Hızlandırma"
+    ],
+    image: "/images/certificates/google-project-management.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/FE537D0MTOW9",
+    pdfUrl: "/certificates/google-project-management.pdf",
+    description: "Agile/Scrum ve geleneksel yöntemler, sprint planlaması, çapraz fonksiyonlu ekip koordinasyonu ve risk yönetimi metodolojilerini kapsayan profesyonel sertifika.",
+    skills: ["Agile & Scrum", "Çapraz Fonksiyonlu İş Birliği", "Risk Yönetimi", "Paydaş Yönetimi", "Sprint Planlama", "Bütçe Kontrolü"]
+  },
+  {
+    id: "meta-community-management",
+    title: "Meta Community Management",
+    issuer: "Meta",
+    issuerCategory: "Meta",
+    category: "Marketing",
+    date: "Ağu 2026",
+    coursesCount: 4,
+    courses: [
+      "Topluluk Etkileşimi Temelleri Oluşturma",
+      "Topluluk Moderasyonu ve Çatışma Çözümü",
+      "Veriye Dayalı Topluluk Yönetimi",
+      "Online Toplulukları Büyütme ve Sürdürme"
+    ],
+    image: "/images/certificates/meta-community-management.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/7WCO644AFI39",
+    pdfUrl: "/certificates/meta-community-management.pdf",
+    description: "Meta uzmanları tarafından hazırlanan; topluluk etkileşim mimarisi, kriz moderasyonu protokolleri ve veri odaklı kitle büyütme stratejilerini kapsayan resmi sertifika.",
+    skills: ["Topluluk Mimarisi", "Kitle Etkileşimi", "Kriz Moderasyonu", "Sosyal İstihbarat", "İçerik Operasyonları"]
+  },
+  {
+    id: "microsoft-power-bi",
+    title: "Microsoft Power BI Data Analyst",
+    issuer: "Microsoft",
+    issuerCategory: "Microsoft",
+    category: "Analytics",
+    date: "Ağu 2026",
+    coursesCount: 8,
+    courses: [
+      "Microsoft Excel ile Analiz İçin Veri Hazırlama",
+      "Power BI ile Verinin Gücünden Yararlanma",
+      "Power BI'da Veri Çıkarma, Dönüştürme ve Yükleme (ETL)",
+      "Power BI'da Veri Modelleme",
+      "Power BI ile Veri Analizi ve Görselleştirme",
+      "Power BI'da Yaratıcı Tasarım ve Raporlama",
+      "Power BI Varlıklarını Dağıtma ve Bitirme Projesi",
+      "Microsoft PL-300 Sınavına Hazırlık ve Pratik"
+    ],
+    image: "/images/certificates/microsoft-power-bi.png",
+    credentialUrl: "https://coursera.org/verify/professional-cert/DDVM5HUR9FU8",
+    pdfUrl: "/certificates/microsoft-power-bi.pdf",
+    description: "ETL veri hatları, Star Schema veri modelleme, ileri seviye DAX hesaplamaları ve dinamik iş zekası panellerini kapsayan Microsoft PL-300 uyumlu profesyonel sertifika.",
+    skills: ["Power BI", "DAX", "Veri Modelleme (Star Schema)", "ETL Süreçleri", "Microsoft Excel", "KPI Panelleri", "PL-300 Uyumlu"]
+  },
+  {
+    id: "duke-defi",
+    title: "Decentralized Finance (DeFi)",
+    issuer: "Duke University",
+    issuerCategory: "Duke University",
+    category: "Blockchain & Dijital Varlıklar",
+    date: "Ağu 2026",
+    coursesCount: 4,
+    courses: [
+      "Decentralized Finance (DeFi) Altyapısı",
+      "DeFi Temel Yapıtaşları ve Primitifleri",
+      "DeFi Protokolleri Derinlemesine Analiz",
+      "DeFi Fırsatları ve Riskleri"
+    ],
+    image: "/images/certificates/duke-decentralized-finance-defi.png",
+    credentialUrl: "https://coursera.org/verify/specialization/Q1IZ4HC23G9T",
+    pdfUrl: "/certificates/duke-decentralized-finance-defi.pdf",
+    description: "Prof. Cam Harvey liderliğinde DeFi altyapısı, likidite mekanikleri, önde gelen protokoller (Uniswap, Aave, MakerDAO, Compound, dYdX) ve regülasyon risklerini kapsayan uzmanlık.",
+    skills: ["DeFi Protokolleri", "Tokenomik", "Akıllı Sözleşme Risk Analizi", "Likidite & Getiri Mekanikleri", "On-Chain Yönetişim"]
+  },
+  {
+    id: "buffalo-blockchain",
+    title: "Blockchain Specialization",
+    issuer: "University at Buffalo & The State University of New York",
+    issuerCategory: "University at Buffalo",
+    category: "Blockchain & Dijital Varlıklar",
+    date: "Ağu 2026",
+    coursesCount: 4,
+    courses: [
+      "Blockchain Temelleri",
+      "Akıllı Sözleşmeler (Smart Contracts)",
+      "Merkeziyetsiz Uygulamalar (DApps)",
+      "Blockchain Platformları ve Ekosistemler"
+    ],
+    image: "/images/certificates/buffalo-blockchain-specialization.png",
+    credentialUrl: "https://coursera.org/verify/specialization/8DCDWHTT1EVN",
+    pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
+    description: "Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında DApp tasarımı ve blokzincir platform mimarilerini kapsayan kapsamlı teknik uzmanlık.",
+    skills: ["Ethereum Mimarisi", "Akıllı Sözleşmeler", "DApp Ekosistemi", "Konsensüs Mekanizmaları", "Kriptografi", "Layer-2 Ölçeklenebilirlik"]
+  },
+  {
+    id: "insead-web3-commerce",
+    title: "Web3 and Blockchain in Global Commerce",
+    issuer: "INSEAD & Blockchain Research Institute",
+    issuerCategory: "INSEAD",
+    category: "Blockchain & Dijital Varlıklar",
+    date: "Ağu 2026",
+    coursesCount: 4,
+    courses: [
+      "Küresel Ticaret İçin Blokzincire Giriş",
+      "Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü",
+      "Dönüşüm İçin Web3 ve Blokzincir Liderliği",
+      "Küresel Ticaret İçin Blokzincir Fırsat Analizi"
+    ],
+    image: "/images/certificates/insead-web3-blockchain-global-commerce.png",
+    credentialUrl: "https://coursera.org/verify/specialization/C62DZKIA1G1B",
+    pdfUrl: "/certificates/insead-web3-blockchain-global-commerce.pdf",
+    description: "Don Tapscott ve Alex Tapscott liderliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.",
+    skills: ["Dijital Ürün Mimarisi", "Tedarik Zinciri İnovasyonu", "Kurumsal Dijital Varlık Stratejisi", "Dijital Varlık Yönetimi", "Küresel Ticaret"]
+  },
+  {
+    id: "aicpa-blockchain",
+    title: "Introduction to Blockchain Specialization",
+    issuer: "AICPA & CIMA",
+    issuerCategory: "AICPA",
+    category: "Blockchain & Dijital Varlıklar",
+    date: "Ağu 2026",
+    coursesCount: 3,
+    courses: [
+      "Blokzincir Evrimi ve Teknoloji Kavramları",
+      "Kripto Varlıkların Ötesinde Blokzincir Fırsatları",
+      "Kripto ve Dijital Varlıkları Anlama, Kullanma ve Güvenliğini Sağlama"
+    ],
+    image: "/images/certificates/aicpa-introduction-to-blockchain.png",
+    credentialUrl: "https://coursera.org/verify/specialization/U3ER85G8HG60",
+    pdfUrl: "/certificates/aicpa-introduction-to-blockchain.pdf",
+    description: "Kurumsal blokzincir fırsatları, kripto varlık saklama ve güvenliği, kurumsal risk yönetimi ve uyumluluk çerçevelerini kapsayan uluslararası uzmanlık sertifikası.",
+    skills: ["Dijital Varlık Güvenliği", "Kurumsal Risk & Uyumluluk", "Kripto Saklama (Custody)", "Yönetişim Çerçeveleri"]
   }
 ];

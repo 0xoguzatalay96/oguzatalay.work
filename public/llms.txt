@@ -1,0 +1,20 @@
+# Oğuz Atalay - Influencer Marketing Manager | Digital Assets Marketing Operations
+
+> Influencer Marketing Manager | Digital Assets Marketing Operations specializing in driving community growth, KOL operations, and viral campaigns for global tech ecosystems and top-tier retail brands.
+
+## Full Content & Documentation
+- [Full Site Content (Markdown)](https://oguzatalay.work/site-content.md): Complete site content including bio, stats, strategic fit, full work history, all 32+ campaigns with KPIs & links, skills, tools, professional certificates, and education in both English and Turkish.
+- [English CV (Markdown)](https://oguzatalay.work/cv/Oguz_Atalay_CV.md): Harvard ATS-aligned English CV.
+- [Turkish CV (Markdown)](https://oguzatalay.work/cv/Oguz_Atalay_CV_TR.md): Harvard ATS uyumlu Türkçe CV.
+- [ATS Resume (PDF)](https://oguzatalay.work/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf): Standard PDF resume.
+
+## Professional Certificates & Credentials
+- [Google Digital Marketing & E-commerce](https://coursera.org/verify/professional-cert/JCI5IQREKN9U) ([PDF](https://oguzatalay.work/certificates/google-digital-marketing.pdf))
+- [Google Data Analytics](https://coursera.org/verify/professional-cert/AB1B11RD6UJC) ([PDF](https://oguzatalay.work/certificates/google-data-analytics.pdf))
+- [Google Project Management](https://coursera.org/verify/professional-cert/FE537D0MTOW9) ([PDF](https://oguzatalay.work/certificates/google-project-management.pdf))
+- [Meta Community Management](https://coursera.org/verify/professional-cert/7WCO644AFI39) ([PDF](https://oguzatalay.work/certificates/meta-community-management.pdf))
+- [Microsoft Power BI Data Analyst](https://coursera.org/verify/professional-cert/DDVM5HUR9FU8) ([PDF](https://oguzatalay.work/certificates/microsoft-power-bi.pdf))
+- [Duke University - Decentralized Finance (DeFi) Specialization](https://coursera.org/verify/specialization/Q1IZ4HC23G9T) ([PDF](https://oguzatalay.work/certificates/duke-decentralized-finance-defi.pdf))
+- [University at Buffalo - Blockchain Specialization](https://coursera.org/verify/specialization/8DCDWHTT1EVN) ([PDF](https://oguzatalay.work/certificates/buffalo-blockchain-specialization.pdf))
+- [INSEAD - Web3 and Blockchain in Global Commerce](https://coursera.org/verify/specialization/C62DZKIA1G1B) ([PDF](https://oguzatalay.work/certificates/insead-web3-blockchain-global-commerce.pdf))
+- [AICPA & CIMA - Introduction to Blockchain Specialization](https://coursera.org/verify/specialization/U3ER85G8HG60) ([PDF](https://oguzatalay.work/certificates/aicpa-introduction-to-blockchain.pdf))

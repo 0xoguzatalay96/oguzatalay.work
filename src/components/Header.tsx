@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Menu, X, Globe, Sparkles, FileText } from "lucide-react";
+import { Menu, X, Globe, Sparkles } from "lucide-react";
 import { TranslationSet } from "../types";
 
 interface HeaderProps {
@@ -8,10 +8,10 @@ interface HeaderProps {
   lang: "EN" | "TR";
   setLang: (lang: "EN" | "TR") => void;
   activeSection: string;
-  onOpenCV?: () => void;
+  onOpenCvModal?: () => void;
 }
 
-export default function Header({ t, lang, setLang, activeSection, onOpenCV }: HeaderProps) {
+export default function Header({ t, lang, setLang, activeSection, onOpenCvModal }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -24,11 +24,11 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCV }: He
   }, []);
 
   const navItems = [
-    { label: t.navHome, id: "home" },
     { label: t.navAbout, id: "about" },
-    { label: t.navExperience, id: "experience" },
     { label: t.navWorks, id: "works" },
+    { label: t.navExperience, id: "experience" },
     { label: t.navSkills, id: "skills" },
+    { label: t.navCertificates, id: "certificates" },
     { label: t.navEducation, id: "education" },
     { label: t.navContact, id: "contact" },
   ];
@@ -63,10 +63,10 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCV }: He
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
           {/* Logo */}
           <a
-            href="#home"
+            href="#about"
             onClick={(e) => {
               e.preventDefault();
-              handleNavClick("home");
+              handleNavClick("about");
             }}
             className="group flex items-center gap-2 font-archivo text-xl md:text-2xl font-bold tracking-wider text-white"
             id="header-logo-link"
@@ -108,39 +108,40 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCV }: He
               })}
             </ul>
 
-            {/* CV Export Button */}
-            <button
-              onClick={onOpenCV}
-              className="cursor-pointer flex items-center gap-1.5 bg-[#FF0000]/10 hover:bg-[#FF0000] text-[#FF0000] hover:text-white border border-[#FF0000]/30 hover:border-[#FF0000] px-3.5 py-1.5 font-archivo text-xs font-bold uppercase tracking-wider transition-all duration-300 ml-2 mr-4"
-              style={{ borderRadius: "0px" }}
-              id="header-cv-export-btn"
-            >
-              <FileText className="w-3.5 h-3.5" />
-              <span>{lang === "EN" ? "EXPORT CV" : "CV İNDİR"}</span>
-            </button>
+            {/* Language Switcher & Harvard CV Button */}
+            <div className="flex items-center gap-3 pl-4 border-l border-[#2a2a2a] font-mono text-xs">
+              {onOpenCvModal && (
+                <button
+                  onClick={onOpenCvModal}
+                  className="cursor-pointer border border-[#FF0000] text-[#FF0000] hover:bg-[#FF0000] hover:text-white transition-all font-archivo font-bold px-2.5 py-1 flex items-center gap-1.5 uppercase tracking-wider text-[11px]"
+                  id="header-cv-btn"
+                >
+                  <span>CV</span>
+                </button>
+              )}
 
-            {/* Language Switcher */}
-            <div className="flex items-center gap-2 pl-4 border-l border-[#2a2a2a] font-mono text-xs">
-              <Globe className="w-3.5 h-3.5 text-[#A0A0A0]" />
-              <button
-                onClick={() => setLang("EN")}
-                className={`cursor-pointer font-bold px-1.5 py-0.5 transition-colors ${
-                  lang === "EN" ? "text-[#FF0000] border-b border-[#FF0000]" : "text-[#A0A0A0] hover:text-white"
-                }`}
-                id="lang-en-btn"
-              >
-                EN
-              </button>
-              <span className="text-[#2a2a2a]">/</span>
-              <button
-                onClick={() => setLang("TR")}
-                className={`cursor-pointer font-bold px-1.5 py-0.5 transition-colors ${
-                  lang === "TR" ? "text-[#FF0000] border-b border-[#FF0000]" : "text-[#A0A0A0] hover:text-white"
-                }`}
-                id="lang-tr-btn"
-              >
-                TR
-              </button>
+              <div className="flex items-center gap-1">
+                <Globe className="w-3.5 h-3.5 text-[#A0A0A0]" />
+                <button
+                  onClick={() => setLang("EN")}
+                  className={`cursor-pointer font-bold px-1 py-0.5 transition-colors ${
+                    lang === "EN" ? "text-[#FF0000] border-b border-[#FF0000]" : "text-[#A0A0A0] hover:text-white"
+                  }`}
+                  id="lang-en-btn"
+                >
+                  EN
+                </button>
+                <span className="text-[#2a2a2a]">/</span>
+                <button
+                  onClick={() => setLang("TR")}
+                  className={`cursor-pointer font-bold px-1 py-0.5 transition-colors ${
+                    lang === "TR" ? "text-[#FF0000] border-b border-[#FF0000]" : "text-[#A0A0A0] hover:text-white"
+                  }`}
+                  id="lang-tr-btn"
+                >
+                  TR
+                </button>
+              </div>
             </div>
           </nav>
 
@@ -153,7 +154,7 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCV }: He
               id="mobile-lang-btn"
             >
               <Globe className="w-3 h-3 text-[#FF0000]" />
-              {lang}
+              {lang === "EN" ? "TR" : "EN"}
             </button>
 
             <button
@@ -198,22 +199,6 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCV }: He
                 );
               })}
             </ul>
-
-            {/* Mobile CV Export Button */}
-            <div className="mt-8 pt-6 border-t border-[#2a2a2a]">
-              <button
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenCV?.();
-                }}
-                className="w-full cursor-pointer flex items-center justify-center gap-2 bg-[#FF0000] hover:bg-[#d60000] text-white py-3.5 px-4 font-archivo text-sm font-bold uppercase tracking-widest transition-all"
-                style={{ borderRadius: "0px" }}
-                id="mobile-cv-export-btn"
-              >
-                <FileText className="w-4 h-4" />
-                <span>{lang === "EN" ? "VIEW CV / EXPORT MD" : "CV GÖRÜNTÜLE / MD İNDİR"}</span>
-              </button>
-            </div>
           </motion.div>
         )}
       </AnimatePresence>

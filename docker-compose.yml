@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  oguzatalay-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: oguzatalay_work
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - NODE_ENV=production

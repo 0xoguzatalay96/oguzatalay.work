@@ -1,0 +1,45 @@
+# robots.txt for https://oguzatalay.work/
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /site-content.md
+Allow: /cv/
+Allow: /certificates/
+
+# Explicit permissions for AI Crawlers, Agents, and Scrapers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /

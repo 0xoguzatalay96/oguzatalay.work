@@ -1,44 +1,17 @@
 import { motion } from "motion/react";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Mail } from "lucide-react";
 import { TranslationSet } from "../types";
-import { LOGO_BRANDS } from "../data";
 
 interface HeroProps {
   t: TranslationSet;
-  onOpenCV?: () => void;
 }
 
-export default function Hero({ t, onOpenCV }: HeroProps) {
-  const isTR = t.heroTitle.includes("VE") || t.heroTitle.includes("TOPLULUK");
-  const lines = isTR
-    ? ["INFLUENCER PAZARLAMASI", "WEB3 TOPLULUK STRATEJİSİ"]
-    : ["INFLUENCER MARKETING", "WEB3 COMMUNITY STRATEGY"];
+export default function Hero({ t }: HeroProps) {
+  const isTR = t.navHome === "Ana Sayfa";
+  const executiveSummary = t.heroSub;
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.12,
-        delayChildren: 0.2,
-      },
-    },
-  };
-
-  const wordVariants = {
-    hidden: { y: 60, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.8,
-        ease: [0.16, 1, 0.3, 1],
-      },
-    },
-  };
-
-  const handleScrollToWorks = () => {
-    const element = document.getElementById("works");
+  const handleScrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
     if (element) {
       const headerOffset = 90;
       const elementPosition = element.getBoundingClientRect().top;
@@ -53,135 +26,57 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
   return (
     <section
       id="home"
-      className="relative min-h-screen bg-[#131313] flex flex-col justify-center pt-24 overflow-hidden border-b border-[#2a2a2a]"
+      className="relative min-h-[70svh] md:min-h-[75vh] bg-[#131313] flex flex-col justify-center pt-24 md:pt-28 pb-16 md:pb-20 overflow-hidden border-b border-[#2a2a2a]"
     >
-      {/* Brutalist Grid Background overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#2a2a2a12_1px,transparent_1px),linear-gradient(to_bottom,#2a2a2a12_1px,transparent_1px)] bg-[size:40px_40px]" />
-
-      {/* Decorative ambient glowing center */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#FF0000]/3 rounded-full blur-[140px] pointer-events-none" />
-
-      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10 flex flex-col justify-center flex-grow">
-        {/* Animated Bracket Metadata */}
-        <motion.div
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.1 }}
-          className="flex items-center gap-2 font-mono text-xs text-[#FF0000] mb-8"
-        >
-          <span className="text-[#A0A0A0]">[</span>
-          <span>LEAD INFLUENCER MARKETING & CAMPAIGN OPERATOR</span>
-          <span className="text-[#A0A0A0]">]</span>
-          <motion.span
-            animate={{ scale: [1, 1.2, 1] }}
-            transition={{ repeat: Infinity, duration: 2 }}
-            className="w-1.5 h-1.5 bg-[#FF0000]"
-          />
-        </motion.div>
-
-        {/* Massive Condensed Headline */}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10 flex flex-col justify-center">
         <motion.h1
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="font-archivo text-5xl md:text-7xl lg:text-[72px] xl:text-[84px] font-bold tracking-tight leading-[0.95] text-white max-w-full mb-8"
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.65, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
+          className="font-archivo text-3xl sm:text-4xl md:text-5xl lg:text-[3.4rem] font-bold tracking-tight text-white leading-[1.08] mb-6 max-w-5xl"
         >
-          {lines.map((line, lineIdx) => (
-            <div key={lineIdx} className="block last:mb-0 mb-1 md:whitespace-nowrap">
-              {line.split(" ").map((word, wordIdx) => {
-                const isRed = word === "IMPACT" || word === "ETKİ";
-                return (
-                  <span key={wordIdx} className="inline-block overflow-hidden mr-[0.3em] py-1">
-                    <motion.span
-                      variants={wordVariants}
-                      className={`inline-block ${isRed ? "text-[#FF0000]" : "text-white"}`}
-                    >
-                      {word}
-                    </motion.span>
-                  </span>
-                );
-              })}
-            </div>
-          ))}
+          Influencer Marketing Manager <span className="text-[#FF0000]">|</span> Digital Assets Marketing Operations
         </motion.h1>
 
-        {/* Description & Button Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-4 max-w-5xl">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-2 max-w-5xl">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ duration: 0.8, delay: 0.35 }}
             className="font-sans text-base md:text-lg text-[#A0A0A0] leading-relaxed lg:col-span-8"
           >
-            {t.heroSub}
+            {executiveSummary}
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
+            transition={{ duration: 0.8, delay: 0.45 }}
             className="lg:col-span-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-start lg:justify-end gap-3"
           >
-            {/* View Works Button */}
-            <motion.button
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={handleScrollToWorks}
-              className="cursor-pointer bg-[#FF0000] text-white hover:bg-[#d60000] transition-colors duration-300 font-archivo font-bold text-sm tracking-widest px-8 py-5 flex items-center justify-center gap-3 border-0 active:scale-95 whitespace-nowrap"
+            <button
+              onClick={() => handleScrollToSection("works")}
+              className="cursor-pointer bg-[#FF0000] text-white hover:bg-[#d80000] transition-colors duration-300 font-archivo font-bold text-xs md:text-sm tracking-widest px-5 py-3.5 flex items-center justify-center gap-2 border border-[#FF0000] active:scale-95 whitespace-nowrap shadow-[0_0_20px_rgba(255,0,0,0.25)]"
               style={{ borderRadius: "0px" }}
               id="hero-view-works-btn"
             >
-              <span>{t.heroBtn}</span>
-              <motion.div
-                animate={{ y: [0, 4, 0] }}
-                transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-              >
-                <ArrowDown className="w-4 h-4" />
-              </motion.div>
-            </motion.button>
+              <span>{t.heroBtn || "VIEW PROJECTS"}</span>
+              <ArrowDown className="w-4 h-4 text-white" />
+            </button>
 
-
+            <button
+              onClick={() => handleScrollToSection("contact")}
+              className="cursor-pointer bg-transparent text-white hover:bg-white/5 transition-colors duration-300 font-archivo font-bold text-xs md:text-sm tracking-widest px-5 py-3.5 flex items-center justify-center gap-2 border border-[#3a3a3a] hover:border-white active:scale-95 whitespace-nowrap"
+              style={{ borderRadius: "0px" }}
+              id="hero-get-in-touch-btn"
+            >
+              <span>{t.heroBtnContact || (isTR ? "İLETİŞİME GEÇ" : "GET IN TOUCH")}</span>
+              <Mail className="w-4 h-4 text-[#A0A0A0]" />
+            </button>
           </motion.div>
         </div>
       </div>
-
-      {/* Infinite Logo Marquee Carousel */}
-      <div className="w-full border-t border-b border-[#2a2a2a] bg-[#0e0e0e] py-6 overflow-hidden relative z-10 mt-auto">
-        <div className="flex w-max items-center animate-[marquee_120s_linear_infinite]">
-          {/* First loop of logos */}
-          <div className="flex gap-16 md:gap-24 px-4 items-center">
-            {LOGO_BRANDS.map((brand, i) => (
-              <div
-                key={`b1-${i}`}
-                className="flex items-center gap-3 font-archivo text-sm md:text-base font-bold tracking-[0.2em] text-[#555555] hover:text-white transition-colors duration-300 cursor-default"
-              >
-                <span className="w-1.5 h-1.5 bg-[#FF0000]" />
-                <span>{brand}</span>
-              </div>
-            ))}
-          </div>
-          {/* Repeated loop for seamless scrolling */}
-          <div className="flex gap-16 md:gap-24 px-4 items-center">
-            {LOGO_BRANDS.map((brand, i) => (
-              <div
-                key={`b2-${i}`}
-                className="flex items-center gap-3 font-archivo text-sm md:text-base font-bold tracking-[0.2em] text-[#555555] hover:text-white transition-colors duration-300 cursor-default"
-              >
-                <span className="w-1.5 h-1.5 bg-[#FF0000]" />
-                <span>{brand}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Custom Keyframes in inline style or Tailwind */}
-      <style>{`
-        @keyframes marquee {
-          0% { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
-        }
-      `}</style>
     </section>
   );
 }

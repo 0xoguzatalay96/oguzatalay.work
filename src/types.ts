@@ -14,12 +14,43 @@ export interface SelectedWork {
   tags: string[];
   image: string;
   kpi?: string;
+  role?: string;
+  challenge?: string;
+  action?: string;
+  result?: string;
   links?: { url: string; platform: string; label?: string }[];
 }
 
 export interface SkillCategory {
   title: string;
   items: string[];
+}
+
+export interface WorkStackGroup {
+  title: string;
+  items: string[];
+}
+
+export interface ProfileFitItem {
+  label: string;
+  title: string;
+  text: string;
+}
+
+export interface CertificateItem {
+  id: string;
+  title: string;
+  issuer: string;
+  issuerCategory?: string;
+  category: "Marketing" | "Analytics" | "Blockchain & Digital Assets" | "Blockchain & Dijital Varlıklar" | "Management" | string;
+  date: string;
+  coursesCount: number;
+  courses?: string[];
+  image: string;
+  credentialUrl: string;
+  pdfUrl: string;
+  description: string;
+  skills: string[];
 }
 
 export interface TranslationSet {
@@ -30,11 +61,13 @@ export interface TranslationSet {
   navSkills: string;
   navTools: string;
   navEducation: string;
+  navCertificates: string;
   navContact: string;
   
   heroTitle: string;
   heroSub: string;
   heroBtn: string;
+  heroBtnContact?: string;
   
   aboutTitle: string;
   aboutSub: string;
@@ -52,18 +85,12 @@ export interface TranslationSet {
   toolsTitle: string;
   toolsStack: string;
   educationTitle: string;
+  certificatesTitle: string;
+  certificatesSub: string;
+  certificatesVerify: string;
+  certificatesPdf: string;
+  certificatesCourses: string;
+  certificatesFilterAll: string;
   
-  ctaTitle: string;
   ctaBtn: string;
-  
-  contactFormTitle: string;
-  contactNamePlaceholder: string;
-  contactEmailPlaceholder: string;
-  contactMessagePlaceholder: string;
-  contactSubmitBtn: string;
-  contactSuccessMsg: string;
-  contactQuickTemplateLabel: string;
-  contactQuickTemplate1: string;
-  contactQuickTemplate2: string;
-  contactQuickTemplate3: string;
 }
