@@ -39,7 +39,9 @@ export default function Hero({ t }: HeroProps) {
           <span className="block text-white">
             Influencer Marketing Manager
           </span>
-          <span className="block h-[3px] md:h-[4px] w-28 sm:w-44 md:w-56 bg-[#FF0000] my-3 sm:my-4 md:my-5" />
+          <div className="w-full max-w-3xl flex items-center justify-center my-3.5 sm:my-4.5 md:my-5">
+            <span className="block h-[3px] md:h-[4px] w-48 sm:w-64 md:w-80 bg-[#FF0000]" />
+          </div>
           <span className="block text-[#E5E5E5]">
             Digital Assets Marketing Operations
           </span>
