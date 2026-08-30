@@ -34,17 +34,23 @@ export default function Hero({ t }: HeroProps) {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.65, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
-          className="font-archivo text-3xl sm:text-4xl md:text-5xl lg:text-[3.4rem] font-bold tracking-tight text-white leading-[1.08] mb-6 max-w-5xl"
+          className="font-archivo text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] xl:text-[4rem] font-black tracking-tight text-white leading-[1.05] mb-6 w-full flex flex-col items-start"
         >
-          Influencer Marketing Manager <span className="text-[#FF0000]">|</span> Digital Assets Marketing Operations
+          <span className="block text-white">
+            Influencer Marketing Manager
+          </span>
+          <span className="block h-[3px] md:h-[4px] w-28 sm:w-44 md:w-56 bg-[#FF0000] my-3 sm:my-4 md:my-5" />
+          <span className="block text-[#E5E5E5]">
+            Digital Assets Marketing Operations
+          </span>
         </motion.h1>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-2 max-w-5xl">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-2 w-full">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.35 }}
-            className="font-sans text-base md:text-lg text-[#A0A0A0] leading-relaxed lg:col-span-8"
+            className="font-sans text-base md:text-lg text-[#A0A0A0] leading-relaxed lg:col-span-8 max-w-4xl"
           >
             {executiveSummary}
           </motion.p>
