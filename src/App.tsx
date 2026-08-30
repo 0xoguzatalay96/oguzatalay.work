@@ -41,6 +41,11 @@ export default function App() {
   const profileFit = lang === "EN" ? ENGLISH_PROFILE_FIT : TURKISH_PROFILE_FIT;
   const certificates = lang === "EN" ? CERTIFICATES_EN : CERTIFICATES_TR;
 
+  // Enforce global standard title
+  useEffect(() => {
+    document.title = "Influencer Marketing Manager | Digital Assets Marketing Operations";
+  }, [lang]);
+
   // Scroll section tracking using IntersectionObserver
   useEffect(() => {
     const sections = ["home", "about", "works", "experience", "skills", "certificates", "education", "contact"];
