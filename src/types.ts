@@ -22,6 +22,17 @@ export interface SkillCategory {
   items: string[];
 }
 
+export interface WorkStackGroup {
+  title: string;
+  items: string[];
+}
+
+export interface ProfileFitItem {
+  label: string;
+  title: string;
+  text: string;
+}
+
 export interface TranslationSet {
   navHome: string;
   navAbout: string;
@@ -53,17 +64,5 @@ export interface TranslationSet {
   toolsStack: string;
   educationTitle: string;
   
-  ctaTitle: string;
   ctaBtn: string;
-  
-  contactFormTitle: string;
-  contactNamePlaceholder: string;
-  contactEmailPlaceholder: string;
-  contactMessagePlaceholder: string;
-  contactSubmitBtn: string;
-  contactSuccessMsg: string;
-  contactQuickTemplateLabel: string;
-  contactQuickTemplate1: string;
-  contactQuickTemplate2: string;
-  contactQuickTemplate3: string;
 }

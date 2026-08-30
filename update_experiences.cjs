@@ -5,12 +5,12 @@ let dataContent = fs.readFileSync('src/data.ts', 'utf8');
 // 1. Yuga Labs
 dataContent = dataContent.replace(
   `Directed high-stakes creator partnerships and ecosystem intelligence for one of the most prominent Web3 metaverses, accelerating community growth and strategic alignment.`,
-  `Played a key operational role during the highly anticipated Otherside Alpha launch on ApeChain (August 2024), monitoring community reaction and driving X/Discord engagement strategies.`
+  `Played a key operational role during the highly anticipated Alpha launch on ApeChain (August 2024), monitoring community reaction and driving X/Discord engagement strategies.`
 );
 
 dataContent = dataContent.replace(
   `Dünyanın en prestijli Web3 metaverse projelerinden birinde yüksek riskli içerik üreticisi ortaklıklarını ve ekosistem istihbaratını yöneterek topluluk büyümesine ivme kazandırma.`,
-  `Ağustos 2024'teki merakla beklenen Otherside Alpha'nın ApeChain üzerindeki lansmanında kritik bir operasyonel rol üstlenerek topluluk tepkilerini izleme ve X/Discord etkileşim stratejilerini yönetme.`
+  `Ağustos 2024'teki merakla beklenen Alpha'nın ApeChain üzerindeki lansmanında kritik bir operasyonel rol üstlenerek topluluk tepkilerini izleme ve X/Discord etkileşim stratejilerini yönetme.`
 );
 
 // 2. adidas

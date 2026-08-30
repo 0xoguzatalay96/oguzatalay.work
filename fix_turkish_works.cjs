@@ -4,15 +4,15 @@ let content = fs.readFileSync('src/data.ts', 'utf8');
 // The end of ENGLISH_WORKS is the object for "yuga-labs"
 const yugaLabsEnStr = `  {
     id: "yuga-labs",
-    title: "Yuga Labs / Otherside",
+    title: "Yuga Labs",
     subtitle: "",
     category: "",
     tags: [],
-        kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",
+        kpi: "AUG 2024 | APECHAIN ALPHA LAUNCH",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     links: [
       {
-            "url": "https://otherside.xyz/",
+            "url": "https://www.yuga.com/",
             "platform": "",
             "label": ""
       }
@@ -21,15 +21,15 @@ const yugaLabsEnStr = `  {
 
 const replacement = `  {
     id: "yuga-labs",
-    title: "Yuga Labs / Otherside",
+    title: "Yuga Labs",
     subtitle: "",
     category: "",
     tags: [],
-        kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",
+        kpi: "AUG 2024 | APECHAIN ALPHA LAUNCH",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     links: [
       {
-            "url": "https://otherside.xyz/",
+            "url": "https://www.yuga.com/",
             "platform": "",
             "label": ""
       }

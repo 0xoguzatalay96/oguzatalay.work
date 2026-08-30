@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion, useInView, AnimatePresence } from "motion/react";
 import { SelectedWork, TranslationSet } from "../types";
-import { ArrowUpRight, Eye, MessageCircle, Heart, Users, Activity, Zap, BarChart2, Repeat, Target, Wallet, Award, TrendingUp, CheckCircle, Globe } from "lucide-react";
+import { ArrowUpRight, Eye, MessageCircle, Heart, Users, Activity, Zap, BarChart2, Repeat, Target, Wallet, Award, TrendingUp, Globe } from "lucide-react";
 
 
 const renderKpiBadge = (kpiString: string, index: number) => {
@@ -42,9 +42,6 @@ const renderKpiBadge = (kpiString: string, index: number) => {
   } else if (lower.includes("engagement") || lower.includes("etkileşim")) {
     icon = <Activity className="w-3 h-3 mr-1.5 opacity-80" />;
     text = kpiString.replace(/ENGAGEMENT|ETKİLEŞİM/ig, "");
-  } else if (lower.includes("sold") || lower.includes("tükendi")) {
-    icon = <CheckCircle className="w-3 h-3 mr-1.5 opacity-80" />;
-    text = kpiString.replace(/SOLD OUT|TÜKENDİ/ig, "");
   } else if (lower.includes("raised") || lower.includes("fon")) {
     icon = <TrendingUp className="w-3 h-3 mr-1.5 opacity-80" />;
     text = kpiString.replace(/RAISED|FON/ig, "");
@@ -70,36 +67,110 @@ interface SelectedWorksProps {
   lang?: "EN" | "TR";
 }
 
+const FEATURED_WORK_IDS = [
+  "migros-campaigns",
+  "defacto-tiktok",
+  "adidas-originals",
+  "koton",
+  "yuga-labs-dragon",
+  "hp-omen",
+  "asus-rog-party",
+  "eti-challenges",
+];
+
+const SHOW_MORE_WORK_IDS = [
+  "redbull-events",
+  "redbull-meo-season-2",
+  "redbull-flick-gist",
+  "redbull-csgo-special",
+  "nvidia-minecraft-rtx",
+  "hyperx-gist-creators",
+  "asus-radeon-csgo",
+  "asus-rog-maximus",
+  "asus-creator-integrations",
+  "hp-omen-gist-2019",
+  "hp-omen-creator-integrations",
+  "migros-pizza-migo",
+  "migros-money",
+  "defacto-kendini-sev",
+  "eti-puf-muzik-akademisi",
+  "eti-benimo-dostum",
+  "canga-duet",
+  "msi-creator-integration",
+  "pubg-mobile-real-life",
+  "turkcell-pubg-tournament",
+  "lenovo-game-on",
+  "realme-5i-tiktok",
+  "metafluence-launch",
+  "pasha-fencer",
+];
+
+const getFeaturedTitleParts = (title: string, isFeatured: boolean) => {
+  if (!isFeatured) {
+    return { brand: title, project: "" };
+  }
+
+  const separatorIndex = title.indexOf(" - ");
+  if (separatorIndex === -1) {
+    return { brand: title, project: "" };
+  }
+
+  return {
+    brand: title.slice(0, separatorIndex),
+    project: title.slice(separatorIndex + 3)
+  };
+};
+
 export default function SelectedWorks({ works, t, lang = "EN" }: SelectedWorksProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
   const [showAll, setShowAll] = useState(false);
 
-  // Custom coordinate tracker for mouse hover to create architectural blueprint vibe
-  const [coords, setCoords] = useState<{ [key: string]: { x: number; y: number } }>({});
+  const orderedWorks = [...works].sort((a, b) => {
+    const featuredA = FEATURED_WORK_IDS.indexOf(a.id);
+    const featuredB = FEATURED_WORK_IDS.indexOf(b.id);
 
-  const handleMouseMove = (id: string, e: React.MouseEvent<HTMLAnchorElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = Math.round(e.clientX - rect.left);
-    const y = Math.round(e.clientY - rect.top);
-    setCoords((prev) => ({
-      ...prev,
-      [id]: { x, y }
-    }));
-  };
+    if (featuredA !== -1 && featuredB !== -1) {
+      return featuredA - featuredB;
+    }
 
-  const displayedWorks = showAll ? works : works.slice(0, 8);
+    if (featuredA !== -1) {
+      return -1;
+    }
+
+    if (featuredB !== -1) {
+      return 1;
+    }
+
+    const showMoreA = SHOW_MORE_WORK_IDS.indexOf(a.id);
+    const showMoreB = SHOW_MORE_WORK_IDS.indexOf(b.id);
+
+    if (showMoreA !== -1 && showMoreB !== -1) {
+      return showMoreA - showMoreB;
+    }
+
+    if (showMoreA !== -1) {
+      return -1;
+    }
+
+    if (showMoreB !== -1) {
+      return 1;
+    }
+
+    return works.indexOf(a) - works.indexOf(b);
+  });
+  const displayedWorks = showAll ? orderedWorks : orderedWorks.slice(0, FEATURED_WORK_IDS.length);
 
   return (
     <section
       id="works"
       ref={sectionRef}
-      className="py-24 md:py-32 bg-[#131313] border-b border-[#2a2a2a] relative overflow-hidden"
+      className="py-16 md:py-20 bg-[#131313] border-b border-[#2a2a2a] relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Section Header */}
-        <div className="flex items-center gap-4 mb-12 md:mb-16">
+        <div className="flex items-center gap-4 mb-7 md:mb-8">
           <span className="font-mono text-[#FF0000] text-sm font-semibold tracking-wider">[ 03 ]</span>
           <h2 className="font-archivo text-xs md:text-sm font-extrabold tracking-[0.25em] text-white uppercase">
             {t.worksTitle}
@@ -110,12 +181,12 @@ export default function SelectedWorks({ works, t, lang = "EN" }: SelectedWorksPr
         {/* Selected Works Grid with AnimatePresence for smooth transitions */}
         <motion.div 
           layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
         >
           <AnimatePresence mode="popLayout">
             {displayedWorks.map((work) => {
-              const cardCoords = coords[work.id] || { x: 0, y: 0 };
               const projectLink = work.links && work.links.length > 0 ? work.links[0].url : "#";
+              const titleParts = getFeaturedTitleParts(work.title, FEATURED_WORK_IDS.includes(work.id));
               
               return (
                 <motion.div
@@ -130,23 +201,16 @@ export default function SelectedWorks({ works, t, lang = "EN" }: SelectedWorksPr
                     href={projectLink}
                     target={projectLink !== "#" ? "_blank" : undefined}
                     rel={projectLink !== "#" ? "noopener noreferrer" : undefined}
-                    onMouseMove={(e) => handleMouseMove(work.id, e)}
-                    className="group relative flex flex-col justify-between border border-[#2a2a2a] p-4 bg-[#1a1a1a]/20 hover:border-[#FF0000] transition-colors duration-300 h-full"
+                    className="group relative flex flex-col justify-between border border-[#2a2a2a] p-3.5 bg-[#1a1a1a]/20 hover:border-[#FF0000] transition-colors duration-300 h-full"
                   >
                     {/* Visual Image Container with custom height and full viewport coverage */}
-                    <div className="relative aspect-[4/3] w-full overflow-hidden bg-black mb-6 flex-shrink-0">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden bg-black mb-3 flex-shrink-0">
                       {/* Subtle Grid overlay */}
                       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:20px_20px] z-10 pointer-events-none" />
 
                       {/* Absolute Corner Blueprint Coordinates */}
                       <div className="absolute top-3 left-3 right-3 z-20 flex flex-wrap gap-1.5 pointer-events-none">
-                        {work.kpi ? (
-                          work.kpi.split(' | ').map((k, i) => renderKpiBadge(k, i))
-                        ) : (
-                          <div className="font-mono text-[9px] text-white/90 bg-black/80 px-2 py-1 border border-white/10 uppercase tracking-wider backdrop-blur-md transition-colors duration-300 group-hover:border-[#FF0000]/50 group-hover:text-[#FF4444]">
-                            LOC: {work.id.substring(0, 3).toUpperCase()} // X: {cardCoords.x} Y: {cardCoords.y}
-                          </div>
-                        )}
+                        {work.kpi && work.kpi.split(' | ').map((k, i) => renderKpiBadge(k, i))}
                       </div>
 
                       {/* Image tag with referrer policy and hover effect */}
@@ -163,8 +227,21 @@ export default function SelectedWorks({ works, t, lang = "EN" }: SelectedWorksPr
 
                     {/* Info and Titles */}
                     <div className="px-2 flex justify-between items-center gap-4 flex-grow">
-                      <h3 className="font-archivo text-xl font-bold text-white group-hover:text-[#FF0000] transition-colors duration-200">
-                        {work.title}
+                      <h3 className="font-archivo font-bold text-white transition-colors duration-200 min-w-0">
+                        {titleParts.project ? (
+                          <>
+                            <span className="block text-lg leading-tight text-white group-hover:text-[#FF0000] transition-colors duration-200">
+                              {titleParts.brand}
+                            </span>
+                            <span className="block mt-0.5 text-lg leading-tight text-white group-hover:text-[#FF0000] transition-colors duration-200">
+                              {titleParts.project}
+                            </span>
+                          </>
+                        ) : (
+                          <span className="block text-xl leading-tight group-hover:text-[#FF0000] transition-colors duration-200">
+                            {titleParts.brand}
+                          </span>
+                        )}
                       </h3>
 
                       {/* Magnetic Directional Icon */}
@@ -183,11 +260,11 @@ export default function SelectedWorks({ works, t, lang = "EN" }: SelectedWorksPr
         </motion.div>
         
         {/* More Button */}
-        {!showAll && works.length > 8 && (
-          <div className="mt-16 flex justify-center">
+        {!showAll && orderedWorks.length > FEATURED_WORK_IDS.length && (
+          <div className="mt-8 flex justify-center">
             <button
               onClick={() => setShowAll(true)}
-              className="group flex items-center gap-3 bg-transparent border border-[#2a2a2a] hover:border-[#FF0000] text-white px-8 py-4 transition-all duration-300"
+              className="group flex items-center gap-3 bg-transparent border border-[#2a2a2a] hover:border-[#FF0000] text-white px-7 py-3.5 transition-all duration-300"
             >
               <span className="font-mono text-xs font-bold tracking-widest uppercase">
                 {lang === "TR" ? "DAHA FAZLA GÖSTER +" : "MORE +"}

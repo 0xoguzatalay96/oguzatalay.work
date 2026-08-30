@@ -1,44 +1,62 @@
-import { motion } from "motion/react";
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "motion/react";
 import { ArrowDown } from "lucide-react";
 import { TranslationSet } from "../types";
 import { LOGO_BRANDS } from "../data";
 
+const EN_DESKTOP_TITLES = [
+  ["Marketing", "Manager"],
+  ["Integrated Marketing", "Manager"],
+  ["Growth & Partnerships", "Manager"],
+  ["Digital Asset", "Marketing Manager"],
+  ["Marketing Operations &", "Partnerships Manager"],
+];
+
+const EN_MOBILE_TITLES = [
+  ["Marketing", "Manager"],
+  ["Integrated", "Marketing", "Manager"],
+  ["Growth &", "Partnerships", "Manager"],
+  ["Digital Asset", "Marketing", "Manager"],
+  ["Marketing Operations", "& Partnerships", "Manager"],
+];
+
+const TR_DESKTOP_TITLES = [
+  ["Marketing", "Manager"],
+  ["Entegre Pazarlama", "Yöneticisi"],
+  ["Büyüme & Partnerlikler", "Yöneticisi"],
+  ["Dijital Varlık", "Pazarlama Yöneticisi"],
+  ["Pazarlama Operasyonları &", "Ortaklıklar Yöneticisi"],
+];
+
+const TR_MOBILE_TITLES = [
+  ["Marketing", "Manager"],
+  ["Entegre", "Pazarlama", "Yöneticisi"],
+  ["Büyüme &", "Partnerlikler", "Yöneticisi"],
+  ["Dijital Varlık", "Pazarlama", "Yöneticisi"],
+  ["Pazarlama Operasyonları", "& Ortaklıklar", "Yöneticisi"],
+];
+
 interface HeroProps {
   t: TranslationSet;
-  onOpenCV?: () => void;
 }
 
-export default function Hero({ t, onOpenCV }: HeroProps) {
-  const isTR = t.heroTitle.includes("VE") || t.heroTitle.includes("TOPLULUK");
-  const lines = isTR
-    ? ["INFLUENCER PAZARLAMASI", "WEB3 TOPLULUK STRATEJİSİ"]
-    : ["INFLUENCER MARKETING", "WEB3 COMMUNITY STRATEGY"];
+export default function Hero({ t }: HeroProps) {
+  const [titleIndex, setTitleIndex] = useState(0);
+  const isTR = t.navHome === "Ana Sayfa";
+  const executiveSummary = t.heroSub;
+  const desktopTitles = isTR ? TR_DESKTOP_TITLES : EN_DESKTOP_TITLES;
+  const mobileTitles = isTR ? TR_MOBILE_TITLES : EN_MOBILE_TITLES;
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.12,
-        delayChildren: 0.2,
-      },
-    },
-  };
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setTitleIndex((current) => (current + 1) % EN_DESKTOP_TITLES.length);
+    }, 2600);
 
-  const wordVariants = {
-    hidden: { y: 60, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.8,
-        ease: [0.16, 1, 0.3, 1],
-      },
-    },
-  };
+    return () => window.clearInterval(intervalId);
+  }, []);
 
-  const handleScrollToWorks = () => {
-    const element = document.getElementById("works");
+  const handleScrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
     if (element) {
       const headerOffset = 90;
       const elementPosition = element.getBoundingClientRect().top;
@@ -53,103 +71,89 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
   return (
     <section
       id="home"
-      className="relative min-h-screen bg-[#131313] flex flex-col justify-center pt-24 overflow-hidden border-b border-[#2a2a2a]"
+      className="relative min-h-[82svh] md:min-h-[88vh] bg-[#131313] flex flex-col pt-20 md:pt-24 overflow-hidden border-b border-[#2a2a2a]"
     >
-      {/* Brutalist Grid Background overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#2a2a2a12_1px,transparent_1px),linear-gradient(to_bottom,#2a2a2a12_1px,transparent_1px)] bg-[size:40px_40px]" />
-
-      {/* Decorative ambient glowing center */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#FF0000]/3 rounded-full blur-[140px] pointer-events-none" />
-
-      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10 flex flex-col justify-center flex-grow">
-        {/* Animated Bracket Metadata */}
-        <motion.div
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.1 }}
-          className="flex items-center gap-2 font-mono text-xs text-[#FF0000] mb-8"
-        >
-          <span className="text-[#A0A0A0]">[</span>
-          <span>LEAD INFLUENCER MARKETING & CAMPAIGN OPERATOR</span>
-          <span className="text-[#A0A0A0]">]</span>
-          <motion.span
-            animate={{ scale: [1, 1.2, 1] }}
-            transition={{ repeat: Infinity, duration: 2 }}
-            className="w-1.5 h-1.5 bg-[#FF0000]"
-          />
-        </motion.div>
-
-        {/* Massive Condensed Headline */}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10 flex flex-col justify-center py-12 md:py-14">
         <motion.h1
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="font-archivo text-5xl md:text-7xl lg:text-[72px] xl:text-[84px] font-bold tracking-tight leading-[0.95] text-white max-w-full mb-8"
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.65, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
+          aria-label={desktopTitles.map((titleLines) => titleLines.join(" ")).join(" / ")}
+          className="headline-perspective mb-6"
         >
-          {lines.map((line, lineIdx) => (
-            <div key={lineIdx} className="block last:mb-0 mb-1 md:whitespace-nowrap">
-              {line.split(" ").map((word, wordIdx) => {
-                const isRed = word === "IMPACT" || word === "ETKİ";
-                return (
-                  <span key={wordIdx} className="inline-block overflow-hidden mr-[0.3em] py-1">
-                    <motion.span
-                      variants={wordVariants}
-                      className={`inline-block ${isRed ? "text-[#FF0000]" : "text-white"}`}
-                    >
-                      {word}
-                    </motion.span>
+          <span className="headline-stage headline-stage-desktop" aria-hidden="true">
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.span
+                key={`desktop-title-${titleIndex}`}
+                className="headline-face-frame"
+                initial={{ opacity: 0, rotateX: -78, y: 16 }}
+                animate={{ opacity: 1, rotateX: 0, y: 0 }}
+                exit={{ opacity: 0, rotateX: 78, y: -16 }}
+                transition={{ duration: 0.52, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {desktopTitles[titleIndex].map((line) => (
+                  <span key={line} className="headline-line">
+                    {line}
                   </span>
-                );
-              })}
-            </div>
-          ))}
+                ))}
+              </motion.span>
+            </AnimatePresence>
+          </span>
+          <span className="headline-stage headline-stage-mobile" aria-hidden="true">
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.span
+                key={`mobile-title-${titleIndex}`}
+                className="headline-face-frame"
+                initial={{ opacity: 0, rotateX: -78, y: 12 }}
+                animate={{ opacity: 1, rotateX: 0, y: 0 }}
+                exit={{ opacity: 0, rotateX: 78, y: -12 }}
+                transition={{ duration: 0.52, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {mobileTitles[titleIndex].map((line) => (
+                  <span key={line} className="headline-line">
+                    {line}
+                  </span>
+                ))}
+              </motion.span>
+            </AnimatePresence>
+          </span>
         </motion.h1>
 
-        {/* Description & Button Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-4 max-w-5xl">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-2 max-w-5xl">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ duration: 0.8, delay: 0.55 }}
             className="font-sans text-base md:text-lg text-[#A0A0A0] leading-relaxed lg:col-span-8"
           >
-            {t.heroSub}
+            {executiveSummary}
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
+            transition={{ duration: 0.8, delay: 0.65 }}
             className="lg:col-span-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-start lg:justify-end gap-3"
           >
-            {/* View Works Button */}
-            <motion.button
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={handleScrollToWorks}
-              className="cursor-pointer bg-[#FF0000] text-white hover:bg-[#d60000] transition-colors duration-300 font-archivo font-bold text-sm tracking-widest px-8 py-5 flex items-center justify-center gap-3 border-0 active:scale-95 whitespace-nowrap"
+            <button
+              onClick={() => handleScrollToSection("works")}
+              className="cursor-pointer bg-transparent text-white hover:bg-white/5 transition-colors duration-300 font-archivo font-bold text-sm tracking-widest px-6 py-4 flex items-center justify-center gap-3 border border-[#3a3a3a] active:scale-95 whitespace-nowrap"
               style={{ borderRadius: "0px" }}
               id="hero-view-works-btn"
             >
               <span>{t.heroBtn}</span>
-              <motion.div
-                animate={{ y: [0, 4, 0] }}
-                transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-              >
-                <ArrowDown className="w-4 h-4" />
-              </motion.div>
-            </motion.button>
-
-
+              <ArrowDown className="w-4 h-4" />
+            </button>
           </motion.div>
         </div>
       </div>
 
       {/* Infinite Logo Marquee Carousel */}
-      <div className="w-full border-t border-b border-[#2a2a2a] bg-[#0e0e0e] py-6 overflow-hidden relative z-10 mt-auto">
-        <div className="flex w-max items-center animate-[marquee_120s_linear_infinite]">
+      <div className="w-full border-t border-b border-[#2a2a2a] bg-[#0e0e0e] py-4 md:py-5 overflow-hidden relative z-10 mt-auto">
+        <div className="brand-marquee-track flex w-max items-center animate-[marquee_120s_linear_infinite]">
           {/* First loop of logos */}
-          <div className="flex gap-16 md:gap-24 px-4 items-center">
+          <div className="brand-marquee-group flex items-center">
             {LOGO_BRANDS.map((brand, i) => (
               <div
                 key={`b1-${i}`}
@@ -161,7 +165,7 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
             ))}
           </div>
           {/* Repeated loop for seamless scrolling */}
-          <div className="flex gap-16 md:gap-24 px-4 items-center">
+          <div className="brand-marquee-group flex items-center">
             {LOGO_BRANDS.map((brand, i) => (
               <div
                 key={`b2-${i}`}
@@ -178,8 +182,95 @@ export default function Hero({ t, onOpenCV }: HeroProps) {
       {/* Custom Keyframes in inline style or Tailwind */}
       <style>{`
         @keyframes marquee {
-          0% { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
+          0% { transform: translateX(-50%); }
+          100% { transform: translateX(0%); }
+        }
+        .brand-marquee-track {
+          --brand-gap: clamp(4rem, 7vw, 6rem);
+          will-change: transform;
+        }
+        .brand-marquee-group {
+          gap: var(--brand-gap);
+          padding-right: var(--brand-gap);
+        }
+        .headline-perspective {
+          display: inline-block;
+          width: fit-content;
+          max-width: 100%;
+          height: 9.2rem;
+          perspective: 1200px;
+        }
+        .headline-stage {
+          position: relative;
+          display: block;
+          width: max-content;
+          max-width: 100%;
+          height: 100%;
+          transform-style: preserve-3d;
+        }
+        .headline-stage-mobile {
+          display: none;
+        }
+        .headline-face-frame {
+          display: flex;
+          width: max-content;
+          max-width: calc(100vw - 3rem);
+          flex-direction: column;
+          align-items: flex-start;
+          backface-visibility: hidden;
+          padding: 0;
+          color: #fff;
+          font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
+          font-size: 4.25rem;
+          font-weight: 700;
+          letter-spacing: 0;
+          line-height: 0.98;
+          text-align: left;
+          transform-origin: 50% 50%;
+          will-change: transform, opacity;
+        }
+        .headline-line {
+          display: block;
+          width: max-content;
+          max-width: 100%;
+          white-space: nowrap;
+        }
+        @media (max-width: 767px) {
+          .headline-perspective {
+            height: 7.45rem;
+          }
+          .headline-stage-desktop {
+            display: none;
+          }
+          .headline-stage-mobile {
+            display: block;
+          }
+          .headline-face-frame {
+            font-size: 1.55rem;
+            line-height: 1.02;
+            padding: 0;
+          }
+        }
+        @media (min-width: 1280px) {
+          .headline-perspective {
+            height: 9.6rem;
+          }
+          .headline-face-frame {
+            font-size: 4.55rem;
+          }
+        }
+        @media (max-width: 374px) {
+          .headline-perspective {
+            height: 7.1rem;
+          }
+          .headline-face-frame {
+            font-size: 1.45rem;
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .headline-face-frame {
+            transform: none !important;
+          }
         }
       `}</style>
     </section>

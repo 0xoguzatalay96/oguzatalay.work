@@ -141,7 +141,7 @@ const works = [
   },
   {
     id: "yuga-labs",
-    title: { en: "Yuga Labs / Otherside", tr: "Yuga Labs / Otherside" },
+    title: { en: "Yuga Labs", tr: "Yuga Labs" },
     subtitle: { en: "METAVERSE STRATEGY", tr: "KÜRESEL EKOSİSTEM" },
     category: { en: "CREATOR PARTNERSHIPS & INTEL REPORTING", tr: "ORTAKLIKLAR VE TOPLULUK RAPORLAMALARI" },
     tags: { en: ["METAVERSE", "X OPERATIONS", "CREATOR NETWORKS"], tr: ["METAVERSE", "X OPERASYONLARI", "İÇERİK ÜRETİCİ AĞI"] },

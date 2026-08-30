@@ -2,7 +2,7 @@ const fs = require('fs');
 let content = fs.readFileSync('src/data.ts', 'utf8');
 
 content = content.replace(
-  /id: "yuga-labs-dragon",[\s\S]*?"url": "https:\/\/x.com\/OthersideMeta\/status\/1819071193603101132"/,
+  /id: "yuga-labs-dragon",[\s\S]*?"url": "https:\/\/www.yuga.com\/"/,
   `id: "yuga-labs-dragon",
     title: "Yuga Labs - Project Dragon Event",
     subtitle: "",
@@ -12,11 +12,11 @@ content = content.replace(
     image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
     links: [
       {
-            "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/"`
+            "url": "https://www.yuga.com/"`
 );
 
 content = content.replace(
-  /id: "yuga-labs-dragon",[\s\S]*?"url": "https:\/\/x.com\/OthersideMeta\/status\/1819071193603101132"/,
+  /id: "yuga-labs-dragon",[\s\S]*?"url": "https:\/\/www.yuga.com\/"/,
   `id: "yuga-labs-dragon",
     title: "Yuga Labs - Project Dragon Event",
     subtitle: "",
@@ -26,7 +26,7 @@ content = content.replace(
     image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
     links: [
       {
-            "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/"`
+            "url": "https://www.yuga.com/"`
 );
 
 fs.writeFileSync('src/data.ts', content);

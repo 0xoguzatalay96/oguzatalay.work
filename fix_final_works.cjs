@@ -64,7 +64,7 @@ const newWorks = `export const ENGLISH_WORKS: SelectedWork[] = [
     tags: [],
     kpi: "1.2M IMPRESSIONS | 12.5K+ LIKES | 2264 PLAYERS",
     image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
-    links: [{ "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/", "platform": "", "label": "" }]
+    links: [{ "url": "https://www.yuga.com/", "platform": "", "label": "" }]
   },
   {
     id: "eti-challenges",
@@ -98,13 +98,13 @@ const newWorks = `export const ENGLISH_WORKS: SelectedWork[] = [
   },
   {
     id: "yuga-labs",
-    title: "Yuga Labs / Otherside",
+    title: "Yuga Labs",
     subtitle: "",
     category: "",
     tags: [],
-    kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",
+    kpi: "AUG 2024 | APECHAIN ALPHA LAUNCH",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
-    links: [{ "url": "https://otherside.xyz/", "platform": "", "label": "" }]
+    links: [{ "url": "https://www.yuga.com/", "platform": "", "label": "" }]
   }
 ];
 
@@ -167,7 +167,7 @@ export const TURKISH_WORKS: SelectedWork[] = [
     tags: [],
     kpi: "1.2M GÖSTERİM | 12.5K+ BEĞENİ | 2264 OYUNCU",
     image: "https://i.ytimg.com/vi/FIROJqiHWxk/maxresdefault.jpg",
-    links: [{ "url": "https://www.blockchaingamer.biz/news/37394/yuga-labs-otherside-breaks-world-record-2197-players/", "platform": "", "label": "" }]
+    links: [{ "url": "https://www.yuga.com/", "platform": "", "label": "" }]
   },
   {
     id: "eti-challenges",
@@ -201,13 +201,13 @@ export const TURKISH_WORKS: SelectedWork[] = [
   },
   {
     id: "yuga-labs",
-    title: "Yuga Labs / Otherside",
+    title: "Yuga Labs",
     subtitle: "",
     category: "",
     tags: [],
-    kpi: "AĞU 2024 | OTHERSIDE ALPHA APECHAIN LANSMANI",
+    kpi: "AĞU 2024 | APECHAIN ALPHA LANSMANI",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
-    links: [{ "url": "https://otherside.xyz/", "platform": "", "label": "" }]
+    links: [{ "url": "https://www.yuga.com/", "platform": "", "label": "" }]
   }
 ];
 

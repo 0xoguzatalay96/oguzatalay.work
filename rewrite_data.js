@@ -75,10 +75,10 @@ const works = [
   },
   {
     id: "yuga-labs",
-    title: { en: "Yuga Labs / Otherside", tr: "Yuga Labs / Otherside" },
+    title: { en: "Yuga Labs", tr: "Yuga Labs" },
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     links: [
-      { url: "https://otherside.xyz/" }
+      { url: "https://www.yuga.com/" }
     ]
   },
   {

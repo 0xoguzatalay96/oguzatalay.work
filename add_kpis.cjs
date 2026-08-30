@@ -4,15 +4,15 @@ let dataContent = fs.readFileSync('src/data.ts', 'utf8');
 
 // We have multiple occurrences in ENGLISH and TURKISH arrays. We can use a replacer function.
 const kpiMapEn = {
-  "yuga-labs-dragon": '    kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",\n    image:',
-  "yuga-labs": '    kpi: "AUG 2024 | OTHERSIDE ALPHA APECHAIN LAUNCH",\n    image:',
+  "yuga-labs-dragon": '    kpi: "AUG 2024 | APECHAIN ALPHA LAUNCH",\n    image:',
+  "yuga-labs": '    kpi: "AUG 2024 | APECHAIN ALPHA LAUNCH",\n    image:',
   "adidas-originals": '    kpi: "0.59 ETH FLOOR | $600K SECONDARY VOL",\n    image:',
   "metafluence-launch": '    kpi: "100% SOLD OUT | 305 TXS | $50K RAISED",\n    image:',
 };
 
 const kpiMapTr = {
-  "yuga-labs-dragon": '    kpi: "AĞU 2024 | OTHERSIDE ALPHA APECHAIN LANSMANI",\n    image:',
-  "yuga-labs": '    kpi: "AĞU 2024 | OTHERSIDE ALPHA APECHAIN LANSMANI",\n    image:',
+  "yuga-labs-dragon": '    kpi: "AĞU 2024 | APECHAIN ALPHA LANSMANI",\n    image:',
+  "yuga-labs": '    kpi: "AĞU 2024 | APECHAIN ALPHA LANSMANI",\n    image:',
   "adidas-originals": '    kpi: "0.59 ETH TABAN | $600K İKİNCİL HACİM",\n    image:',
   "metafluence-launch": '    kpi: "%100 TÜKENDİ | 305 İŞLEM | $50K FON",\n    image:',
 };

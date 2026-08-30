@@ -25,11 +25,11 @@ export default function Experience({ experiences, t }: ExperienceProps) {
     <section
       id="experience"
       ref={containerRef}
-      className="py-24 md:py-32 bg-[#131313] border-b border-[#2a2a2a] relative overflow-hidden"
+      className="py-16 md:py-20 bg-[#131313] border-b border-[#2a2a2a] relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Section Header */}
-        <div className="flex items-center gap-4 mb-16 md:mb-24">
+        <div className="flex items-center gap-4 mb-8 md:mb-10">
           <span className="font-mono text-[#FF0000] text-sm font-semibold tracking-wider">[ 02 ]</span>
           <h2 className="font-archivo text-xs md:text-sm font-extrabold tracking-[0.25em] text-white uppercase">
             {t.experienceTitle}
@@ -38,7 +38,7 @@ export default function Experience({ experiences, t }: ExperienceProps) {
         </div>
 
         {/* Timeline List */}
-        <div className="max-w-4xl mx-auto flex flex-col gap-8">
+        <div className="max-w-4xl mx-auto flex flex-col gap-4">
           {experiences.map((exp, idx) => {
             const isExpanded = expandedIndex === idx;
 
@@ -48,7 +48,7 @@ export default function Experience({ experiences, t }: ExperienceProps) {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 0.6, delay: idx * 0.15 }}
-                className={`border border-[#2a2a2a] bg-[#1a1a1a]/40 p-6 md:p-8 transition-all duration-300 relative cursor-pointer group ${
+                className={`border border-[#2a2a2a] bg-[#1a1a1a]/40 p-4 md:p-5 transition-all duration-300 relative cursor-pointer group ${
                   isExpanded ? "border-[#FF0000]" : "hover:border-white/20"
                 }`}
                 onClick={() => toggleExpand(idx)}
@@ -68,7 +68,7 @@ export default function Experience({ experiences, t }: ExperienceProps) {
                       <Calendar className="w-3.5 h-3.5 text-[#FF0000]" />
                       {exp.period}
                     </span>
-                    <span className="font-mono text-[10px] font-bold text-[#FF0000] border border-[#FF0000] px-2 py-0.5 tracking-widest uppercase">
+                    <span className="font-mono text-[10px] font-bold text-[#FF0000] border border-[#FF0000] px-2 py-0.5 tracking-widest uppercase whitespace-nowrap">
                       {exp.tag}
                     </span>
                   </div>
@@ -116,12 +116,12 @@ export default function Experience({ experiences, t }: ExperienceProps) {
                   {isExpanded && (
                     <motion.div
                       initial={{ height: 0, opacity: 0, marginTop: 0 }}
-                      animate={{ height: "auto", opacity: 1, marginTop: 24 }}
+                      animate={{ height: "auto", opacity: 1, marginTop: 14 }}
                       exit={{ height: 0, opacity: 0, marginTop: 0 }}
                       transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                      className="overflow-hidden border-t border-[#2a2a2a]/60 pt-6"
+                      className="overflow-hidden border-t border-[#2a2a2a]/60 pt-4"
                     >
-                      <ul className="space-y-3.5 font-sans text-sm text-[#A0A0A0] list-none">
+                      <ul className="space-y-2.5 font-sans text-sm text-[#A0A0A0] list-none">
                         {exp.bullets.map((bullet, bIdx) => (
                           <motion.li
                             key={bIdx}
