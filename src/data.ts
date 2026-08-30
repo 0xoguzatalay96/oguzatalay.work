@@ -54,7 +54,7 @@ export const TR_TRANSLATION: TranslationSet = {
   navContact: "İletişim",
   
   heroTitle: "Influencer Marketing Manager | Digital Assets Marketing Operations",
-  heroSub: "Global teknoloji ekosistemleri ve lider perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.",
+  heroSub: "Global teknoloji ekosistemleri ve öncü perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.",
   heroBtn: "PROJELERİ GÖR",
   heroBtnContact: "İLETİŞİME GEÇ",
   
@@ -1438,7 +1438,7 @@ export const CERTIFICATES_EN: CertificateItem[] = [
     courses: [
       "Introduction to Blockchain for Global Commerce",
       "Web3 and Blockchain Transformations in Global Supply Chains",
-      "Web3 and Blockchain Leadership for Transformation",
+      "Web3 and Blockchain Strategy for Transformation",
       "Blockchain Opportunity Analysis for Global Commerce"
     ],
     image: "/images/certificates/insead-web3-blockchain-global-commerce.png",
@@ -1602,7 +1602,7 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     image: "/images/certificates/duke-decentralized-finance-defi.png",
     credentialUrl: "https://coursera.org/verify/specialization/Q1IZ4HC23G9T",
     pdfUrl: "/certificates/duke-decentralized-finance-defi.pdf",
-    description: "Prof. Cam Harvey liderliğinde DeFi altyapısı, likidite mekanikleri, önde gelen protokoller (Uniswap, Aave, MakerDAO, Compound, dYdX) ve regülasyon risklerini kapsayan uzmanlık.",
+    description: "Prof. Cam Harvey eğitmenliğinde DeFi altyapısı, likidite mekanikleri, önde gelen protokoller (Uniswap, Aave, MakerDAO, Compound, dYdX) ve regülasyon risklerini kapsayan uzmanlık.",
     skills: ["DeFi Protokolleri", "Tokenomik", "Akıllı Sözleşme Risk Analizi", "Likidite & Getiri Mekanikleri", "On-Chain Yönetişim"]
   },
   {
@@ -1623,12 +1623,12 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     credentialUrl: "https://coursera.org/verify/specialization/8DCDWHTT1EVN",
     pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
     description: "Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında DApp tasarımı ve blokzincir platform mimarilerini kapsayan kapsamlı teknik uzmanlık.",
-    skills: ["Ethereum Mimarisi", "Akıllı Sözleşmeler", "DApp Ekosistemi", "Konsensüs Mekanizmaları", "Kriptografi", "Layer-2 Ölçeklenebilirlik"]
+    skills: ["Smart Contracts", "Ethereum", "Solidity", "DApp Mimarisi", "Blokzincir Güvenliği"]
   },
   {
-    id: "insead-web3-commerce",
-    title: "Web3 and Blockchain in Global Commerce",
-    issuer: "INSEAD & Blockchain Research Institute",
+    id: "insead-web3-blockchain",
+    title: "Web3 and Blockchain in Global Commerce Specialization",
+    issuer: "INSEAD",
     issuerCategory: "INSEAD",
     category: "Blockchain & Dijital Varlıklar",
     date: "Ağu 2026",
@@ -1636,13 +1636,13 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     courses: [
       "Küresel Ticaret İçin Blokzincire Giriş",
       "Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü",
-      "Dönüşüm İçin Web3 ve Blokzincir Liderliği",
+      "Dönüşüm İçin Web3 ve Blokzincir Stratejisi",
       "Küresel Ticaret İçin Blokzincir Fırsat Analizi"
     ],
     image: "/images/certificates/insead-web3-blockchain-global-commerce.png",
     credentialUrl: "https://coursera.org/verify/specialization/C62DZKIA1G1B",
     pdfUrl: "/certificates/insead-web3-blockchain-global-commerce.pdf",
-    description: "Don Tapscott ve Alex Tapscott liderliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.",
+    description: "Don Tapscott ve Alex Tapscott rehberliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.",
     skills: ["Dijital Ürün Mimarisi", "Tedarik Zinciri İnovasyonu", "Kurumsal Dijital Varlık Stratejisi", "Dijital Varlık Yönetimi", "Küresel Ticaret"]
   },
   {

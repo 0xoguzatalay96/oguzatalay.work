@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build",
+    "build": "vite build && npm run export:markdown",
+    "export:markdown": "tsx tools/export_site_markdown.ts > SITE_CONTENT.md && cp SITE_CONTENT.md public/site-content.md && cp SITE_CONTENT.md dist/site-content.md && cp -r public/cv dist/",
     "preview": "vite preview",
-    "clean": "rm -rf dist server.js",
+    "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

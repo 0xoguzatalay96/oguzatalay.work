@@ -597,7 +597,7 @@ Executive specialization led by Don Tapscott and Alex Tapscott analyzing global 
 **Curriculum Modules:**
 - Introduction to Blockchain for Global Commerce
 - Web3 and Blockchain Transformations in Global Supply Chains
-- Web3 and Blockchain Leadership for Transformation
+- Web3 and Blockchain Strategy for Transformation
 - Blockchain Opportunity Analysis for Global Commerce
 
 ### Introduction to Blockchain Specialization
@@ -658,7 +658,7 @@ Institutional credential on enterprise blockchain opportunities, crypto asset cu
 
 # Influencer Marketing Manager | Digital Assets Marketing Operations
 
-Global teknoloji ekosistemleri ve lider perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.
+Global teknoloji ekosistemleri ve öncü perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.
 
 **CTA:** PROJELERİ GÖR
 
@@ -1194,7 +1194,7 @@ ETL veri hatları, Star Schema veri modelleme, ileri seviye DAX hesaplamaları v
 
 **Issuer:** Duke University (4 Courses) | **Date:** Ağu 2026
 
-Prof. Cam Harvey liderliğinde DeFi altyapısı, likidite mekanikleri, önde gelen protokoller (Uniswap, Aave, MakerDAO, Compound, dYdX) ve regülasyon risklerini kapsayan uzmanlık.
+Prof. Cam Harvey eğitmenliğinde DeFi altyapısı, likidite mekanikleri, önde gelen protokoller (Uniswap, Aave, MakerDAO, Compound, dYdX) ve regülasyon risklerini kapsayan uzmanlık.
 
 **Skills:** DeFi Protokolleri, Tokenomik, Akıllı Sözleşme Risk Analizi, Likidite & Getiri Mekanikleri, On-Chain Yönetişim
 
@@ -1213,7 +1213,7 @@ Prof. Cam Harvey liderliğinde DeFi altyapısı, likidite mekanikleri, önde gel
 
 Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında DApp tasarımı ve blokzincir platform mimarilerini kapsayan kapsamlı teknik uzmanlık.
 
-**Skills:** Ethereum Mimarisi, Akıllı Sözleşmeler, DApp Ekosistemi, Konsensüs Mekanizmaları, Kriptografi, Layer-2 Ölçeklenebilirlik
+**Skills:** Smart Contracts, Ethereum, Solidity, DApp Mimarisi, Blokzincir Güvenliği
 
 **Verify Credential:** [https://coursera.org/verify/specialization/8DCDWHTT1EVN](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
 **PDF Document:** [/certificates/buffalo-blockchain-specialization.pdf](https://oguzatalay.work/certificates/buffalo-blockchain-specialization.pdf)
@@ -1224,11 +1224,11 @@ Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında
 - Merkeziyetsiz Uygulamalar (DApps)
 - Blockchain Platformları ve Ekosistemler
 
-### Web3 and Blockchain in Global Commerce
+### Web3 and Blockchain in Global Commerce Specialization
 
-**Issuer:** INSEAD & Blockchain Research Institute (4 Courses) | **Date:** Ağu 2026
+**Issuer:** INSEAD (4 Courses) | **Date:** Ağu 2026
 
-Don Tapscott ve Alex Tapscott liderliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.
+Don Tapscott ve Alex Tapscott rehberliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.
 
 **Skills:** Dijital Ürün Mimarisi, Tedarik Zinciri İnovasyonu, Kurumsal Dijital Varlık Stratejisi, Dijital Varlık Yönetimi, Küresel Ticaret
 
@@ -1238,7 +1238,7 @@ Don Tapscott ve Alex Tapscott liderliğinde; küresel ticaretin dönüşümü, d
 **Curriculum Modules:**
 - Küresel Ticaret İçin Blokzincire Giriş
 - Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü
-- Dönüşüm İçin Web3 ve Blokzincir Liderliği
+- Dönüşüm İçin Web3 ve Blokzincir Stratejisi
 - Küresel Ticaret İçin Blokzincir Fırsat Analizi
 
 ### Introduction to Blockchain Specialization

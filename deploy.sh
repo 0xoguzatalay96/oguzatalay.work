@@ -30,8 +30,12 @@ elif command -v pm2 &> /dev/null; then
   pm2 restart ecosystem.config.cjs || pm2 start ecosystem.config.cjs
   pm2 save
   echo "🎉 PM2 deployment complete!"
+elif systemctl is-active --quiet oguzatalay-website.service; then
+  echo "⚡ Restarting systemd service..."
+  systemctl restart oguzatalay-website.service
+  echo "🎉 Systemd service restarted!"
 else
-  echo "ℹ️ Statik build hazırdır (dist/ klasörü). Nginx / Web sunucunuzu dist/ klasörüne yönlendirebilirsiniz."
+  echo "ℹ️ Statik build hazırdır (dist/ klasörü)."
 fi
 
 echo "✨ Website deployment finished!"
