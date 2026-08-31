@@ -43,7 +43,7 @@ export default function App() {
 
   // Enforce global standard title
   useEffect(() => {
-    document.title = "Influencer Marketing Manager | Digital Assets Marketing Operations";
+    document.title = "Oğuz Atalay | Influencer Marketing Manager | Digital Assets Marketing Operations";
   }, [lang]);
 
   // Scroll section tracking using IntersectionObserver
