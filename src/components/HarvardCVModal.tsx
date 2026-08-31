@@ -1,4 +1,4 @@
-import { X, FileText, Check, Copy, Download, ExternalLink } from "lucide-react";
+import { X, Check, Copy, Download, ExternalLink } from "lucide-react";
 import { useState, useRef } from "react";
 import { CertificateItem, JobExperience, SkillCategory, TranslationSet } from "../types";
 import {
@@ -24,84 +24,14 @@ export default function HarvardCVModal({
   isOpen,
   onClose,
   lang,
-  t,
   experiences,
   skills,
   certificates = [],
 }: HarvardCVModalProps) {
   const [copied, setCopied] = useState(false);
-  const [isGenerating, setIsGenerating] = useState(false);
   const cvRef = useRef<HTMLDivElement>(null);
 
   if (!isOpen) return null;
-
-  const handleExportMD = () => {
-    setIsGenerating(true);
-    const works = lang === "EN" ? ENGLISH_WORKS : TURKISH_WORKS;
-    const educations = lang === "EN" ? EDUCATION_LIST_EN : EDUCATION_LIST_TR;
-    const tools = lang === "EN" ? ENGLISH_TOOL_GROUPS : TURKISH_TOOL_GROUPS;
-
-    let md = `# OĞUZ ATALAY\n`;
-    md += `**Influencer Marketing Manager | Digital Assets Marketing Operations**\n`;
-    md += `İstanbul, Türkiye | +90 543 772 50 66 | oguz@oguzatalay.work | [linkedin.com/in/oguzatalay96](https://linkedin.com/in/oguzatalay96) | [oguzatalay.work](https://oguzatalay.work)\n\n`;
-    md += `---\n\n`;
-
-    md += `## ${lang === "EN" ? "PROFESSIONAL SUMMARY" : "PROFESYONEL ÖZET"}\n\n`;
-    md += lang === "EN"
-      ? `Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing — building and scaling creator programmes for consumer, gaming, and technology brands (TEM Agency, H2O United, 2Gether Social), managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to manage influencer/creator marketing alongside broader marketing operations, partnerships, and community management for Metafluence, adidas Originals: Into the Metaverse, and Yuga Labs, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.\n\n`
-      : `İki birbiriyle bağlantılı dönemi kapsayan 10+ yıllık deneyime sahip Influencer Marketing Manager. Kariyerine geleneksel influencer marketing ile başladı — tüketici, oyun ve teknoloji markaları için (TEM Agency, H2O United, 2Gether Social) kreatör programları kurdu ve ölçeklendirdi; Red Bull, ASUS, HP OMEN, Migros, Koton ve DeFacto dahil olmak üzere sektör devleri için 150'den fazla kampanyayı ve 200'den fazla kreatör/KOL ağını yönetti. 2022'den bu yana blokzincir ve dijital varlık ekosistemlerine genişleyerek; Metafluence, adidas Originals: Into the Metaverse ve Yuga Labs için blokzincir lansman iletişimi, kripto KOL koordinasyonu, on-chain/pazar analitiği ve topluluk operasyonlarını yürüttü. Kreatör keşfi ve müzakeresi, brief geliştirme, bütçe yönetimi, çapraz fonksiyonlu prodüksiyon ve C-seviye yönetici raporlamasında derin yetkinliğe sahiptir.\n\n`;
-
-    md += `## ${lang === "EN" ? "CORE COMPETENCIES" : "TEMEL YETKİNLİKLER"}\n\n`;
-    skills.forEach((cat) => {
-      md += `- **${cat.title}**: ${cat.items.join(", ")}\n`;
-    });
-    md += `\n`;
-
-    md += `## ${lang === "EN" ? "PROFESSIONAL EXPERIENCE" : "MESLEKİ DENEYİM"}\n\n`;
-    experiences.forEach((exp) => {
-      md += `### ${exp.company} — ${exp.role}\n`;
-      md += `*${exp.period} | ${exp.tag}*\n\n`;
-      exp.bullets.forEach((bullet) => {
-        md += `- ${bullet}\n`;
-      });
-      md += `\n`;
-    });
-
-    md += `## ${lang === "EN" ? "SELECTED CAMPAIGN IMPACT & PORTFOLIO" : "SEÇİLİ KAMPANYA BAŞARILARI"}\n\n`;
-    works.forEach((work) => {
-      md += `- **${work.title}** (${work.category}): ${work.subtitle} — *KPI: ${work.kpi}*\n`;
-    });
-    md += `\n`;
-
-    if (certificates && certificates.length > 0) {
-      md += `## ${lang === "EN" ? "CERTIFICATIONS & CREDENTIALS" : "SERTİFİKALAR VE UZMANLIKLAR"}\n\n`;
-      certificates.forEach((cert) => {
-        md += `- **${cert.title}** — ${cert.issuer} (${cert.date}) | [Verify Credential](${cert.credentialUrl})\n`;
-      });
-      md += `\n`;
-    }
-
-    md += `## ${lang === "EN" ? "TECHNICAL TOOLS & PLATFORMS" : "TEKNİK ARAÇLAR VE PLATFORMLAR"}\n\n`;
-    tools.forEach((group) => {
-      md += `- **${group.title}**: ${group.items.join(", ")}\n`;
-    });
-    md += `\n`;
-
-    md += `## ${lang === "EN" ? "EDUCATION" : "EĞİTİM"}\n\n`;
-    educations.forEach((edu) => {
-      md += `- **${edu.institution}** — ${edu.program} (${edu.details})\n`;
-    });
-
-    const blob = new Blob([md], { type: "text/markdown;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.setAttribute("download", `Oguz_Atalay_CV_${lang}.md`);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    setIsGenerating(false);
-  };
 
   const copyEmail = () => {
     navigator.clipboard.writeText("oguz@oguzatalay.work");
@@ -112,26 +42,24 @@ export default function HarvardCVModal({
   const educations = lang === "EN" ? EDUCATION_LIST_EN : EDUCATION_LIST_TR;
   const toolGroups = lang === "EN" ? ENGLISH_TOOL_GROUPS : TURKISH_TOOL_GROUPS;
   const works = lang === "EN" ? ENGLISH_WORKS : TURKISH_WORKS;
-  const masterCvHref = lang === "EN"
-    ? "/cv/Oguz_Atalay_CV.md"
-    : "/cv/Oguz_Atalay_CV_TR.md";
   const pdfCvHref = "/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf";
-  const docxCvHref = "/cv/Oguz_Atalay_ATS_Harvard_CV_2025.docx";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#000]/95 backdrop-blur-md overflow-y-auto p-4 md:p-6">
       {/* Top Action Bar */}
       <div className="fixed top-4 right-4 flex items-center gap-2.5 z-50">
-        <button
-          onClick={handleExportMD}
-          disabled={isGenerating}
-          className="flex items-center gap-2 bg-[#FF0000] hover:bg-[#d60000] disabled:bg-[#525252] text-[#fff] font-archivo font-bold text-xs tracking-wider px-4 py-2.5 transition-all cursor-pointer shadow-xl border border-[#FF0000]"
+        <a
+          href={pdfCvHref}
+          download="Oguz_Atalay_ATS_Harvard_CV_2025.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 bg-[#FF0000] hover:bg-[#d60000] text-[#fff] font-archivo font-bold text-xs tracking-wider px-4 py-2.5 transition-all cursor-pointer shadow-xl border border-[#FF0000]"
           style={{ borderRadius: "0px" }}
-          id="print-cv-btn"
+          id="download-cv-pdf-btn"
         >
           <Download className="w-4 h-4" />
-          <span>{isGenerating ? (lang === "EN" ? "GENERATING..." : "HAZIRLANIYOR...") : (lang === "EN" ? "DOWNLOAD MD" : "MD İNDİR")}</span>
-        </button>
+          <span>{lang === "EN" ? "DOWNLOAD PDF" : "PDF İNDİR"}</span>
+        </a>
 
         <button
           onClick={copyEmail}
@@ -184,68 +112,6 @@ export default function HarvardCVModal({
               <span className="text-[#999]">•</span>
               <a href="https://oguzatalay.work" target="_blank" rel="noopener noreferrer" className="hover:underline font-bold text-[#000]">
                 oguzatalay.work
-              </a>
-            </div>
-          </div>
-
-          {/* Quick Downloads Bar */}
-          <div className="mb-6 bg-[#f8f8f8] border border-[#e0e0e0] p-4" style={{ pageBreakInside: "avoid" }}>
-            <h2 className="font-sans text-[11px] font-bold tracking-widest text-[#000] uppercase mb-2.5">
-              {lang === "EN" ? "OFFICIAL RESUME FORMATS (ATS COMPLIANT)" : "RESMİ RESUME FORMATLARI (ATS UYUMLU)"}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-2.5">
-              <a
-                href={masterCvHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                download
-                className="border border-[#d0d0d0] bg-[#fff] hover:border-[#000] transition-colors p-2.5 block"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-sans text-[11px] font-bold text-[#000] uppercase tracking-wider">
-                    Markdown CV (.MD)
-                  </span>
-                  <FileText className="w-3.5 h-3.5 text-[#555]" />
-                </div>
-                <span className="font-serif text-[11px] text-[#555] mt-0.5 block leading-tight">
-                  {lang === "EN" ? "Full portfolio & metrics source" : "Tüm metrik ve kampanya dökümü"}
-                </span>
-              </a>
-
-              <a
-                href={pdfCvHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                download
-                className="border border-[#d0d0d0] bg-[#fff] hover:border-[#000] transition-colors p-2.5 block"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-sans text-[11px] font-bold text-[#000] uppercase tracking-wider">
-                    Harvard ATS (PDF)
-                  </span>
-                  <Download className="w-3.5 h-3.5 text-[#FF0000]" />
-                </div>
-                <span className="font-serif text-[11px] text-[#555] mt-0.5 block leading-tight">
-                  {lang === "EN" ? "Corporate ATS-verified PDF" : "Kurumsal ATS uyumlu PDF"}
-                </span>
-              </a>
-
-              <a
-                href={docxCvHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                download
-                className="border border-[#d0d0d0] bg-[#fff] hover:border-[#000] transition-colors p-2.5 block"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-sans text-[11px] font-bold text-[#000] uppercase tracking-wider">
-                    Editable Word (.DOCX)
-                  </span>
-                  <FileText className="w-3.5 h-3.5 text-[#555]" />
-                </div>
-                <span className="font-serif text-[11px] text-[#555] mt-0.5 block leading-tight">
-                  {lang === "EN" ? "Editable recruitment DOCX" : "Düzenlenebilir İK formatı"}
-                </span>
               </a>
             </div>
           </div>
