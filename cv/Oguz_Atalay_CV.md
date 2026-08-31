@@ -104,10 +104,11 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 - **Google Project Management Professional Certificate** — Google (7 Courses) | [Verify](https://coursera.org/verify/professional-cert/FE537D0MTOW9)
 - **Meta Community Management Professional Certificate** — Meta (4 Courses) | [Verify](https://coursera.org/verify/professional-cert/7WCO644AFI39)
 - **Microsoft Power BI Data Analyst Professional Certificate** — Microsoft (8 Courses) | [Verify](https://coursera.org/verify/professional-cert/DDVM5HUR9FU8)
-- **Decentralized Finance (DeFi) Specialization** — Duke University (4 Courses) | [Verify](https://coursera.org/verify/specialization/Q1IZ4HC23G9T)
-- **Blockchain Specialization** — University at Buffalo (4 Courses) | [Verify](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
+- **Influencer Marketing Strategy** — Rutgers, The State University of New Jersey (1 Course) | [Verify](https://coursera.org/verify/35ECN9VWW5DO)
+- **Decentralized Finance (DeFi): The Future of Finance** — Duke University (4 Courses) | [Verify](https://coursera.org/verify/specialization/Q1IZ4HC23G9T)
+- **Blockchain Revolution in Financial Services** — INSEAD (4 Courses) | [Verify](https://coursera.org/verify/specialization/73YUAE1I3J4Y)
 - **Web3 and Blockchain in Global Commerce** — INSEAD & Blockchain Research Institute (4 Courses) | [Verify](https://coursera.org/verify/specialization/C62DZKIA1G1B)
-- **Introduction to Blockchain Specialization** — AICPA & CIMA (3 Courses) | [Verify](https://coursera.org/verify/specialization/U3ER85G8HG60)
+- **Blockchain Specialization** — University at Buffalo (4 Courses) | [Verify](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
 
 ---
 

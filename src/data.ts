@@ -1388,8 +1388,25 @@ export const CERTIFICATES_EN: CertificateItem[] = [
     skills: ["Power BI", "DAX", "Data Modeling (Star Schema)", "ETL Pipelines", "Microsoft Excel", "KPI Dashboards", "PL-300 Aligned"]
   },
   {
+    id: "rutgers-influencer-marketing",
+    title: "Influencer Marketing Strategy",
+    issuer: "Rutgers, The State University of New Jersey",
+    issuerCategory: "Rutgers University",
+    category: "Marketing",
+    date: "Aug 2026",
+    coursesCount: 1,
+    courses: [
+      "Influencer Marketing Strategy"
+    ],
+    image: "/images/certificates/rutgers-influencer-marketing-strategy.png",
+    credentialUrl: "https://coursera.org/verify/35ECN9VWW5DO",
+    pdfUrl: "/certificates/rutgers-influencer-marketing-strategy.pdf",
+    description: "Strategic executive credential from Rutgers Business School focusing on influencer campaign architectures, creator briefing, two-step flow communication, and ROI measurement.",
+    skills: ["Influencer Marketing", "Campaign Strategy", "Creator Briefing", "Social Media Analytics", "KPI Frameworks", "ROI Measurement"]
+  },
+  {
     id: "duke-defi",
-    title: "Decentralized Finance (DeFi)",
+    title: "Decentralized Finance (DeFi): The Future of Finance",
     issuer: "Duke University",
     issuerCategory: "Duke University",
     category: "Blockchain & Digital Assets",
@@ -1408,24 +1425,24 @@ export const CERTIFICATES_EN: CertificateItem[] = [
     skills: ["DeFi Protocols", "Tokenomics", "Smart Contract Risk", "Yield & Liquidity Mechanics", "On-Chain Governance", "Financial Modeling"]
   },
   {
-    id: "buffalo-blockchain",
-    title: "Blockchain Specialization",
-    issuer: "University at Buffalo & The State University of New York",
-    issuerCategory: "University at Buffalo",
+    id: "insead-blockchain-revolution-financial-services",
+    title: "Blockchain Revolution in Financial Services",
+    issuer: "INSEAD",
+    issuerCategory: "INSEAD",
     category: "Blockchain & Digital Assets",
     date: "Aug 2026",
     coursesCount: 4,
     courses: [
-      "Blockchain Basics",
-      "Smart Contracts",
-      "Decentralized Applications (Dapps)",
-      "Blockchain Platforms"
+      "Introduction to Blockchain for Financial Services",
+      "Blockchain, Cryptoassets, and Decentralized Finance",
+      "Blockchain Transformations of Financial Services",
+      "Blockchain in Financial Services: Strategic Action Plan"
     ],
-    image: "/images/certificates/buffalo-blockchain-specialization.png",
-    credentialUrl: "https://coursera.org/verify/specialization/8DCDWHTT1EVN",
-    pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
-    description: "Technical foundations in blockchain protocols, cryptographic hashing, smart contract engineering, private Ethereum testing, and decentralized application (DApp) architecture.",
-    skills: ["Ethereum Architecture", "Smart Contracts", "DApp Systems", "Consensus Mechanisms", "Cryptography", "Layer-2 Scalability"]
+    image: "/images/certificates/insead-blockchain-revolution-financial-services.png",
+    credentialUrl: "https://coursera.org/verify/specialization/73YUAE1I3J4Y",
+    pdfUrl: "/certificates/insead-blockchain-revolution-financial-services.pdf",
+    description: "Executive specialization led by Don Tapscott focusing on digital asset transformations in global financial services, cryptoassets, payment workflows, and strategic blockchain roadmaps.",
+    skills: ["Financial Services Transformation", "Cryptoassets", "Decentralized Finance", "Global Payments", "Strategic Action Planning", "Digital Asset Adoption"]
   },
   {
     id: "insead-web3-commerce",
@@ -1448,23 +1465,24 @@ export const CERTIFICATES_EN: CertificateItem[] = [
     skills: ["Digital Product Architecture", "Supply Chain Innovation", "Enterprise Digital Asset Strategy", "Digital Asset Management", "Global Commerce"]
   },
   {
-    id: "aicpa-blockchain",
-    title: "Introduction to Blockchain Specialization",
-    issuer: "AICPA & CIMA",
-    issuerCategory: "AICPA",
+    id: "buffalo-blockchain",
+    title: "Blockchain Specialization",
+    issuer: "University at Buffalo & The State University of New York",
+    issuerCategory: "University at Buffalo",
     category: "Blockchain & Digital Assets",
     date: "Aug 2026",
-    coursesCount: 3,
+    coursesCount: 4,
     courses: [
-      "Blockchain Evolution and Technology Concepts",
-      "Blockchain Opportunities Beyond Crypto Assets",
-      "Understanding, Using, and Securing Crypto and Digital Assets"
+      "Blockchain Basics",
+      "Smart Contracts",
+      "Decentralized Applications (Dapps)",
+      "Blockchain Platforms"
     ],
-    image: "/images/certificates/aicpa-introduction-to-blockchain.png",
-    credentialUrl: "https://coursera.org/verify/specialization/U3ER85G8HG60",
-    pdfUrl: "/certificates/aicpa-introduction-to-blockchain.pdf",
-    description: "Institutional credential on enterprise blockchain opportunities, crypto asset custody, risk management, and organizational governance frameworks.",
-    skills: ["Digital Asset Security", "Enterprise Risk & Compliance", "Crypto Asset Custody", "Governance Frameworks"]
+    image: "/images/certificates/buffalo-blockchain-specialization.png",
+    credentialUrl: "https://coursera.org/verify/specialization/8DCDWHTT1EVN",
+    pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
+    description: "Technical foundations in blockchain protocols, cryptographic hashing, smart contract engineering, private Ethereum testing, and decentralized application (DApp) architecture.",
+    skills: ["Ethereum Architecture", "Smart Contracts", "DApp Systems", "Consensus Mechanisms", "Cryptography", "Layer-2 Scalability"]
   }
 ];
 
@@ -1474,7 +1492,7 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     title: "Google Digital Marketing & E-commerce",
     issuer: "Google",
     issuerCategory: "Google",
-    category: "Marketing",
+    category: "Pazarlama",
     date: "Ağu 2026",
     coursesCount: 8,
     courses: [
@@ -1498,7 +1516,7 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     title: "Google Data Analytics",
     issuer: "Google",
     issuerCategory: "Google",
-    category: "Analytics",
+    category: "Analitik",
     date: "Ağu 2026",
     coursesCount: 9,
     courses: [
@@ -1523,7 +1541,7 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     title: "Google Project Management",
     issuer: "Google",
     issuerCategory: "Google",
-    category: "Management",
+    category: "Yönetim",
     date: "Ağu 2026",
     coursesCount: 7,
     courses: [
@@ -1546,7 +1564,7 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     title: "Meta Community Management",
     issuer: "Meta",
     issuerCategory: "Meta",
-    category: "Marketing",
+    category: "Pazarlama",
     date: "Ağu 2026",
     coursesCount: 4,
     courses: [
@@ -1566,7 +1584,7 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     title: "Microsoft Power BI Data Analyst",
     issuer: "Microsoft",
     issuerCategory: "Microsoft",
-    category: "Analytics",
+    category: "Analitik",
     date: "Ağu 2026",
     coursesCount: 8,
     courses: [
@@ -1586,8 +1604,25 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     skills: ["Power BI", "DAX", "Veri Modelleme (Star Schema)", "ETL Süreçleri", "Microsoft Excel", "KPI Panelleri", "PL-300 Uyumlu"]
   },
   {
+    id: "rutgers-influencer-marketing",
+    title: "Influencer Marketing Strategy",
+    issuer: "Rutgers, The State University of New Jersey",
+    issuerCategory: "Rutgers University",
+    category: "Pazarlama",
+    date: "Ağu 2026",
+    coursesCount: 1,
+    courses: [
+      "Influencer Marketing Strategy"
+    ],
+    image: "/images/certificates/rutgers-influencer-marketing-strategy.png",
+    credentialUrl: "https://coursera.org/verify/35ECN9VWW5DO",
+    pdfUrl: "/certificates/rutgers-influencer-marketing-strategy.pdf",
+    description: "Rutgers Business School tarafından verilen; influencer kampanya mimarileri, kreatör briefleme, iki aşamalı iletişim modeli ve ROI ölçümleme stratejilerini kapsayan uzmanlık sertifikası.",
+    skills: ["Influencer Pazarlaması", "Kampanya Stratejisi", "Kreatör Briefleme", "Sosyal Medya Analitiği", "KPI Çerçeveleri", "ROI Ölçümleme"]
+  },
+  {
     id: "duke-defi",
-    title: "Decentralized Finance (DeFi)",
+    title: "Decentralized Finance (DeFi): The Future of Finance",
     issuer: "Duke University",
     issuerCategory: "Duke University",
     category: "Blockchain & Dijital Varlıklar",
@@ -1604,6 +1639,46 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     pdfUrl: "/certificates/duke-decentralized-finance-defi.pdf",
     description: "Prof. Cam Harvey eğitmenliğinde DeFi altyapısı, likidite mekanikleri, önde gelen protokoller (Uniswap, Aave, MakerDAO, Compound, dYdX) ve regülasyon risklerini kapsayan uzmanlık.",
     skills: ["DeFi Protokolleri", "Tokenomik", "Akıllı Sözleşme Risk Analizi", "Likidite & Getiri Mekanikleri", "On-Chain Yönetişim"]
+  },
+  {
+    id: "insead-blockchain-revolution-financial-services",
+    title: "Blockchain Revolution in Financial Services",
+    issuer: "INSEAD",
+    issuerCategory: "INSEAD",
+    category: "Blockchain & Dijital Varlıklar",
+    date: "Ağu 2026",
+    coursesCount: 4,
+    courses: [
+      "Finansal Hizmetler İçin Blokzincire Giriş",
+      "Blokzincir, Kripto Varlıklar ve Merkeziyetsiz Finans",
+      "Finansal Hizmetlerin Blokzincir ile Dönüşümü",
+      "Finansal Hizmetlerde Blokzincir: Stratejik Eylem Planı"
+    ],
+    image: "/images/certificates/insead-blockchain-revolution-financial-services.png",
+    credentialUrl: "https://coursera.org/verify/specialization/73YUAE1I3J4Y",
+    pdfUrl: "/certificates/insead-blockchain-revolution-financial-services.pdf",
+    description: "Don Tapscott rehberliğinde; küresel finansal hizmetlerde dijital varlık dönüşümü, kripto varlıklar, ödeme iş akışları ve stratejik blokzincir eylem planlarını kapsayan uzmanlık programı.",
+    skills: ["Finansal Hizmetler Dönüşümü", "Kripto Varlıklar", "Merkeziyetsiz Finans", "Küresel Ödemeler", "Stratejik Eylem Planlaması", "Dijital Varlık Adaptasyonu"]
+  },
+  {
+    id: "insead-web3-blockchain",
+    title: "Web3 and Blockchain in Global Commerce",
+    issuer: "INSEAD & Blockchain Research Institute",
+    issuerCategory: "INSEAD",
+    category: "Blockchain & Dijital Varlıklar",
+    date: "Ağu 2026",
+    coursesCount: 4,
+    courses: [
+      "Küresel Ticaret İçin Blokzincire Giriş",
+      "Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü",
+      "Dönüşüm İçin Web3 ve Blokzincir Stratejisi",
+      "Küresel Ticaret İçin Blokzincir Fırsat Analizi"
+    ],
+    image: "/images/certificates/insead-web3-blockchain-global-commerce.png",
+    credentialUrl: "https://coursera.org/verify/specialization/C62DZKIA1G1B",
+    pdfUrl: "/certificates/insead-web3-blockchain-global-commerce.pdf",
+    description: "Don Tapscott ve Alex Tapscott rehberliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.",
+    skills: ["Dijital Ürün Mimarisi", "Tedarik Zinciri İnovasyonu", "Kurumsal Dijital Varlık Stratejisi", "Dijital Varlık Yönetimi", "Küresel Ticaret"]
   },
   {
     id: "buffalo-blockchain",
@@ -1624,44 +1699,5 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
     description: "Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında DApp tasarımı ve blokzincir platform mimarilerini kapsayan kapsamlı teknik uzmanlık.",
     skills: ["Smart Contracts", "Ethereum", "Solidity", "DApp Mimarisi", "Blokzincir Güvenliği"]
-  },
-  {
-    id: "insead-web3-blockchain",
-    title: "Web3 and Blockchain in Global Commerce Specialization",
-    issuer: "INSEAD",
-    issuerCategory: "INSEAD",
-    category: "Blockchain & Dijital Varlıklar",
-    date: "Ağu 2026",
-    coursesCount: 4,
-    courses: [
-      "Küresel Ticaret İçin Blokzincire Giriş",
-      "Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü",
-      "Dönüşüm İçin Web3 ve Blokzincir Stratejisi",
-      "Küresel Ticaret İçin Blokzincir Fırsat Analizi"
-    ],
-    image: "/images/certificates/insead-web3-blockchain-global-commerce.png",
-    credentialUrl: "https://coursera.org/verify/specialization/C62DZKIA1G1B",
-    pdfUrl: "/certificates/insead-web3-blockchain-global-commerce.pdf",
-    description: "Don Tapscott ve Alex Tapscott rehberliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.",
-    skills: ["Dijital Ürün Mimarisi", "Tedarik Zinciri İnovasyonu", "Kurumsal Dijital Varlık Stratejisi", "Dijital Varlık Yönetimi", "Küresel Ticaret"]
-  },
-  {
-    id: "aicpa-blockchain",
-    title: "Introduction to Blockchain Specialization",
-    issuer: "AICPA & CIMA",
-    issuerCategory: "AICPA",
-    category: "Blockchain & Dijital Varlıklar",
-    date: "Ağu 2026",
-    coursesCount: 3,
-    courses: [
-      "Blokzincir Evrimi ve Teknoloji Kavramları",
-      "Kripto Varlıkların Ötesinde Blokzincir Fırsatları",
-      "Kripto ve Dijital Varlıkları Anlama, Kullanma ve Güvenliğini Sağlama"
-    ],
-    image: "/images/certificates/aicpa-introduction-to-blockchain.png",
-    credentialUrl: "https://coursera.org/verify/specialization/U3ER85G8HG60",
-    pdfUrl: "/certificates/aicpa-introduction-to-blockchain.pdf",
-    description: "Kurumsal blokzincir fırsatları, kripto varlık saklama ve güvenliği, kurumsal risk yönetimi ve uyumluluk çerçevelerini kapsayan uluslararası uzmanlık sertifikası.",
-    skills: ["Dijital Varlık Güvenliği", "Kurumsal Risk & Uyumluluk", "Kripto Saklama (Custody)", "Yönetişim Çerçeveleri"]
   }
 ];

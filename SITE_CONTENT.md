@@ -549,7 +549,21 @@ Comprehensive Power BI data analyst curriculum focusing on ETL pipelines, Star s
 - Deploy and Maintain Power BI Assets and Capstone
 - Microsoft PL-300 Exam Preparation and Practice
 
-### Decentralized Finance (DeFi)
+### Influencer Marketing Strategy
+
+**Issuer:** Rutgers, The State University of New Jersey (1 Courses) | **Date:** Aug 2026
+
+Strategic executive credential from Rutgers Business School focusing on influencer campaign architectures, creator briefing, two-step flow communication, and ROI measurement.
+
+**Skills:** Influencer Marketing, Campaign Strategy, Creator Briefing, Social Media Analytics, KPI Frameworks, ROI Measurement
+
+**Verify Credential:** [https://coursera.org/verify/35ECN9VWW5DO](https://coursera.org/verify/35ECN9VWW5DO)
+**PDF Document:** [/certificates/rutgers-influencer-marketing-strategy.pdf](https://oguzatalay.work/certificates/rutgers-influencer-marketing-strategy.pdf)
+
+**Curriculum Modules:**
+- Influencer Marketing Strategy
+
+### Decentralized Finance (DeFi): The Future of Finance
 
 **Issuer:** Duke University (4 Courses) | **Date:** Aug 2026
 
@@ -566,22 +580,22 @@ Advanced specialization by Prof. Cam Harvey on DeFi architecture, liquidity prim
 - Decentralized Finance (DeFi) Deep Dive
 - Decentralized Finance (DeFi) Opportunities and Risks
 
-### Blockchain Specialization
+### Blockchain Revolution in Financial Services
 
-**Issuer:** University at Buffalo & The State University of New York (4 Courses) | **Date:** Aug 2026
+**Issuer:** INSEAD (4 Courses) | **Date:** Aug 2026
 
-Technical foundations in blockchain protocols, cryptographic hashing, smart contract engineering, private Ethereum testing, and decentralized application (DApp) architecture.
+Executive specialization led by Don Tapscott focusing on digital asset transformations in global financial services, cryptoassets, payment workflows, and strategic blockchain roadmaps.
 
-**Skills:** Ethereum Architecture, Smart Contracts, DApp Systems, Consensus Mechanisms, Cryptography, Layer-2 Scalability
+**Skills:** Financial Services Transformation, Cryptoassets, Decentralized Finance, Global Payments, Strategic Action Planning, Digital Asset Adoption
 
-**Verify Credential:** [https://coursera.org/verify/specialization/8DCDWHTT1EVN](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
-**PDF Document:** [/certificates/buffalo-blockchain-specialization.pdf](https://oguzatalay.work/certificates/buffalo-blockchain-specialization.pdf)
+**Verify Credential:** [https://coursera.org/verify/specialization/73YUAE1I3J4Y](https://coursera.org/verify/specialization/73YUAE1I3J4Y)
+**PDF Document:** [/certificates/insead-blockchain-revolution-financial-services.pdf](https://oguzatalay.work/certificates/insead-blockchain-revolution-financial-services.pdf)
 
 **Curriculum Modules:**
-- Blockchain Basics
-- Smart Contracts
-- Decentralized Applications (Dapps)
-- Blockchain Platforms
+- Introduction to Blockchain for Financial Services
+- Blockchain, Cryptoassets, and Decentralized Finance
+- Blockchain Transformations of Financial Services
+- Blockchain in Financial Services: Strategic Action Plan
 
 ### Web3 and Blockchain in Global Commerce
 
@@ -600,21 +614,22 @@ Executive specialization led by Don Tapscott and Alex Tapscott analyzing global 
 - Web3 and Blockchain Strategy for Transformation
 - Blockchain Opportunity Analysis for Global Commerce
 
-### Introduction to Blockchain Specialization
+### Blockchain Specialization
 
-**Issuer:** AICPA & CIMA (3 Courses) | **Date:** Aug 2026
+**Issuer:** University at Buffalo & The State University of New York (4 Courses) | **Date:** Aug 2026
 
-Institutional credential on enterprise blockchain opportunities, crypto asset custody, risk management, and organizational governance frameworks.
+Technical foundations in blockchain protocols, cryptographic hashing, smart contract engineering, private Ethereum testing, and decentralized application (DApp) architecture.
 
-**Skills:** Digital Asset Security, Enterprise Risk & Compliance, Crypto Asset Custody, Governance Frameworks
+**Skills:** Ethereum Architecture, Smart Contracts, DApp Systems, Consensus Mechanisms, Cryptography, Layer-2 Scalability
 
-**Verify Credential:** [https://coursera.org/verify/specialization/U3ER85G8HG60](https://coursera.org/verify/specialization/U3ER85G8HG60)
-**PDF Document:** [/certificates/aicpa-introduction-to-blockchain.pdf](https://oguzatalay.work/certificates/aicpa-introduction-to-blockchain.pdf)
+**Verify Credential:** [https://coursera.org/verify/specialization/8DCDWHTT1EVN](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
+**PDF Document:** [/certificates/buffalo-blockchain-specialization.pdf](https://oguzatalay.work/certificates/buffalo-blockchain-specialization.pdf)
 
 **Curriculum Modules:**
-- Blockchain Evolution and Technology Concepts
-- Blockchain Opportunities Beyond Crypto Assets
-- Understanding, Using, and Securing Crypto and Digital Assets
+- Blockchain Basics
+- Smart Contracts
+- Decentralized Applications (Dapps)
+- Blockchain Platforms
 
 
 ## Education
@@ -1190,7 +1205,21 @@ ETL veri hatları, Star Schema veri modelleme, ileri seviye DAX hesaplamaları v
 - Power BI Varlıklarını Dağıtma ve Bitirme Projesi
 - Microsoft PL-300 Sınavına Hazırlık ve Pratik
 
-### Decentralized Finance (DeFi)
+### Influencer Marketing Strategy
+
+**Issuer:** Rutgers, The State University of New Jersey (1 Courses) | **Date:** Ağu 2026
+
+Rutgers Business School tarafından verilen; influencer kampanya mimarileri, kreatör briefleme, iki aşamalı iletişim modeli ve ROI ölçümleme stratejilerini kapsayan uzmanlık sertifikası.
+
+**Skills:** Influencer Pazarlaması, Kampanya Stratejisi, Kreatör Briefleme, Sosyal Medya Analitiği, KPI Çerçeveleri, ROI Ölçümleme
+
+**Verify Credential:** [https://coursera.org/verify/35ECN9VWW5DO](https://coursera.org/verify/35ECN9VWW5DO)
+**PDF Document:** [/certificates/rutgers-influencer-marketing-strategy.pdf](https://oguzatalay.work/certificates/rutgers-influencer-marketing-strategy.pdf)
+
+**Curriculum Modules:**
+- Influencer Marketing Strategy
+
+### Decentralized Finance (DeFi): The Future of Finance
 
 **Issuer:** Duke University (4 Courses) | **Date:** Ağu 2026
 
@@ -1206,6 +1235,40 @@ Prof. Cam Harvey eğitmenliğinde DeFi altyapısı, likidite mekanikleri, önde 
 - DeFi Temel Yapıtaşları ve Primitifleri
 - DeFi Protokolleri Derinlemesine Analiz
 - DeFi Fırsatları ve Riskleri
+
+### Blockchain Revolution in Financial Services
+
+**Issuer:** INSEAD (4 Courses) | **Date:** Ağu 2026
+
+Don Tapscott rehberliğinde; küresel finansal hizmetlerde dijital varlık dönüşümü, kripto varlıklar, ödeme iş akışları ve stratejik blokzincir eylem planlarını kapsayan uzmanlık programı.
+
+**Skills:** Finansal Hizmetler Dönüşümü, Kripto Varlıklar, Merkeziyetsiz Finans, Küresel Ödemeler, Stratejik Eylem Planlaması, Dijital Varlık Adaptasyonu
+
+**Verify Credential:** [https://coursera.org/verify/specialization/73YUAE1I3J4Y](https://coursera.org/verify/specialization/73YUAE1I3J4Y)
+**PDF Document:** [/certificates/insead-blockchain-revolution-financial-services.pdf](https://oguzatalay.work/certificates/insead-blockchain-revolution-financial-services.pdf)
+
+**Curriculum Modules:**
+- Finansal Hizmetler İçin Blokzincire Giriş
+- Blokzincir, Kripto Varlıklar ve Merkeziyetsiz Finans
+- Finansal Hizmetlerin Blokzincir ile Dönüşümü
+- Finansal Hizmetlerde Blokzincir: Stratejik Eylem Planı
+
+### Web3 and Blockchain in Global Commerce
+
+**Issuer:** INSEAD & Blockchain Research Institute (4 Courses) | **Date:** Ağu 2026
+
+Don Tapscott ve Alex Tapscott rehberliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.
+
+**Skills:** Dijital Ürün Mimarisi, Tedarik Zinciri İnovasyonu, Kurumsal Dijital Varlık Stratejisi, Dijital Varlık Yönetimi, Küresel Ticaret
+
+**Verify Credential:** [https://coursera.org/verify/specialization/C62DZKIA1G1B](https://coursera.org/verify/specialization/C62DZKIA1G1B)
+**PDF Document:** [/certificates/insead-web3-blockchain-global-commerce.pdf](https://oguzatalay.work/certificates/insead-web3-blockchain-global-commerce.pdf)
+
+**Curriculum Modules:**
+- Küresel Ticaret İçin Blokzincire Giriş
+- Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü
+- Dönüşüm İçin Web3 ve Blokzincir Stratejisi
+- Küresel Ticaret İçin Blokzincir Fırsat Analizi
 
 ### Blockchain Specialization
 
@@ -1223,39 +1286,6 @@ Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında
 - Akıllı Sözleşmeler (Smart Contracts)
 - Merkeziyetsiz Uygulamalar (DApps)
 - Blockchain Platformları ve Ekosistemler
-
-### Web3 and Blockchain in Global Commerce Specialization
-
-**Issuer:** INSEAD (4 Courses) | **Date:** Ağu 2026
-
-Don Tapscott ve Alex Tapscott rehberliğinde; küresel ticaretin dönüşümü, dijital tedarik zinciri entegrasyonu ve kurumsal dijital varlık stratejilerini kapsayan uzmanlık programı.
-
-**Skills:** Dijital Ürün Mimarisi, Tedarik Zinciri İnovasyonu, Kurumsal Dijital Varlık Stratejisi, Dijital Varlık Yönetimi, Küresel Ticaret
-
-**Verify Credential:** [https://coursera.org/verify/specialization/C62DZKIA1G1B](https://coursera.org/verify/specialization/C62DZKIA1G1B)
-**PDF Document:** [/certificates/insead-web3-blockchain-global-commerce.pdf](https://oguzatalay.work/certificates/insead-web3-blockchain-global-commerce.pdf)
-
-**Curriculum Modules:**
-- Küresel Ticaret İçin Blokzincire Giriş
-- Küresel Tedarik Zincirlerinde Web3 ve Blokzincir Dönüşümü
-- Dönüşüm İçin Web3 ve Blokzincir Stratejisi
-- Küresel Ticaret İçin Blokzincir Fırsat Analizi
-
-### Introduction to Blockchain Specialization
-
-**Issuer:** AICPA & CIMA (3 Courses) | **Date:** Ağu 2026
-
-Kurumsal blokzincir fırsatları, kripto varlık saklama ve güvenliği, kurumsal risk yönetimi ve uyumluluk çerçevelerini kapsayan uluslararası uzmanlık sertifikası.
-
-**Skills:** Dijital Varlık Güvenliği, Kurumsal Risk & Uyumluluk, Kripto Saklama (Custody), Yönetişim Çerçeveleri
-
-**Verify Credential:** [https://coursera.org/verify/specialization/U3ER85G8HG60](https://coursera.org/verify/specialization/U3ER85G8HG60)
-**PDF Document:** [/certificates/aicpa-introduction-to-blockchain.pdf](https://oguzatalay.work/certificates/aicpa-introduction-to-blockchain.pdf)
-
-**Curriculum Modules:**
-- Blokzincir Evrimi ve Teknoloji Kavramları
-- Kripto Varlıkların Ötesinde Blokzincir Fırsatları
-- Kripto ve Dijital Varlıkları Anlama, Kullanma ve Güvenliğini Sağlama
 
 
 ## Education
