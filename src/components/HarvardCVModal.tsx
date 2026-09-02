@@ -5,10 +5,38 @@ import {
   EDUCATION_LIST_EN,
   EDUCATION_LIST_TR,
   ENGLISH_TOOL_GROUPS,
-  ENGLISH_WORKS,
   TURKISH_TOOL_GROUPS,
-  TURKISH_WORKS,
 } from "../data";
+
+const BRAND_CATEGORIES_EN = [
+  {
+    category: "Consumer, FMCG, Retail & Fashion",
+    brands: "Migros, DeFacto, Koton, ETI, Canga, LC Waikiki, Franke, Alix Avien, Realme, Casper."
+  },
+  {
+    category: "Technology, Gaming & Hardware",
+    brands: "Red Bull, ASUS, AMD, HP OMEN, NVIDIA, MSI, Lenovo, HyperX, PUBG Mobile, Turkcell."
+  },
+  {
+    category: "Digital Assets & Blockchain",
+    brands: "Yuga Labs (ApeChain, Project Dragon, Otherside), adidas Originals: Into the Metaverse (ALTS), Metafluence (TIBIT)."
+  }
+];
+
+const BRAND_CATEGORIES_TR = [
+  {
+    category: "Tüketici, FMCG, Perakende ve Moda",
+    brands: "Migros, DeFacto, Koton, ETI, Canga, LC Waikiki, Franke, Alix Avien, Realme, Casper."
+  },
+  {
+    category: "Teknoloji, Oyun ve Donanım",
+    brands: "Red Bull, ASUS, AMD, HP OMEN, NVIDIA, MSI, Lenovo, HyperX, PUBG Mobile, Turkcell."
+  },
+  {
+    category: "Dijital Varlıklar ve Blockchain",
+    brands: "Yuga Labs (ApeChain, Project Dragon, Otherside), adidas Originals: Into the Metaverse (ALTS), Metafluence (TIBIT)."
+  }
+];
 
 interface HarvardCVModalProps {
   isOpen: boolean;
@@ -41,8 +69,8 @@ export default function HarvardCVModal({
 
   const educations = lang === "EN" ? EDUCATION_LIST_EN : EDUCATION_LIST_TR;
   const toolGroups = lang === "EN" ? ENGLISH_TOOL_GROUPS : TURKISH_TOOL_GROUPS;
-  const works = lang === "EN" ? ENGLISH_WORKS : TURKISH_WORKS;
-  const pdfCvHref = "/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf";
+  const brandCategories = lang === "EN" ? BRAND_CATEGORIES_EN : BRAND_CATEGORIES_TR;
+  const pdfCvHref = "/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf?v=20260902";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#000]/95 backdrop-blur-md overflow-y-auto p-4 md:p-6">
@@ -185,25 +213,20 @@ export default function HarvardCVModal({
             </div>
           </div>
 
-          {/* Section: Selected Campaign Impact */}
+          {/* Section: Selected Brand & Category Experience */}
           <div className="mb-6" style={{ pageBreakInside: "avoid" }}>
             <h2 className="font-sans text-xs font-bold tracking-widest text-[#000] border-b border-[#000] uppercase pb-1 mb-3">
-              {lang === "EN" ? "SELECTED CAMPAIGN IMPACT" : "SEÇİLİ KAMPANYA ETKİSİ"}
+              {lang === "EN" ? "SELECTED BRAND & CATEGORY EXPERIENCE" : "SEÇİLİ MARKA VE KATEGORİ DENEYİMİ"}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
-              {works.map((work, idx) => (
-                <div key={idx} className="border-l-2 border-[#111] pl-2.5 py-0.5">
-                  <span className="font-sans text-[11px] font-bold text-[#000] block">
-                    {work.title}
+            <div className="space-y-2 font-serif text-[12px] text-[#222]">
+              {brandCategories.map((cat, idx) => (
+                <div key={idx} className="border-l-2 border-[#111] pl-3 py-1">
+                  <span className="font-sans font-bold text-[11.5px] text-[#000] block mb-0.5">
+                    {cat.category}
                   </span>
-                  <span className="font-serif text-[11px] text-[#555] block">
-                    {work.subtitle}
-                  </span>
-                  {work.kpi && (
-                    <span className="font-mono text-[10px] font-bold text-[#FF0000] block mt-0.5">
-                      KPI: {work.kpi}
-                    </span>
-                  )}
+                  <p className="text-[#444] leading-relaxed">
+                    {cat.brands}
+                  </p>
                 </div>
               ))}
             </div>

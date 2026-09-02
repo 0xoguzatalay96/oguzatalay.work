@@ -14,8 +14,15 @@ const distPath = path.join(__dirname, 'dist');
 app.use(express.static(distPath, {
   etag: true,
   setHeaders: (res, filePath) => {
-    if (filePath.endsWith('index.html') || filePath.endsWith('site-content.md') || filePath.endsWith('llms.txt')) {
-      // Always revalidate HTML and Markdown docs
+    if (
+      filePath.endsWith('index.html') ||
+      filePath.endsWith('site-content.md') ||
+      filePath.endsWith('llms.txt') ||
+      filePath.includes('/cv/') ||
+      filePath.endsWith('.pdf') ||
+      filePath.endsWith('.docx')
+    ) {
+      // Always revalidate HTML, Markdown, and CV docs
       res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
       res.setHeader('Pragma', 'no-cache');
       res.setHeader('Expires', '0');
