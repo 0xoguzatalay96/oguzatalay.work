@@ -119,8 +119,43 @@ def sync_cv():
             current_element = new_el
         print("Updated 10 certifications with full course counts")
 
+    # 8. Set page breaks for Harvard ATS pagination
+    for i, p in enumerate(doc.paragraphs):
+        if p.text.strip().startswith('adidas Originals: Into the Metaverse'):
+            p.paragraph_format.page_break_before = True
+            if i + 1 < len(doc.paragraphs):
+                doc.paragraphs[i + 1].paragraph_format.keep_with_next = True
+            print(f"Set page_break_before on adidas Originals (p[{i}])")
+        elif p.text.strip().startswith('TEM Agency, Full-Time'):
+            p.paragraph_format.page_break_before = True
+            if i + 1 < len(doc.paragraphs):
+                doc.paragraphs[i + 1].paragraph_format.keep_with_next = True
+            print(f"Set page_break_before on TEM Agency (p[{i}])")
+
     doc.save('Oguz_Atalay_CV (3).docx')
     print("Saved Oguz_Atalay_CV (3).docx")
+
+    import shutil
+    import subprocess
+    import os
+
+    # Sync DOCX files
+    shutil.copy('Oguz_Atalay_CV (3).docx', 'cv/Oguz_Atalay_ATS_Harvard_CV_2025.docx')
+    shutil.copy('Oguz_Atalay_CV (3).docx', 'public/cv/Oguz_Atalay_ATS_Harvard_CV_2025.docx')
+    print("Copied DOCX to cv/ and public/cv/")
+
+    # Compile to PDF using LibreOffice
+    subprocess.run([
+        'libreoffice', '--headless', '--convert-to', 'pdf',
+        'Oguz_Atalay_CV (3).docx', '--outdir', '/tmp'
+    ], check=True)
+
+    tmp_pdf = '/tmp/Oguz_Atalay_CV (3).pdf'
+    if os.path.exists(tmp_pdf):
+        shutil.copy(tmp_pdf, 'cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf')
+        shutil.copy(tmp_pdf, 'cv/Oguz_Atalay_CV (3).pdf')
+        shutil.copy(tmp_pdf, 'public/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf')
+        print("Compiled and synced PDF to cv/ and public/cv/")
 
 if __name__ == '__main__':
     sync_cv()

@@ -70,7 +70,7 @@ export default function HarvardCVModal({
   const educations = lang === "EN" ? EDUCATION_LIST_EN : EDUCATION_LIST_TR;
   const toolGroups = lang === "EN" ? ENGLISH_TOOL_GROUPS : TURKISH_TOOL_GROUPS;
   const brandCategories = lang === "EN" ? BRAND_CATEGORIES_EN : BRAND_CATEGORIES_TR;
-  const pdfCvHref = "/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf?v=20260902";
+  const pdfCvHref = "/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf?v=20260904";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#000]/95 backdrop-blur-md overflow-y-auto p-4 md:p-6">
