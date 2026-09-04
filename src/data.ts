@@ -1483,6 +1483,23 @@ export const CERTIFICATES_EN: CertificateItem[] = [
     pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
     description: "Technical foundations in blockchain protocols, cryptographic hashing, smart contract engineering, private Ethereum testing, and decentralized application (DApp) architecture.",
     skills: ["Ethereum Architecture", "Smart Contracts", "DApp Systems", "Consensus Mechanisms", "Cryptography", "Layer-2 Scalability"]
+  },
+  {
+    id: "educba-anti-money-laundering",
+    title: "Anti Money Laundering (AML) Fundamentals",
+    issuer: "EDUCBA",
+    issuerCategory: "EDUCBA",
+    category: "Compliance & Risk",
+    date: "Sep 2026",
+    coursesCount: 1,
+    courses: [
+      "Anti Money Laundering (AML) Fundamentals"
+    ],
+    image: "/images/certificates/educba-anti-money-laundering-aml.png",
+    credentialUrl: "https://coursera.org/verify/BEI0LCEOCER7",
+    pdfUrl: "/certificates/educba-anti-money-laundering-aml.pdf",
+    description: "Foundational credential covering Anti-Money Laundering (AML) frameworks, KYC protocols, transaction monitoring, customer risk assessment, and financial crime prevention.",
+    skills: ["Anti-Money Laundering (AML)", "KYC Compliance", "Risk Assessment", "Transaction Monitoring", "Financial Regulations", "Fraud Prevention"]
   }
 ];
 
@@ -1699,5 +1716,22 @@ export const CERTIFICATES_TR: CertificateItem[] = [
     pdfUrl: "/certificates/buffalo-blockchain-specialization.pdf",
     description: "Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında DApp tasarımı ve blokzincir platform mimarilerini kapsayan kapsamlı teknik uzmanlık.",
     skills: ["Smart Contracts", "Ethereum", "Solidity", "DApp Mimarisi", "Blokzincir Güvenliği"]
+  },
+  {
+    id: "educba-anti-money-laundering",
+    title: "Anti Money Laundering (AML) Fundamentals",
+    issuer: "EDUCBA",
+    issuerCategory: "EDUCBA",
+    category: "Risk ve Uyum",
+    date: "Eyl 2026",
+    coursesCount: 1,
+    courses: [
+      "Anti Money Laundering (AML) Fundamentals"
+    ],
+    image: "/images/certificates/educba-anti-money-laundering-aml.png",
+    credentialUrl: "https://coursera.org/verify/BEI0LCEOCER7",
+    pdfUrl: "/certificates/educba-anti-money-laundering-aml.pdf",
+    description: "Kara para aklamanın önlenmesi (AML) çerçeveleri, Müşterini Tanı (KYC) protokolleri, şüpheli işlem izleme, risk sınıflandırması ve finansal suçların engellenmesini kapsayan uzmanlık eğitimi.",
+    skills: ["Anti-Money Laundering (AML)", "KYC Uyumluluğu", "Risk Değerlendirmesi", "İşlem Takibi", "Finansal Regülasyonlar", "Dolandırıcılık Önleme"]
   }
 ];

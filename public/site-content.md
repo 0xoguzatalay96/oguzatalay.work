@@ -631,6 +631,20 @@ Technical foundations in blockchain protocols, cryptographic hashing, smart cont
 - Decentralized Applications (Dapps)
 - Blockchain Platforms
 
+### Anti Money Laundering (AML) Fundamentals
+
+**Issuer:** EDUCBA (1 Courses) | **Date:** Sep 2026
+
+Foundational credential covering Anti-Money Laundering (AML) frameworks, KYC protocols, transaction monitoring, customer risk assessment, and financial crime prevention.
+
+**Skills:** Anti-Money Laundering (AML), KYC Compliance, Risk Assessment, Transaction Monitoring, Financial Regulations, Fraud Prevention
+
+**Verify Credential:** [https://coursera.org/verify/BEI0LCEOCER7](https://coursera.org/verify/BEI0LCEOCER7)
+**PDF Document:** [/certificates/educba-anti-money-laundering-aml.pdf](https://oguzatalay.work/certificates/educba-anti-money-laundering-aml.pdf)
+
+**Curriculum Modules:**
+- Anti Money Laundering (AML) Fundamentals
+
 
 ## Education
 
@@ -1286,6 +1300,20 @@ Kriptografik özetleme, akıllı sözleşme mimarisi, özel Ethereum ağlarında
 - Akıllı Sözleşmeler (Smart Contracts)
 - Merkeziyetsiz Uygulamalar (DApps)
 - Blockchain Platformları ve Ekosistemler
+
+### Anti Money Laundering (AML) Fundamentals
+
+**Issuer:** EDUCBA (1 Courses) | **Date:** Eyl 2026
+
+Kara para aklamanın önlenmesi (AML) çerçeveleri, Müşterini Tanı (KYC) protokolleri, şüpheli işlem izleme, risk sınıflandırması ve finansal suçların engellenmesini kapsayan uzmanlık eğitimi.
+
+**Skills:** Anti-Money Laundering (AML), KYC Uyumluluğu, Risk Değerlendirmesi, İşlem Takibi, Finansal Regülasyonlar, Dolandırıcılık Önleme
+
+**Verify Credential:** [https://coursera.org/verify/BEI0LCEOCER7](https://coursera.org/verify/BEI0LCEOCER7)
+**PDF Document:** [/certificates/educba-anti-money-laundering-aml.pdf](https://oguzatalay.work/certificates/educba-anti-money-laundering-aml.pdf)
+
+**Curriculum Modules:**
+- Anti Money Laundering (AML) Fundamentals
 
 
 ## Education

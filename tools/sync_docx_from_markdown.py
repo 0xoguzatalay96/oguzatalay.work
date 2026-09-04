@@ -81,7 +81,8 @@ def sync_cv():
         'Decentralized Finance (DeFi): The Future of Finance — Duke University (4 Courses)',
         'Blockchain Revolution in Financial Services — INSEAD (4 Courses)',
         'Web3 and Blockchain in Global Commerce — INSEAD & Blockchain Research Institute (4 Courses)',
-        'Blockchain Specialization — University at Buffalo (4 Courses)'
+        'Blockchain Specialization — University at Buffalo (4 Courses)',
+        'Anti Money Laundering (AML) Fundamentals — EDUCBA (1 Course)'
     ]
 
     cert_idx = None

@@ -109,6 +109,7 @@
 - **Blockchain Revolution in Financial Services** — INSEAD (4 Kurs) | [Doğrula](https://coursera.org/verify/specialization/73YUAE1I3J4Y)
 - **Web3 and Blockchain in Global Commerce** — INSEAD & Blockchain Research Institute (4 Kurs) | [Doğrula](https://coursera.org/verify/specialization/C62DZKIA1G1B)
 - **Blockchain Specialization** — University at Buffalo (4 Kurs) | [Doğrula](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
+- **Anti Money Laundering (AML) Fundamentals** — EDUCBA (1 Kurs) | [Doğrula](https://coursera.org/verify/BEI0LCEOCER7)
 
 ---
 
