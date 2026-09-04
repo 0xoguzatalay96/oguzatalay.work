@@ -8,7 +8,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing — building and scaling creator programmes for consumer, gaming, and technology brands (TEM Agency, H2O United, 2Gether Social), managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to manage influencer/creator marketing alongside broader marketing operations, partnerships, and community management for Metafluence, adidas Originals: Into the Metaverse, and Yuga Labs, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
+Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing — building and scaling creator programmes for consumer, gaming, and technology brands (TEM Agency, H2O United, 2Gether Social), managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for Metafluence, adidas Originals: Into the Metaverse, and Yuga Labs, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
 
 ---
 
@@ -109,7 +109,7 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 - **Blockchain Revolution in Financial Services** — INSEAD (4 Courses) | [Verify](https://coursera.org/verify/specialization/73YUAE1I3J4Y)
 - **Web3 and Blockchain in Global Commerce** — INSEAD & Blockchain Research Institute (4 Courses) | [Verify](https://coursera.org/verify/specialization/C62DZKIA1G1B)
 - **Blockchain Specialization** — University at Buffalo (4 Courses) | [Verify](https://coursera.org/verify/specialization/8DCDWHTT1EVN)
-- **Anti Money Laundering (AML) Fundamentals** — EDUCBA (1 Course) | [Verify](https://coursera.org/verify/BEI0LCEOCER7)
+- **Anti Money Laundering (AML) Fundamentals** — EDUCBA | [Verify](https://coursera.org/verify/BEI0LCEOCER7)
 
 ---
 
