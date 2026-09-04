@@ -307,14 +307,6 @@ export default function HarvardCVModal({
             </div>
           </div>
 
-          {/* Footer Stamp */}
-          <div className="text-center pt-5 border-t border-[#e0e0e0] mt-6">
-            <p className="font-sans text-[9px] text-[#888] uppercase tracking-[0.25em]">
-              {lang === "EN"
-                ? "Harvard Standard Layout Resume • Verified Executive Marketing Document"
-                : "Harvard Standartlarında Resume • Doğrulanmış Yönetici Pazarlama Dokümanı"}
-            </p>
-          </div>
         </div>
       </div>
     </div>

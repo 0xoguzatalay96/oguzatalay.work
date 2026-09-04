@@ -119,18 +119,11 @@ def sync_cv():
             current_element = new_el
         print("Updated 10 certifications with full course counts")
 
-    # 8. Set page breaks for Harvard ATS pagination
+    # 8. Set page break ONLY on adidas Originals so that the company and bullet move to the next page
     for i, p in enumerate(doc.paragraphs):
         if p.text.strip().startswith('adidas Originals: Into the Metaverse'):
             p.paragraph_format.page_break_before = True
-            if i + 1 < len(doc.paragraphs):
-                doc.paragraphs[i + 1].paragraph_format.keep_with_next = True
             print(f"Set page_break_before on adidas Originals (p[{i}])")
-        elif p.text.strip().startswith('TEM Agency, Full-Time'):
-            p.paragraph_format.page_break_before = True
-            if i + 1 < len(doc.paragraphs):
-                doc.paragraphs[i + 1].paragraph_format.keep_with_next = True
-            print(f"Set page_break_before on TEM Agency (p[{i}])")
 
     doc.save('Oguz_Atalay_CV (3).docx')
     print("Saved Oguz_Atalay_CV (3).docx")
