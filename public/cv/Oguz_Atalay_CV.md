@@ -8,7 +8,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing — building and scaling creator programmes for consumer, gaming, and technology brands (TEM Agency, H2O United, 2Gether Social), managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for Metafluence, adidas Originals: Into the Metaverse, and Yuga Labs, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
+Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing, building and scaling creator programmes for consumer, gaming, and technology brands while managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse, and Metafluence, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
 
 ---
 
@@ -25,13 +25,15 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 
 ## PROFESSIONAL EXPERIENCE
 
-### Independent Consultant — Community Operations & Creator Partnerships
-*Independent / Contract, Remote | May 2025 – Present*
+### SAFEbit — Marketing Manager
+*Current Role | 2026 – Present*
 
-- Advise founders and marketing teams on bridging traditional brand strategies with community-led growth and digital-asset ecosystems.
-- Build campaign playbooks, creator outreach frameworks, briefing structures, and KPI trackers across X, Discord, Telegram, YouTube, TikTok, and Instagram.
-- Coordinate creators, community management teams, and external partners to drive product education, user onboarding, and community-led acquisition.
-- Translate commercial goals into executable creator shortlists, content workflows, and stakeholder-ready reporting for both established brands and digital-asset/blockchain clients.
+- Lead marketing operations, brand positioning, product communication and social media strategy for SAFEbit, a Türkiye-based cryptocurrency exchange.
+- Design customer acquisition and retention campaign proposals, including staking and launchpool mechanics, participation rules and reward structures.
+- Coordinate token listing launch communications, listing packages, corporate presentations and partner proposals.
+- Develop Web3 business partnerships and project outreach centered on direct TRY spot trading pairs and access to Turkish investors.
+- Collaborate with legal and compliance teams to align public-facing marketing communications with SPK regulatory requirements.
+- Translate market intelligence and customer insights into marketing plans, executive presentations and cross-channel content.
 
 ### Yuga Labs — Marketing Operations & Partnerships Consultant
 *Contract-Based | May 2024 – Apr 2025*
@@ -93,7 +95,7 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 
 - **Consumer, FMCG, Retail & Fashion**: Migros, DeFacto, Koton, ETI, Canga, LC Waikiki, Franke, Alix Avien, Realme, Casper.
 - **Technology, Gaming & Hardware**: Red Bull, ASUS, AMD, HP OMEN, NVIDIA, MSI, Lenovo, HyperX, PUBG Mobile, Turkcell.
-- **Digital Assets & Blockchain**: Yuga Labs (ApeChain, Project Dragon, Otherside), adidas Originals: Into the Metaverse (ALTS), Metafluence (TIBIT).
+- **Digital Assets & Blockchain**: SAFEbit, Yuga Labs (ApeChain, Project Dragon, Otherside), adidas Originals: Into the Metaverse (ALTS), Metafluence (TIBIT).
 
 ---
 

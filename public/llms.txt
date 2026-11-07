@@ -6,6 +6,8 @@
 - [Full Site Content (Markdown)](https://oguzatalay.work/site-content.md): Complete site content including bio, stats, strategic fit, full work history, all 32+ campaigns with KPIs & links, skills, tools, professional certificates, and education in both English and Turkish.
 - [English CV (Markdown)](https://oguzatalay.work/cv/Oguz_Atalay_CV.md): Harvard ATS-aligned English CV.
 - [Turkish CV (Markdown)](https://oguzatalay.work/cv/Oguz_Atalay_CV_TR.md): Harvard ATS uyumlu Türkçe CV.
+- [CV (DOCX)](https://oguzatalay.work/cv/Oguz_Atalay_CV.docx): Word resume (ATS-aligned).
+- [CV (PDF)](https://oguzatalay.work/cv/Oguz_Atalay_CV.pdf): PDF resume.
 - [ATS Resume (PDF)](https://oguzatalay.work/cv/Oguz_Atalay_ATS_Harvard_CV_2025.pdf): Standard PDF resume.
 
 ## Professional Certificates & Credentials

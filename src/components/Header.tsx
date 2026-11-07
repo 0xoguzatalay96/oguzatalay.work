@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Menu, X, Globe, Sparkles } from "lucide-react";
+import { Menu, X, Globe, Sparkles, FileText } from "lucide-react";
 import { TranslationSet } from "../types";
 
 interface HeaderProps {
@@ -146,7 +146,17 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCvModal 
           </nav>
 
           {/* Mobile Menu & Lang Trigger */}
-          <div className="flex lg:hidden items-center gap-4">
+          <div className="flex lg:hidden items-center gap-2.5">
+            {onOpenCvModal && (
+              <button
+                onClick={onOpenCvModal}
+                className="cursor-pointer border border-[#FF0000] text-[#FF0000] hover:bg-[#FF0000] hover:text-white transition-all font-archivo font-bold px-2 py-0.5 text-[11px] uppercase tracking-wider"
+                id="mobile-cv-btn"
+              >
+                <span>CV</span>
+              </button>
+            )}
+
             {/* Quick Lang Switcher for mobile */}
             <button
               onClick={() => setLang(lang === "EN" ? "TR" : "EN")}
@@ -198,6 +208,20 @@ export default function Header({ t, lang, setLang, activeSection, onOpenCvModal 
                   </li>
                 );
               })}
+              {onOpenCvModal && (
+                <li className="pt-2 border-t border-[#2a2a2a]">
+                  <button
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      onOpenCvModal();
+                    }}
+                    className="w-full text-left py-2.5 px-3 border-l-2 border-[#FF0000] text-[#FF0000] bg-[#FF0000]/10 hover:bg-[#FF0000] hover:text-white transition-all font-archivo text-sm font-bold tracking-wider uppercase flex items-center justify-between"
+                  >
+                    <span>{lang === "EN" ? "VIEW ATS CV (PDF)" : "ATS CV GÖRÜNTÜLE (PDF)"}</span>
+                    <FileText className="w-4 h-4" />
+                  </button>
+                </li>
+              )}
             </ul>
           </motion.div>
         )}

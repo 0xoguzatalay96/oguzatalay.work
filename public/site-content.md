@@ -284,16 +284,18 @@ _Facebook video reference_
 - Facebook: [Reference Video](https://www.facebook.com/watch/?v=754543195419227)
 ## Professional Experience
 
-### Independent Consultant
+### SAFEbit
 
-**Community Operations & Creator Partnerships**
+**Marketing Manager**
 
-_MAY 2025 - PRESENT / INDEPENDENT / CONTRACT_
+_2026 - PRESENT / CURRENT ROLE_
 
-- Advise founders and marketing executives on bridging traditional brand strategies with community-led growth, influencer pipelines, and digital-asset ecosystems.
-- Build full-scale campaign playbooks, creator outreach frameworks, briefing structures, and KPI trackers across X, Discord, Telegram, YouTube, TikTok, and Instagram.
-- Coordinate top-tier creators, community management teams, and external agency partners to drive product education, user onboarding, and measurable acquisition.
-- Translate commercial brand objectives into executable creator shortlists, production workflows, and C-level executive performance reporting for both established consumer brands and digital asset / blockchain clients.
+- Lead marketing operations, brand positioning, product communication and social media strategy for SAFEbit, a Türkiye-based cryptocurrency exchange.
+- Design customer acquisition and retention campaign proposals, including staking and launchpool mechanics, participation rules and reward structures.
+- Coordinate token listing launch communications, listing packages, corporate presentations and partner proposals.
+- Develop Web3 business partnerships and project outreach centered on direct TRY spot trading pairs and access to Turkish investors.
+- Collaborate with legal and compliance teams to align public-facing marketing communications with SPK regulatory requirements.
+- Translate market intelligence and customer insights into marketing plans, executive presentations and cross-channel content.
 
 ### Yuga Labs
 
@@ -409,7 +411,7 @@ _MAY 2015 - FEB 2020 / FULL-TIME_
 
 ### Tools
 
-### Data Analytics, Market Intelligence & Social Listening
+### Data Analytics & Market Intelligence
 
 - Power BI
 - Looker Studio
@@ -954,16 +956,18 @@ _Facebook video referansı_
 - Facebook: [Referans Videosu](https://www.facebook.com/watch/?v=754543195419227)
 ## Professional Experience
 
-### Bağımsız Danışmanlık
+### SAFEbit
 
-**Topluluk Operasyonları & Kreatör Ortaklıkları Danışmanı**
+**Marketing Manager**
 
-_MAYIS 2025 - GÜNÜMÜZ / BAĞIMSIZ / SÖZLEŞMELİ_
+_2026 - GÜNÜMÜZ / GÜNCEL GÖREV_
 
-- Şirket kurucularına ve pazarlama yöneticilerine geleneksel marka stratejilerini topluluk odaklı büyüme, kreatör iş birlikleri ve dijital varlık ekosistemleriyle entegre etme konusunda stratejik danışmanlık sunmaktadır.
-- X, Discord, Telegram, YouTube, TikTok ve Instagram kanallarında uçtan uca kampanya playbook'ları, kreatör erişim sistemleri, briefleme ve KPI takip altyapıları kurmaktadır.
-- Ürün lansmanı, kullanıcı edinimi ve kitle sadakati sağlamak için üst düzey kreatörleri, topluluk ekiplerini ve harici ajans paydaşlarını senkronize şekilde yönetmektedir.
-- Kurumsal hedefleri; uygulanabilir kreatör listelerine, içerik iş akışlarına, bütçe optimizasyonuna ve C-seviye yönetici raporlamasına dönüştürmektedir.
+- Türkiye merkezli kripto varlık platformu SAFEbit'in pazarlama operasyonlarını, marka konumlandırmasını, ürün iletişimini ve sosyal medya stratejisini yönetiyor.
+- Yeni müşteri kazanımı ve elde tutma için staking ve launchpool kampanya teklifleri, katılım koşulları ve ödül mekanikleri geliştiriyor.
+- Token listeleme lansman iletişimini, listeleme paketlerini, kurumsal sunumları ve iş ortaklığı tekliflerini koordine ediyor.
+- TRY spot pariteleri ve Türkiye yatırımcı pazarına erişim odağında Web3 proje iş birlikleri ve iş geliştirme iletişimi yürütüyor.
+- Hukuk ve uyum ekipleriyle kamuya açık pazarlama iletişimini SPK düzenlemelerine uygun şekilde hazırlıyor.
+- Pazar istihbaratını ve müşteri içgörülerini pazarlama planlarına, yönetim sunumlarına ve çok kanallı içeriklere dönüştürüyor.
 
 ### Yuga Labs
 
@@ -1079,7 +1083,7 @@ _MAYIS 2015 - ŞUBAT 2020 / TAM ZAMANLI_
 
 ### Araçlar
 
-### Veri Analitiği, Pazar İstihbaratı ve Sosyal Dinleme
+### Veri Analitiği ve Pazar İstihbaratı
 
 - Power BI
 - Looker Studio

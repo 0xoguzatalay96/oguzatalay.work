@@ -8,7 +8,7 @@
 
 ## PROFESYONEL ÖZET
 
-İki birbiriyle bağlantılı dönemi kapsayan 10+ yıllık deneyime sahip Influencer Marketing Manager. Kariyerine geleneksel influencer marketing ile başladı — tüketici, oyun ve teknoloji markaları için (TEM Agency, H2O United, 2Gether Social) kreatör programları kurdu ve ölçeklendirdi; Red Bull, ASUS, HP OMEN, Migros, Koton ve DeFacto dahil olmak üzere sektör devleri için 150'den fazla kampanyayı ve 200'den fazla kreatör/KOL ağını yönetti. 2022'den bu yana blokzincir ve dijital varlık ekosistemlerine genişleyerek; Metafluence, adidas Originals: Into the Metaverse ve Yuga Labs için blokzincir lansman iletişimi, kripto KOL koordinasyonu, on-chain/pazar analitiği ve topluluk operasyonlarını yürüttü. Kreatör keşfi ve müzakeresi, brief geliştirme, bütçe yönetimi, çapraz fonksiyonlu prodüksiyon ve C-seviye yönetici raporlamasında derin yetkinliğe sahiptir.
+İki birbiriyle bağlantılı dönemi kapsayan 10+ yıllık deneyime sahip Influencer Marketing Manager. Kariyerine geleneksel influencer marketing ile başladı; tüketici, oyun ve teknoloji markaları için kreatör programları kurup ölçeklendirdi ve Red Bull, ASUS, HP OMEN, Migros, Koton ve DeFacto dahil olmak üzere sektör devleri için 150'den fazla kampanyayı ve 200'den fazla kreatör/KOL ağını yönetti. 2022'den bu yana blokzincir ve dijital varlık ekosistemlerine genişleyerek; SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse ve Metafluence için blokzincir lansman iletişimi, kripto KOL koordinasyonu, on-chain/pazar analitiği ve topluluk operasyonlarını yürüttü. Kreatör keşfi ve müzakeresi, brief geliştirme, bütçe yönetimi, çapraz fonksiyonlu prodüksiyon ve C-seviye yönetici raporlamasında derin yetkinliğe sahiptir.
 
 ---
 
@@ -25,13 +25,15 @@
 
 ## MESLEKİ DENEYİM
 
-### Bağımsız Danışmanlık — Topluluk Operasyonları & Kreatör Ortaklıkları Danışmanı
-*Bağımsız / Sözleşmeli, Uzaktan | Mayıs 2025 – Günümüz*
+### SAFEbit — Marketing Manager
+*Güncel Görev | 2026 – Günümüz*
 
-- Şirket kurucularına ve pazarlama ekiplerine geleneksel marka stratejilerini topluluk odaklı büyüme ve dijital varlık ekosistemleriyle birleştirme konusunda stratejik danışmanlık sunmaktadır.
-- X, Discord, Telegram, YouTube, TikTok ve Instagram kanallarında kampanya playbook'ları, kreatör erişim sistemleri, briefleme ve KPI takip altyapıları kurmaktadır.
-- Ürün eğitimi, kullanıcı edinimi ve topluluk odaklı büyüme sağlamak için kreatörleri, topluluk ekiplerini ve harici partnerleri koordine etmektedir.
-- Ticari hedefleri; hem köklü markalar hem de dijital varlık/blockchain müşterileri için uygulanabilir kreatör listelerine, içerik iş akışlarına ve yönetici raporlamasına dönüştürmektedir.
+- Türkiye merkezli kripto varlık platformu SAFEbit'in pazarlama operasyonlarını, marka konumlandırmasını, ürün iletişimini ve sosyal medya stratejisini yönetiyor.
+- Yeni müşteri kazanımı ve elde tutma için staking ve launchpool kampanya teklifleri, katılım koşulları ve ödül mekanikleri geliştiriyor.
+- Token listeleme lansman iletişimini, listeleme paketlerini, kurumsal sunumları ve iş ortaklığı tekliflerini koordine ediyor.
+- TRY spot pariteleri ve Türkiye yatırımcı pazarına erişim odağında Web3 proje iş birlikleri ve iş geliştirme iletişimi yürütüyor.
+- Hukuk ve uyum ekipleriyle kamuya açık pazarlama iletişimini SPK düzenlemelerine uygun şekilde hazırlıyor.
+- Pazar istihbaratını ve müşteri içgörülerini pazarlama planlarına, yönetim sunumlarına ve çok kanallı içeriklere dönüştürüyor.
 
 ### Yuga Labs — Pazarlama Operasyonları ve Ortaklıklar Danışmanı
 *Kontrat Bazlı | Mayıs 2024 – Nisan 2025*
@@ -93,7 +95,7 @@
 
 - **Tüketici, FMCG, Perakende ve Moda**: Migros, DeFacto, Koton, ETI, Canga, LC Waikiki, Franke, Alix Avien, Realme, Casper.
 - **Teknoloji, Oyun ve Donanım**: Red Bull, ASUS, AMD, HP OMEN, NVIDIA, MSI, Lenovo, HyperX, PUBG Mobile, Turkcell.
-- **Dijital Varlıklar ve Blockchain**: Yuga Labs (ApeChain, Project Dragon, Otherside), adidas Originals: Into the Metaverse (ALTS), Metafluence (TIBIT).
+- **Dijital Varlıklar ve Blockchain**: SAFEbit, Yuga Labs (ApeChain, Project Dragon, Otherside), adidas Originals: Into the Metaverse (ALTS), Metafluence (TIBIT).
 
 ---
 
