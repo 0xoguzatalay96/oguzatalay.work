@@ -24,6 +24,16 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 
 ## Professional Experience
 
+### SAFEbit
+**Marketing Manager** | 2026 - Present
+
+- Lead SAFEbit's marketing operations across brand positioning, social channels, product messaging, and campaign planning for the Turkish digital asset market.
+- Develop customer acquisition, activation, and retention campaign concepts, including staking and launchpool mechanics, participation criteria, and reward structures.
+- Coordinate go-to-market materials for token listings, including project messaging, launch communications, partner proposals, and listing packages.
+- Prepare business development outreach and commercial partnership proposals for Web3 projects, positioning direct TRY spot pairs and access to Türkiye's market.
+- Work with legal and compliance stakeholders to align marketing materials and public communications with applicable SPK requirements.
+- Turn market, product, and customer insights into campaign briefs, corporate presentations, channel content, and leadership-ready proposals.
+
 ### Yuga Labs
 
 **Marketing Operations & Partnerships Consultant** | Contract-Based | May 2024 - Apr 2025
