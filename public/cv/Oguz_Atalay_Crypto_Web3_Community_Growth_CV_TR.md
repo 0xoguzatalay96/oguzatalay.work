@@ -27,6 +27,16 @@ Kreatör ortaklıkları, Web3 toplulukları, oyun, perakende, teknoloji ve dijit
 
 ## Profesyonel Deneyim
 
+### SAFEbit
+**Marketing Manager** | 2026 - Günümüz
+
+- Türkiye merkezli kripto varlık platformu SAFEbit'in pazarlama operasyonlarını, marka konumlandırmasını, ürün iletişimini ve sosyal medya stratejisini yönetiyor.
+- Yeni müşteri kazanımı ve elde tutma için staking ve launchpool kampanya teklifleri, katılım koşulları ve ödül mekanikleri geliştiriyor.
+- Token listeleme lansman iletişimini, listeleme paketlerini, kurumsal sunumları ve iş ortaklığı tekliflerini koordine ediyor.
+- TRY spot pariteleri ve Türkiye yatırımcı pazarına erişim odağında Web3 proje iş birlikleri ve iş geliştirme iletişimi yürütüyor.
+- Hukuk ve uyum ekipleriyle kamuya açık pazarlama iletişimini SPK düzenlemelerine uygun şekilde hazırlıyor.
+- Pazar istihbaratını ve müşteri içgörülerini pazarlama planlarına, yönetim sunumlarına ve çok kanallı içeriklere dönüştürüyor.
+
 ### Yuga Labs
 **Topluluk Operasyonları ve Kreatör Ortaklıkları, Proje Bazlı Kontrat** | Mayıs 2024 - Nisan 2025
 
