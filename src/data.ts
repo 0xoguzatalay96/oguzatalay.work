@@ -111,6 +111,20 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     company: "SAFEbit",
     role: "Marketing Manager",
     bullets: [
+      "Lead marketing operations, brand positioning, product communication and social media strategy for SAFEbit, a Türkiye-based cryptocurrency exchange.",
+      "Design customer acquisition and retention campaign proposals, including staking and launchpool mechanics, participation rules and reward structures.",
+      "Coordinate token listing launch communications, listing packages, corporate presentations and partner proposals.",
+      "Develop Web3 business partnerships and project outreach centered on direct TRY spot trading pairs and access to Turkish investors.",
+      "Collaborate with legal and compliance teams to align public-facing marketing communications with SPK regulatory requirements.",
+      "Translate market intelligence and customer insights into marketing plans, executive presentations and cross-channel content."
+    ]
+  },
+  {
+    period: "2026 - PRESENT",
+    tag: "CURRENT ROLE",
+    company: "SAFEbit",
+    role: "Marketing Manager",
+    bullets: [
       "Lead SAFEbit's marketing operations across brand positioning, social channels, product messaging, and campaign planning for the Turkish digital asset market.",
       "Develop customer acquisition, activation, and retention campaign concepts, including staking and launchpool mechanics, participation criteria, and reward structures.",
       "Coordinate go-to-market materials for token listings, including project messaging, launch communications, partner proposals, and listing packages.",
@@ -219,6 +233,20 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
 ];
 
 export const TURKISH_EXPERIENCE: JobExperience[] = [
+  {
+    period: "2026 - GÜNÜMÜZ",
+    tag: "GÜNCEL GÖREV",
+    company: "SAFEbit",
+    role: "Marketing Manager",
+    bullets: [
+      "Türkiye merkezli kripto varlık platformu SAFEbit'in pazarlama operasyonlarını, marka konumlandırmasını, ürün iletişimini ve sosyal medya stratejisini yönetiyor.",
+      "Yeni müşteri kazanımı ve elde tutma için staking ve launchpool kampanya teklifleri, katılım koşulları ve ödül mekanikleri geliştiriyor.",
+      "Token listeleme lansman iletişimini, listeleme paketlerini, kurumsal sunumları ve iş ortaklığı tekliflerini koordine ediyor.",
+      "TRY spot pariteleri ve Türkiye yatırımcı pazarına erişim odağında Web3 proje iş birlikleri ve iş geliştirme iletişimi yürütüyor.",
+      "Hukuk ve uyum ekipleriyle kamuya açık pazarlama iletişimini SPK düzenlemelerine uygun şekilde hazırlıyor.",
+      "Pazar istihbaratını ve müşteri içgörülerini pazarlama planlarına, yönetim sunumlarına ve çok kanallı içeriklere dönüştürüyor."
+    ]
+  },
   {
     period: "2026 - GÜNÜMÜZ",
     tag: "GÜNCEL GÖREV",
