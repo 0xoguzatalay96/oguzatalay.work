@@ -27,6 +27,16 @@ Senior integrated marketing and creator partnerships operator with 10+ years acr
 
 ## Professional Experience
 
+### SAFEbit
+**Marketing Manager** | 2026 - Present
+
+- Lead marketing operations, brand positioning, product communication and social media strategy for SAFEbit, a Türkiye-based cryptocurrency exchange.
+- Design customer acquisition and retention campaign proposals, including staking and launchpool mechanics, participation rules and reward structures.
+- Coordinate token listing launch communications, listing packages, corporate presentations and partner proposals.
+- Develop Web3 business partnerships and project outreach centered on direct TRY spot trading pairs and access to Turkish investors.
+- Collaborate with legal and compliance teams to align public-facing marketing communications with SPK regulatory requirements.
+- Translate market intelligence and customer insights into marketing plans, executive presentations and cross-channel content.
+
 ### Yuga Labs
 **Community Operations & Creator Partnerships, Project-Based Contract** | May 2024 - Apr 2025
 
