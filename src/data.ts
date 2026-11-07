@@ -106,6 +106,20 @@ export const TURKISH_PROFILE_FIT: ProfileFitItem[] = [
 
 export const ENGLISH_EXPERIENCE: JobExperience[] = [
   {
+    period: "2026 - PRESENT",
+    tag: "CURRENT ROLE",
+    company: "SAFEbit",
+    role: "Marketing Manager",
+    bullets: [
+      "Lead SAFEbit's marketing operations across brand positioning, social channels, product messaging, and campaign planning for the Turkish digital asset market.",
+      "Develop customer acquisition, activation, and retention campaign concepts, including staking and launchpool mechanics, participation criteria, and reward structures.",
+      "Coordinate go-to-market materials for token listings, including project messaging, launch communications, partner proposals, and listing packages.",
+      "Prepare business development outreach and commercial partnership proposals for Web3 projects, positioning direct TRY spot pairs and access to Türkiye's market.",
+      "Work with legal and compliance stakeholders to align marketing materials and public communications with applicable SPK requirements.",
+      "Turn market, product, and customer insights into campaign briefs, corporate presentations, channel content, and leadership-ready proposals."
+    ]
+  },
+  {
     period: "MAY 2024 - APR 2025",
     tag: "CONTRACT-BASED",
     company: "Yuga Labs",
@@ -205,6 +219,20 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
 ];
 
 export const TURKISH_EXPERIENCE: JobExperience[] = [
+  {
+    period: "2026 - GÜNÜMÜZ",
+    tag: "GÜNCEL GÖREV",
+    company: "SAFEbit",
+    role: "Marketing Manager",
+    bullets: [
+      "SAFEbit'in Türkiye dijital varlık pazarındaki marka konumlandırması, sosyal medya kanalları, ürün iletişimi ve pazarlama planlamasını yönetiyor.",
+      "Yeni müşteri kazanımı, aktivasyon ve elde tutma hedefleri için staking ve launchpool kampanya kurguları, katılım koşulları ve ödül mekanikleri geliştiriyor.",
+      "Token listelemelerinde proje mesajları, lansman iletişimi, iş ortaklığı teklifleri ve listeleme paketlerini kapsayan pazara çıkış materyallerini koordine ediyor.",
+      "Web3 projeleriyle iş geliştirme görüşmeleri ve ticari iş birliği teklifleri hazırlıyor; doğrudan TRY spot paritelerini ve Türkiye pazarına erişimi öne çıkarıyor.",
+      "Hukuk ve uyum ekipleriyle çalışarak pazarlama materyallerini ve kamuya açık iletişimi ilgili SPK gereklilikleriyle uyumlu hale getiriyor.",
+      "Pazar, ürün ve müşteri içgörülerini kampanya brieflerine, kurumsal sunumlara, kanal içeriklerine ve yönetim tekliflerine dönüştürüyor."
+    ]
+  },
   {
     period: "MAYIS 2024 - NİSAN 2025",
     tag: "KONTRAT BAZLI",
