@@ -1,6 +1,6 @@
 # OĞUZ ATALAY
 
-**Influencer Marketing Manager | Digital Assets Marketing Operations**
+**Marketing Director**
 
 İstanbul, Türkiye | [oguz@oguzatalay.work](mailto:oguz@oguzatalay.work) | +90 543 772 50 66 | [linkedin.com/in/oguzatalay96](https://linkedin.com/in/oguzatalay96) | [oguzatalay.work](https://oguzatalay.work)
 
@@ -8,7 +8,7 @@
 
 ## PROFESYONEL ÖZET
 
-İki birbiriyle bağlantılı dönemi kapsayan 10+ yıllık deneyime sahip Influencer Marketing Manager. Kariyerine geleneksel influencer marketing ile başladı; tüketici, oyun ve teknoloji markaları için kreatör programları kurup ölçeklendirdi ve Red Bull, ASUS, HP OMEN, Migros, Koton ve DeFacto dahil olmak üzere sektör devleri için 150'den fazla kampanyayı ve 200'den fazla kreatör/KOL ağını yönetti. 2022'den bu yana blokzincir ve dijital varlık ekosistemlerine genişleyerek; SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse ve Metafluence için blokzincir lansman iletişimi, kripto KOL koordinasyonu, on-chain/pazar analitiği ve topluluk operasyonlarını yürüttü. Kreatör keşfi ve müzakeresi, brief geliştirme, bütçe yönetimi, çapraz fonksiyonlu prodüksiyon ve C-seviye yönetici raporlamasında derin yetkinliğe sahiptir.
+Kreatör odaklı pazarlama, marka operasyonları ve dijital varlıklar alanlarında 10+ yıllık deneyime sahip Marketing Director. Kariyerine geleneksel influencer marketing ile başladı; tüketici, oyun ve teknoloji markaları için kreatör programları kurup ölçeklendirdi ve Red Bull, ASUS, HP OMEN, Migros, Koton ve DeFacto dahil olmak üzere sektör devleri için 150'den fazla kampanyayı ve 200'den fazla kreatör/KOL ağını yönetti. 2022'den bu yana blokzincir ve dijital varlık ekosistemlerine genişleyerek; SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse ve Metafluence için blokzincir lansman iletişimi, kripto KOL koordinasyonu, on-chain/pazar analitiği ve topluluk operasyonlarını yürüttü. Kreatör keşfi ve müzakeresi, brief geliştirme, bütçe yönetimi, çapraz fonksiyonlu prodüksiyon ve C-seviye yönetici raporlamasında derin yetkinliğe sahiptir.
 
 ---
 
