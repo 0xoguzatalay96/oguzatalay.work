@@ -28,12 +28,14 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 ### SAFEbit — Marketing Manager
 *Current Role | 2026 – Present*
 
-- Lead marketing operations, brand positioning, product communication and social media strategy for SAFEbit, a Türkiye-based cryptocurrency exchange.
-- Design customer acquisition and retention campaign proposals, including staking and launchpool mechanics, participation rules and reward structures.
-- Coordinate token listing launch communications, listing packages, corporate presentations and partner proposals.
-- Develop Web3 business partnerships and project outreach centered on direct TRY spot trading pairs and access to Turkish investors.
-- Collaborate with legal and compliance teams to align public-facing marketing communications with SPK regulatory requirements.
-- Translate market intelligence and customer insights into marketing plans, executive presentations and cross-channel content.
+- Lead SAFEbit's marketing operations, brand positioning, social media strategy and product communications in the Turkish digital asset market.
+- Develop customer acquisition, activation and retention campaign proposals, including staking and launchpool mechanics, participation criteria and reward structures.
+- Prepare and review token listing materials, including project whitepapers, tokenomics, vesting schedules, circulating supply, liquidity arrangements and internal listing assessments.
+- Coordinate listing committee documentation, regulatory evidence requests and SPK-aligned disclosure materials with legal and compliance stakeholders.
+- Manage go-to-market communications for token listings and TRY spot pairs, from project messaging and launch content to partner-facing listing packages.
+- Develop Web3 business development outreach, listing proposals and strategic partnership opportunities for projects targeting Turkish investors.
+- Conduct competitive, on-chain and wallet-flow research to support listing evaluation, market intelligence and growth planning.
+- Translate market and customer insights into campaign briefs, corporate presentations, executive reporting and consistent cross-channel content.
 
 ### Yuga Labs — Marketing Operations & Partnerships Consultant
 *Contract-Based | May 2024 – Apr 2025*
