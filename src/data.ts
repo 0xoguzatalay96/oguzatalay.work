@@ -125,7 +125,7 @@ export const ENGLISH_EXPERIENCE: JobExperience[] = [
     period: "2026 - PRESENT",
     tag: "CURRENT ROLE",
     company: "SAFEbit",
-    role: "Marketing Manager",
+    role: "Marketing Director",
     bullets: [
       "Lead SAFEbit's marketing operations, brand positioning, social media strategy and product communications in the Turkish digital asset market.",
       "Develop customer acquisition, activation and retention campaign proposals, including staking and launchpool mechanics, participation criteria and reward structures.",
@@ -222,7 +222,7 @@ export const TURKISH_EXPERIENCE: JobExperience[] = [
     period: "2026 - GÜNÜMÜZ",
     tag: "GÜNCEL GÖREV",
     company: "SAFEbit",
-    role: "Marketing Manager",
+    role: "Marketing Director",
     bullets: [
       "SAFEbit'in Türkiye dijital varlık pazarındaki pazarlama operasyonlarını, marka konumlandırmasını, sosyal medya stratejisini ve ürün iletişimini yönetiyor.",
       "Yeni müşteri kazanımı, aktivasyon ve elde tutma için staking ve launchpool mekanikleri, katılım koşulları ve ödül yapıları içeren kampanya teklifleri geliştiriyor.",
