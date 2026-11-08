@@ -286,7 +286,7 @@ _Facebook video reference_
 
 ### SAFEbit
 
-**Marketing Manager**
+**Marketing Director**
 
 _2026 - PRESENT / CURRENT ROLE_
 
@@ -960,7 +960,7 @@ _Facebook video referansı_
 
 ### SAFEbit
 
-**Marketing Manager**
+**Marketing Director**
 
 _2026 - GÜNÜMÜZ / GÜNCEL GÖREV_
 
