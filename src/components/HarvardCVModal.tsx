@@ -147,7 +147,7 @@ export default function HarvardCVModal({
                 <span className="font-normal text-[#444] text-xs">2026 – Present</span>
               </div>
               <div className="italic text-[#333] text-xs mb-1.5">
-                Marketing Manager
+                Marketing Director
               </div>
               <ul className="list-disc pl-5 space-y-1 text-[#222]">
                 <li>Lead SAFEbit's marketing operations, brand positioning, social media strategy and product communications in the Turkish digital asset market.</li>
