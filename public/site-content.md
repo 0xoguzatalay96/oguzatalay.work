@@ -15,9 +15,9 @@
 
 ## Hero
 
-# Influencer Marketing Manager | Digital Assets Marketing Operations
+# Marketing Director | Digital Assets & Growth Marketing
 
-Driving community growth, KOL operations, and viral campaigns for global tech ecosystems and top-tier retail brands.
+Leading marketing strategy, business development, strategic partnerships, and creator/KOL-led growth initiatives across digital assets, technology, and consumer brands.
 
 **CTA:** VIEW PROJECTS
 
@@ -689,9 +689,9 @@ Foundational credential covering Anti-Money Laundering (AML) frameworks, KYC pro
 
 ## Hero
 
-# Influencer Marketing Manager | Digital Assets Marketing Operations
+# Marketing Director | Dijital Varlıklar ve Büyüme Pazarlaması
 
-Global teknoloji ekosistemleri ve öncü perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.
+Dijital varlıklar, teknoloji ve tüketici markalarında pazarlama stratejisi, iş geliştirme, stratejik ortaklıklar ve kreatör/KOL odaklı büyüme çalışmalarını yönetiyorum.
 
 **CTA:** PROJELERİ GÖR
 
