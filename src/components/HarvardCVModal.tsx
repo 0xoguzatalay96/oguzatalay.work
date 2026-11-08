@@ -150,12 +150,14 @@ export default function HarvardCVModal({
                 Marketing Manager
               </div>
               <ul className="list-disc pl-5 space-y-1 text-[#222]">
-                <li>Lead marketing operations, brand positioning, product communication and social media strategy for SAFEbit, a Türkiye-based cryptocurrency exchange.</li>
-                <li>Design customer acquisition and retention campaign proposals, including staking and launchpool mechanics, participation rules and reward structures.</li>
-                <li>Coordinate token listing launch communications, listing packages, corporate presentations and partner proposals.</li>
-                <li>Develop Web3 business partnerships and project outreach centered on direct TRY spot trading pairs and access to Turkish investors.</li>
-                <li>Collaborate with legal and compliance teams to align public-facing marketing communications with SPK regulatory requirements.</li>
-                <li>Translate market intelligence and customer insights into marketing plans, executive presentations and cross-channel content.</li>
+                <li>Lead SAFEbit's marketing operations, brand positioning, social media strategy and product communications in the Turkish digital asset market.</li>
+                <li>Develop customer acquisition, activation and retention campaign proposals, including staking and launchpool mechanics, participation criteria and reward structures.</li>
+                <li>Prepare and review token listing materials, including project whitepapers, tokenomics, vesting schedules, circulating supply, liquidity arrangements and internal listing assessments.</li>
+                <li>Coordinate listing committee documentation, regulatory evidence requests and SPK-aligned disclosure materials with legal and compliance stakeholders.</li>
+                <li>Manage go-to-market communications for token listings and TRY spot pairs, from project messaging and launch content to partner-facing listing packages.</li>
+                <li>Develop Web3 business development outreach, listing proposals and strategic partnership opportunities for projects targeting Turkish investors.</li>
+                <li>Conduct competitive, on-chain and wallet-flow research to support listing evaluation, market intelligence and growth planning.</li>
+                <li>Translate market and customer insights into campaign briefs, corporate presentations, executive reporting and consistent cross-channel content.</li>
               </ul>
             </div>
 
