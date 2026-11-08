@@ -25,7 +25,7 @@
 
 ## MESLEKİ DENEYİM
 
-### SAFEbit — Marketing Manager
+### SAFEbit — Marketing Director
 *Güncel Görev | 2026 – Günümüz*
 
 - SAFEbit'in Türkiye dijital varlık pazarındaki pazarlama operasyonlarını, marka konumlandırmasını, sosyal medya stratejisini ve ürün iletişimini yönetiyor.
