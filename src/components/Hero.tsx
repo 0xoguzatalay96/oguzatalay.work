@@ -9,6 +9,7 @@ interface HeroProps {
 export default function Hero({ t }: HeroProps) {
   const isTR = t.navHome === "Ana Sayfa";
   const executiveSummary = t.heroSub;
+  const [primaryTitle, secondaryTitle] = t.heroTitle.split(" | ");
 
   const handleScrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -37,13 +38,13 @@ export default function Hero({ t }: HeroProps) {
           className="font-archivo text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] xl:text-[4rem] font-black tracking-tight text-white leading-[1.05] mb-6 w-full flex flex-col items-start"
         >
           <span className="block text-white">
-            Influencer Marketing Manager
+            {primaryTitle}
           </span>
           <div className="w-full max-w-3xl flex items-center justify-center my-3.5 sm:my-4.5 md:my-5">
             <span className="block h-[3px] md:h-[4px] w-48 sm:w-64 md:w-80 bg-[#FF0000]" />
           </div>
           <span className="block text-[#E5E5E5]">
-            Digital Assets Marketing Operations
+            {secondaryTitle}
           </span>
         </motion.h1>
 
