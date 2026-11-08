@@ -25,7 +25,7 @@ Influencer Marketing Manager with 10+ years of experience spanning two connected
 
 ## PROFESSIONAL EXPERIENCE
 
-### SAFEbit — Marketing Manager
+### SAFEbit — Marketing Director
 *Current Role | 2026 – Present*
 
 - Lead SAFEbit's marketing operations, brand positioning, social media strategy and product communications in the Turkish digital asset market.
