@@ -28,12 +28,14 @@
 ### SAFEbit — Marketing Manager
 *Güncel Görev | 2026 – Günümüz*
 
-- Türkiye merkezli kripto varlık platformu SAFEbit'in pazarlama operasyonlarını, marka konumlandırmasını, ürün iletişimini ve sosyal medya stratejisini yönetiyor.
-- Yeni müşteri kazanımı ve elde tutma için staking ve launchpool kampanya teklifleri, katılım koşulları ve ödül mekanikleri geliştiriyor.
-- Token listeleme lansman iletişimini, listeleme paketlerini, kurumsal sunumları ve iş ortaklığı tekliflerini koordine ediyor.
-- TRY spot pariteleri ve Türkiye yatırımcı pazarına erişim odağında Web3 proje iş birlikleri ve iş geliştirme iletişimi yürütüyor.
-- Hukuk ve uyum ekipleriyle kamuya açık pazarlama iletişimini SPK düzenlemelerine uygun şekilde hazırlıyor.
-- Pazar istihbaratını ve müşteri içgörülerini pazarlama planlarına, yönetim sunumlarına ve çok kanallı içeriklere dönüştürüyor.
+- SAFEbit'in Türkiye dijital varlık pazarındaki pazarlama operasyonlarını, marka konumlandırmasını, sosyal medya stratejisini ve ürün iletişimini yönetiyor.
+- Yeni müşteri kazanımı, aktivasyon ve elde tutma için staking ve launchpool mekanikleri, katılım koşulları ve ödül yapıları içeren kampanya teklifleri geliştiriyor.
+- Proje whitepaper'ları, tokenomics, vesting takvimleri, dolaşımdaki arz, likidite düzenlemeleri ve kurum içi listeleme değerlendirmeleri dahil token listeleme dokümanlarını hazırlıyor ve inceliyor.
+- Listeleme komitesi belgelerini, düzenleyici inceleme kapsamındaki bilgi ve belge taleplerini ve SPK gerekliliklerine uygun açıklama materyallerini hukuk ve uyum birimleriyle koordine ediyor.
+- Token listelemeleri ve TRY spot pariteleri için proje mesajları, lansman içerikleri ve kurumsal listeleme paketlerinden oluşan pazara çıkış iletişimini yönetiyor.
+- Türkiye yatırımcı pazarına erişmek isteyen Web3 projeleri için iş geliştirme iletişimi, listeleme teklifleri ve stratejik ortaklık fırsatları geliştiriyor.
+- Listeleme değerlendirmeleri, pazar istihbaratı ve büyüme planlamasını desteklemek üzere rakip, on-chain ve cüzdan hareketi analizleri yürütüyor.
+- Pazar ve müşteri içgörülerini kampanya brieflerine, kurumsal sunumlara, yönetim raporlarına ve çok kanallı içeriklere dönüştürüyor.
 
 ### Yuga Labs — Pazarlama Operasyonları ve Ortaklıklar Danışmanı
 *Kontrat Bazlı | Mayıs 2024 – Nisan 2025*
