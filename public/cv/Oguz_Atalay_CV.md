@@ -1,6 +1,6 @@
 # OĞUZ ATALAY
 
-**Influencer Marketing Manager | Digital Assets Marketing Operations**
+**Marketing Director**
 
 İstanbul, Türkiye | [oguz@oguzatalay.work](mailto:oguz@oguzatalay.work) | +90 543 772 50 66 | [linkedin.com/in/oguzatalay96](https://linkedin.com/in/oguzatalay96) | [oguzatalay.work](https://oguzatalay.work)
 
@@ -8,7 +8,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing, building and scaling creator programmes for consumer, gaming, and technology brands while managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse, and Metafluence, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
+Marketing Director with 10+ years of experience spanning creator-led marketing, brand operations, and digital assets. Career started in traditional influencer marketing, building and scaling creator programmes for consumer, gaming, and technology brands while managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse, and Metafluence, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
 
 ---
 
