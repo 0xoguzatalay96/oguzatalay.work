@@ -79,7 +79,7 @@ export default function HarvardCVModal({
               OĞUZ ATALAY
             </h1>
             <p className="text-sm text-[#333] font-normal italic mb-2">
-              Influencer Marketing Manager | Digital Assets Marketing Operations
+              Marketing Director
             </p>
             <p className="text-xs text-[#333]">
               İstanbul, Türkiye &nbsp;|&nbsp; +90 543 772 50 66 &nbsp;|&nbsp;{" "}
@@ -103,7 +103,7 @@ export default function HarvardCVModal({
               PROFESSIONAL SUMMARY
             </h2>
             <p className="text-[#222] text-justify leading-relaxed">
-              Influencer Marketing Manager with 10+ years of experience spanning two connected chapters. Career started in traditional influencer marketing, building and scaling creator programmes for consumer, gaming, and technology brands while managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse, and Metafluence, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
+              Marketing Director with 10+ years of experience spanning creator-led marketing, brand operations, and digital assets. Career started in traditional influencer marketing, building and scaling creator programmes for consumer, gaming, and technology brands while managing 150+ campaigns and a 200+ creator/KOL network for companies including Red Bull, ASUS, HP OMEN, Migros, Koton, and DeFacto. Since 2022, expanded into blockchain and digital-asset ecosystems — continuing to lead influencer/creator marketing alongside broader marketing operations, partnerships, and community management for SAFEbit, Yuga Labs, adidas Originals: Into the Metaverse, and Metafluence, covering blockchain launch communication, crypto KOL coordination, on-chain/market intelligence, and community management. Skilled in creator sourcing and negotiation, brief development, budget management, cross-functional production, and executive reporting.
             </p>
           </div>
 
