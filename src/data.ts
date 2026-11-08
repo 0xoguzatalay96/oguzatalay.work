@@ -11,8 +11,8 @@ export const EN_TRANSLATION: TranslationSet = {
   navCertificates: "Certificates",
   navContact: "Contact",
   
-  heroTitle: "Influencer Marketing Manager | Digital Assets Marketing Operations",
-  heroSub: "Driving community growth, KOL operations, and viral campaigns for global tech ecosystems and top-tier retail brands.",
+  heroTitle: "Marketing Director | Digital Assets & Growth Marketing",
+  heroSub: "Leading marketing strategy, business development, strategic partnerships, and creator/KOL-led growth initiatives across digital assets, technology, and consumer brands.",
   heroBtn: "VIEW PROJECTS",
   heroBtnContact: "GET IN TOUCH",
   
@@ -53,8 +53,8 @@ export const TR_TRANSLATION: TranslationSet = {
   navCertificates: "Sertifikalar",
   navContact: "İletişim",
   
-  heroTitle: "Influencer Marketing Manager | Digital Assets Marketing Operations",
-  heroSub: "Global teknoloji ekosistemleri ve öncü perakende markaları için topluluk büyümesi, KOL operasyonları ve viral kampanyalar yönetiyorum.",
+  heroTitle: "Marketing Director | Dijital Varlıklar ve Büyüme Pazarlaması",
+  heroSub: "Dijital varlıklar, teknoloji ve tüketici markalarında pazarlama stratejisi, iş geliştirme, stratejik ortaklıklar ve kreatör/KOL odaklı büyüme çalışmalarını yönetiyorum.",
   heroBtn: "PROJELERİ GÖR",
   heroBtnContact: "İLETİŞİME GEÇ",
   
