@@ -15,7 +15,7 @@
 
 ## Hero
 
-# Marketing Director | Digital Assets & Growth Marketing
+# Marketing Director
 
 Leading marketing strategy, business development, strategic partnerships, and creator/KOL-led growth initiatives across digital assets, technology, and consumer brands.
 
@@ -689,7 +689,7 @@ Foundational credential covering Anti-Money Laundering (AML) frameworks, KYC pro
 
 ## Hero
 
-# Marketing Director | Dijital Varlıklar ve Büyüme Pazarlaması
+# Marketing Director
 
 Dijital varlıklar, teknoloji ve tüketici markalarında pazarlama stratejisi, iş geliştirme, stratejik ortaklıklar ve kreatör/KOL odaklı büyüme çalışmalarını yönetiyorum.
 
