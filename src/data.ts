@@ -11,7 +11,7 @@ export const EN_TRANSLATION: TranslationSet = {
   navCertificates: "Certificates",
   navContact: "Contact",
   
-  heroTitle: "Marketing Director | Digital Assets & Growth Marketing",
+  heroTitle: "Marketing Director",
   heroSub: "Leading marketing strategy, business development, strategic partnerships, and creator/KOL-led growth initiatives across digital assets, technology, and consumer brands.",
   heroBtn: "VIEW PROJECTS",
   heroBtnContact: "GET IN TOUCH",
@@ -53,7 +53,7 @@ export const TR_TRANSLATION: TranslationSet = {
   navCertificates: "Sertifikalar",
   navContact: "İletişim",
   
-  heroTitle: "Marketing Director | Dijital Varlıklar ve Büyüme Pazarlaması",
+  heroTitle: "Marketing Director",
   heroSub: "Dijital varlıklar, teknoloji ve tüketici markalarında pazarlama stratejisi, iş geliştirme, stratejik ortaklıklar ve kreatör/KOL odaklı büyüme çalışmalarını yönetiyorum.",
   heroBtn: "PROJELERİ GÖR",
   heroBtnContact: "İLETİŞİME GEÇ",
